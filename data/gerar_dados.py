@@ -41,14 +41,14 @@ subsistemas_alarmes = {
         "504 - Slip ring brush wear limit",
         "505 - Generator overspeed"
     ],
-    "Electrical": [
+    "Converter / Electrical": [
         "601 - Grid voltage out of limits",
         "602 - IGBT overtemperature",
         "603 - Converter communication failure",
         "604 - DC link overvoltage",
         "605 - Grid frequency instability"
     ],
-    "Gearbox": [
+    "Gearbox (Multiplicador)": [
         "701 - Low oil pressure",
         "702 - High oil temperature",
         "703 - Bearing vibration high",
@@ -66,36 +66,53 @@ subsistemas_alarmes = {
 dados = []
 
 for i in range(NUM_REGISTROS):
-    # Data e hora aleatória no período de 12 meses
+    # 1. Definição do cronograma do evento
     dias_aleatorios = random.randint(0, 364)
     horas_aleatorias = random.randint(0, 23)
     minutos_aleatorios = random.randint(0, 59)
-    data_hora = DATA_INICIO + timedelta(days=dias_aleatorios, hours=horas_aleatorias, minutes=minutos_aleatorios)
     
-    wtg = random.choice(wtgs)
-    subsistema = random.choice(list(subsistemas_alarmes.keys()))
-    alarme = random.choice(subsistemas_alarmes[subsistema])
+    data_hora_inicio = DATA_INICIO + timedelta(days=dias_aleatorios, hours=horas_aleatorias, minutes=minutos_aleatorios)
     
-    # Simular tempo de parada (skewed: muitas paradas curtas, algumas longas)
-    tempo_parada = round(np.random.exponential(scale=8.5) + 0.5, 1)
-    if tempo_parada > 120:  
-        tempo_parada = 120.0
-        
-    # Definir tipo de manutenção (80% corretiva, 20% preventiva)
-    # Refletindo a realidade onde a equipe de campo insere os dados de corretiva com mais frequência
+    # 2. Definição do tipo de intervenção e cálculo do tempo de parada
     tipo_manutencao = np.random.choice(["Corretiva", "Preventiva"], p=[0.8, 0.2])
     
     if tipo_manutencao == "Preventiva":
         tempo_parada = round(random.uniform(4.0, 12.0), 1)
+    else:
+        tempo_parada = round(np.random.exponential(scale=8.5) + 0.5, 1)
+        if tempo_parada > 120:  
+            tempo_parada = 120.0
+            
+    data_hora_fim = data_hora_inicio + timedelta(hours=tempo_parada)
+    
+    # 3. Sorteio do ativo e separação do modo de falha
+    wtg = random.choice(wtgs)
+    subsistema = random.choice(list(subsistemas_alarmes.keys()))
+    alarme_completo = random.choice(subsistemas_alarmes[subsistema])
+    
+    # Dividindo a string "Código - Descrição" em duas variáveis separadas
+    codigo, descricao = alarme_completo.split(" - ")
+    
+    # 4. Consolidação do registro em um dicionário
+    dados.append({
+        "data_hora_inicio": data_hora_inicio.strftime("%Y-%m-%d %H:%M:%S"),
+        "data_hora_fim": data_hora_fim.strftime("%Y-%m-%d %H:%M:%S"),
+        "aerogerador": wtg,
+        "subsistema": subsistema,
+        "codigo_alarme": codigo,
+        "descricao_alarme": descricao,
+        "tempo_parada_horas": tempo_parada,
+        "tipo_manutencao": tipo_manutencao
+    })
 
-    dados.append([i+1, data_hora.strftime("%Y-%m-%d %H:%M:%S"), wtg, subsistema, alarme, tempo_parada, tipo_manutencao])
+# Criar DataFrame diretamente a partir da lista de dicionários
+df = pd.DataFrame(dados)
 
-# Criar DataFrame e ordenar cronologicamente
-df = pd.DataFrame(dados, columns=["id_parada", "data_hora", "aerogerador", "subsistema", "codigo_alarme", "tempo_parada_horas", "tipo_manutencao"])
-df = df.sort_values(by="data_hora").reset_index(drop=True)
-df["id_parada"] = df.index + 1 
+# Ordenar cronologicamente e inserir a coluna de ID na primeira posição
+df = df.sort_values(by="data_hora_inicio").reset_index(drop=True)
+df.insert(0, "id_parada", df.index + 1)
 
 # Exportar para CSV
 df.to_csv("historico_paradas.csv", index=False, encoding='utf-8')
 
-print(f"Arquivo 'historico_paradas.csv' atualizado com sucesso! Total de registros: {len(df)}")
+print(f"Arquivo 'historico_paradas.csv' gerado sucesso! Total de registros: {len(df)}")
