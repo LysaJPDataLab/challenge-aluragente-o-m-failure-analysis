@@ -1,0 +1,349 @@
+﻿id_ordem_servico,id_parada_scada,aerogerador,tipo_manutencao,equipe_responsavel,qte_tecnicos,homem_hora_trabalhada,status_ordem,custo_materiais_brl,pecas_substituidas
+WO-1001,4,WTG-26,Corrective,Equipe Gama (Geral),2,8.1,Concluída,44420.8,Fiação / Componentes menores
+WO-1002,22,WTG-05,Corrective,Equipe Alpha (Mecânica),3,15.9,Concluída,22833.83,Fiação / Componentes menores
+WO-1003,23,WTG-19,Corrective,Equipe Alpha (Mecânica),3,20.6,Encerrada com Ressalva,42698.97,Fiação / Componentes menores
+WO-1004,27,WTG-16,Corrective,Equipe Alpha (Mecânica),2,3.2,Concluída,51733.65,Fiação / Componentes menores
+WO-1005,35,WTG-24,Corrective,Equipe Alpha (Mecânica),3,25.5,Concluída,55439.93,Fiação / Componentes menores
+WO-1006,39,WTG-02,Preventive,Equipe Alpha (Mecânica),3,88.4,Concluída,5733.15,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1007,40,WTG-22,Corrective,Equipe Alpha (Mecânica),3,34.7,Concluída,40619.42,Fiação / Componentes menores
+WO-1008,42,WTG-03,Corrective,Equipe Alpha (Mecânica),3,6.6,Concluída,26712.66,Fiação / Componentes menores
+WO-1009,50,WTG-11,Corrective,Equipe Gama (Geral),3,9.5,Concluída,59026.46,Fiação / Componentes menores
+WO-1010,54,WTG-24,Corrective,Equipe Alpha (Mecânica),3,40.0,Concluída,38166.35,Fiação / Componentes menores
+WO-1011,58,WTG-05,Corrective,Equipe Alpha (Mecânica),3,35.0,Concluída,59101.01,Fiação / Componentes menores
+WO-1012,59,WTG-20,Corrective,Equipe Alpha (Mecânica),2,21.5,Encerrada com Ressalva,34270.86,Fiação / Componentes menores
+WO-1013,60,WTG-13,Corrective,Equipe Alpha (Mecânica),3,11.8,Concluída,28915.08,Fiação / Componentes menores
+WO-1014,72,WTG-27,Preventive,Equipe Gama (Geral),3,85.8,Concluída,14891.71,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1015,73,WTG-11,Corrective,Equipe Alpha (Mecânica),2,21.7,Encerrada com Ressalva,19249.01,Fiação / Componentes menores
+WO-1016,74,WTG-03,Corrective,Equipe Gama (Geral),2,21.4,Concluída,50132.64,Fiação / Componentes menores
+WO-1017,76,WTG-16,Preventive,Equipe Alpha (Mecânica),4,105.0,Concluída,5203.02,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1018,77,WTG-10,Corrective,Equipe Alpha (Mecânica),3,20.5,Concluída,9958.57,Fiação / Componentes menores
+WO-1019,86,WTG-23,Preventive,Equipe Alpha (Mecânica),4,122.2,Concluída,9723.97,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1020,90,WTG-03,Corrective,Equipe Alpha (Mecânica),2,28.3,Concluída,40714.91,Fiação / Componentes menores
+WO-1021,95,WTG-16,Corrective,Equipe Gama (Geral),3,13.5,Concluída,56655.27,Fiação / Componentes menores
+WO-1022,96,WTG-11,Corrective,Equipe Gama (Geral),2,3.7,Concluída,7233.59,Fiação / Componentes menores
+WO-1023,102,WTG-10,Corrective,Equipe Gama (Geral),2,9.0,Concluída,24731.73,Fiação / Componentes menores
+WO-1024,104,WTG-02,Corrective,Equipe Gama (Geral),3,20.2,Concluída,25139.17,Fiação / Componentes menores
+WO-1025,107,WTG-29,Corrective,Equipe Gama (Geral),3,22.7,Concluída,8682.61,Fiação / Componentes menores
+WO-1026,109,WTG-13,Corrective,Equipe Alpha (Mecânica),2,3.9,Concluída,10374.85,Fiação / Componentes menores
+WO-1027,113,WTG-09,Corrective,Equipe Alpha (Mecânica),2,25.2,Aguardando Peça,44284.24,Fiação / Componentes menores
+WO-1028,114,WTG-26,Corrective,Equipe Alpha (Mecânica),3,19.4,Concluída,49933.38,Fiação / Componentes menores
+WO-1029,118,WTG-06,Corrective,Equipe Gama (Geral),2,6.7,Concluída,57147.96,Fiação / Componentes menores
+WO-1030,119,WTG-10,Preventive,Equipe Alpha (Mecânica),4,120.1,Aguardando Peça,6984.3,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1031,120,WTG-22,Corrective,Equipe Alpha (Mecânica),3,31.8,Encerrada com Ressalva,50729.18,Fiação / Componentes menores
+WO-1032,124,WTG-29,Preventive,Equipe Alpha (Mecânica),3,84.2,Concluída,10657.78,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1033,125,WTG-02,Corrective,Equipe Alpha (Mecânica),3,67.5,Encerrada com Ressalva,52877.89,Fiação / Componentes menores
+WO-1034,130,WTG-14,Corrective,Equipe Gama (Geral),2,12.3,Concluída,45690.24,Fiação / Componentes menores
+WO-1035,139,WTG-15,Corrective,Equipe Alpha (Mecânica),3,10.6,Concluída,6287.72,Fiação / Componentes menores
+WO-1036,146,WTG-30,Corrective,Equipe Gama (Geral),2,3.6,Aguardando Peça,11351.28,Fiação / Componentes menores
+WO-1037,147,WTG-05,Preventive,Equipe Alpha (Mecânica),3,85.6,Encerrada com Ressalva,10844.32,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1038,152,WTG-18,Corrective,Equipe Alpha (Mecânica),3,9.6,Concluída,18362.19,Fiação / Componentes menores
+WO-1039,158,WTG-28,Preventive,Equipe Alpha (Mecânica),3,82.2,Concluída,9146.04,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1040,159,WTG-03,Preventive,Equipe Alpha (Mecânica),3,90.5,Concluída,11549.75,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1041,162,WTG-08,Preventive,Equipe Alpha (Mecânica),3,88.0,Concluída,12624.45,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1042,165,WTG-01,Corrective,Equipe Alpha (Mecânica),3,42.7,Concluída,5436.1,Fiação / Componentes menores
+WO-1043,167,WTG-24,Preventive,Equipe Gama (Geral),3,83.2,Concluída,8276.11,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1044,171,WTG-18,Preventive,Equipe Alpha (Mecânica),4,100.3,Concluída,9652.12,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1045,174,WTG-16,Corrective,Equipe Alpha (Mecânica),2,32.9,Concluída,49967.16,Fiação / Componentes menores
+WO-1046,175,WTG-04,Preventive,Equipe Gama (Geral),3,76.2,Concluída,13381.24,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1047,182,WTG-09,Corrective,Equipe Gama (Geral),3,28.9,Encerrada com Ressalva,7292.73,Fiação / Componentes menores
+WO-1048,183,WTG-14,Corrective,Equipe Gama (Geral),3,2.8,Concluída,10389.11,Fiação / Componentes menores
+WO-1049,185,WTG-12,Corrective,Equipe Alpha (Mecânica),2,14.8,Concluída,9272.0,Fiação / Componentes menores
+WO-1050,187,WTG-15,Corrective,Equipe Alpha (Mecânica),3,29.0,Encerrada com Ressalva,18960.47,Fiação / Componentes menores
+WO-1051,199,WTG-21,Corrective,Equipe Gama (Geral),2,3.8,Concluída,15024.49,Fiação / Componentes menores
+WO-1052,200,WTG-30,Preventive,Equipe Alpha (Mecânica),4,110.1,Concluída,7950.93,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1053,202,WTG-03,Corrective,Equipe Alpha (Mecânica),3,50.3,Concluída,32716.62,Fiação / Componentes menores
+WO-1054,204,WTG-06,Preventive,Equipe Alpha (Mecânica),3,79.5,Concluída,12910.77,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1055,205,WTG-06,Corrective,Equipe Gama (Geral),3,18.6,Encerrada com Ressalva,12917.62,Fiação / Componentes menores
+WO-1056,207,WTG-11,Corrective,Equipe Gama (Geral),2,27.4,Concluída,20857.57,Fiação / Componentes menores
+WO-1057,209,WTG-29,Corrective,Equipe Gama (Geral),3,53.0,Concluída,4031.11,Fiação / Componentes menores
+WO-1058,210,WTG-02,Corrective,Equipe Gama (Geral),2,14.8,Concluída,39318.19,Fiação / Componentes menores
+WO-1059,216,WTG-26,Corrective,Equipe Alpha (Mecânica),2,14.3,Concluída,39257.93,Fiação / Componentes menores
+WO-1060,218,WTG-25,Corrective,Equipe Gama (Geral),3,24.4,Concluída,40934.84,Fiação / Componentes menores
+WO-1061,219,WTG-13,Corrective,Equipe Alpha (Mecânica),2,11.8,Concluída,47677.84,Fiação / Componentes menores
+WO-1062,220,WTG-17,Preventive,Equipe Gama (Geral),3,85.0,Encerrada com Ressalva,8563.98,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1063,221,WTG-11,Preventive,Equipe Gama (Geral),3,87.9,Encerrada com Ressalva,14931.59,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1064,226,WTG-20,Preventive,Equipe Alpha (Mecânica),4,107.4,Concluída,8877.18,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1065,232,WTG-13,Preventive,Equipe Alpha (Mecânica),3,88.8,Concluída,8206.55,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1066,245,WTG-30,Corrective,Equipe Gama (Geral),3,32.2,Concluída,45139.28,Fiação / Componentes menores
+WO-1067,247,WTG-24,Corrective,Equipe Gama (Geral),3,50.8,Concluída,48270.09,Fiação / Componentes menores
+WO-1068,252,WTG-21,Corrective,Equipe Alpha (Mecânica),3,36.6,Concluída,42971.42,Fiação / Componentes menores
+WO-1069,257,WTG-06,Corrective,Equipe Gama (Geral),2,16.5,Concluída,39267.53,Fiação / Componentes menores
+WO-1070,262,WTG-01,Corrective,Equipe Gama (Geral),2,33.5,Concluída,52943.97,Fiação / Componentes menores
+WO-1071,271,WTG-25,Corrective,Equipe Alpha (Mecânica),2,9.0,Concluída,54951.37,Fiação / Componentes menores
+WO-1072,275,WTG-07,Corrective,Equipe Alpha (Mecânica),2,17.9,Concluída,21539.5,Fiação / Componentes menores
+WO-1073,284,WTG-01,Preventive,Equipe Gama (Geral),4,119.4,Encerrada com Ressalva,11746.01,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1074,315,WTG-09,Corrective,Equipe Alpha (Mecânica),2,8.1,Concluída,24515.51,Fiação / Componentes menores
+WO-1075,327,WTG-06,Corrective,Equipe Gama (Geral),3,16.6,Concluída,18888.98,Fiação / Componentes menores
+WO-1076,331,WTG-24,Corrective,Equipe Alpha (Mecânica),2,40.0,Concluída,51395.17,Fiação / Componentes menores
+WO-1077,340,WTG-07,Corrective,Equipe Gama (Geral),3,4.8,Concluída,17143.21,Fiação / Componentes menores
+WO-1078,341,WTG-20,Corrective,Equipe Gama (Geral),2,15.4,Concluída,46367.01,Fiação / Componentes menores
+WO-1079,346,WTG-29,Corrective,Equipe Alpha (Mecânica),2,17.7,Concluída,17646.42,Fiação / Componentes menores
+WO-1080,349,WTG-26,Preventive,Equipe Alpha (Mecânica),3,77.3,Aguardando Peça,6834.97,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1081,354,WTG-20,Corrective,Equipe Gama (Geral),2,40.9,Concluída,55987.95,Fiação / Componentes menores
+WO-1082,356,WTG-19,Corrective,Equipe Gama (Geral),2,10.5,Concluída,12499.83,Fiação / Componentes menores
+WO-1083,359,WTG-27,Corrective,Equipe Gama (Geral),3,81.8,Concluída,38261.08,Fiação / Componentes menores
+WO-1084,365,WTG-24,Corrective,Equipe Alpha (Mecânica),3,33.6,Concluída,33194.28,Fiação / Componentes menores
+WO-1085,370,WTG-04,Corrective,Equipe Alpha (Mecânica),3,5.3,Concluída,47295.94,Fiação / Componentes menores
+WO-1086,371,WTG-25,Corrective,Equipe Alpha (Mecânica),2,36.5,Encerrada com Ressalva,58723.8,Fiação / Componentes menores
+WO-1087,372,WTG-27,Corrective,Equipe Gama (Geral),2,35.8,Concluída,47040.03,Fiação / Componentes menores
+WO-1088,383,WTG-23,Corrective,Equipe Gama (Geral),2,32.9,Concluída,49234.32,Fiação / Componentes menores
+WO-1089,384,WTG-08,Corrective,Equipe Alpha (Mecânica),3,11.7,Concluída,59904.39,Fiação / Componentes menores
+WO-1090,385,WTG-20,Corrective,Equipe Alpha (Mecânica),2,19.1,Concluída,29115.36,Fiação / Componentes menores
+WO-1091,390,WTG-28,Corrective,Equipe Alpha (Mecânica),2,19.1,Concluída,11903.1,Fiação / Componentes menores
+WO-1092,395,WTG-20,Corrective,Equipe Alpha (Mecânica),2,19.2,Concluída,17176.72,Fiação / Componentes menores
+WO-1093,398,WTG-15,Corrective,Equipe Alpha (Mecânica),3,28.4,Concluída,53402.49,Fiação / Componentes menores
+WO-1094,406,WTG-18,Corrective,Equipe Alpha (Mecânica),2,22.6,Concluída,47045.91,Fiação / Componentes menores
+WO-1095,410,WTG-29,Corrective,Equipe Alpha (Mecânica),3,69.6,Concluída,18080.03,Fiação / Componentes menores
+WO-1096,413,WTG-12,Preventive,Equipe Alpha (Mecânica),3,88.4,Encerrada com Ressalva,5052.47,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1097,416,WTG-18,Corrective,Equipe Alpha (Mecânica),3,37.3,Concluída,56394.79,Fiação / Componentes menores
+WO-1098,419,WTG-28,Corrective,Equipe Alpha (Mecânica),3,30.8,Concluída,6460.06,Fiação / Componentes menores
+WO-1099,420,WTG-04,Corrective,Equipe Alpha (Mecânica),3,17.0,Concluída,21313.74,Fiação / Componentes menores
+WO-1100,435,WTG-22,Corrective,Equipe Gama (Geral),2,43.9,Concluída,24602.8,Fiação / Componentes menores
+WO-1101,437,WTG-14,Corrective,Equipe Alpha (Mecânica),3,6.5,Concluída,58771.79,Fiação / Componentes menores
+WO-1102,438,WTG-19,Corrective,Equipe Alpha (Mecânica),2,11.0,Concluída,23463.62,Fiação / Componentes menores
+WO-1103,440,WTG-29,Corrective,Equipe Alpha (Mecânica),3,82.6,Concluída,37356.9,Fiação / Componentes menores
+WO-1104,441,WTG-04,Corrective,Equipe Alpha (Mecânica),2,4.2,Concluída,22398.97,Fiação / Componentes menores
+WO-1105,442,WTG-07,Preventive,Equipe Gama (Geral),3,79.4,Aguardando Peça,11505.56,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1106,450,WTG-22,Corrective,Equipe Gama (Geral),3,31.2,Concluída,56037.01,Fiação / Componentes menores
+WO-1107,454,WTG-25,Corrective,Equipe Gama (Geral),3,6.3,Concluída,46305.55,Fiação / Componentes menores
+WO-1108,459,WTG-07,Corrective,Equipe Gama (Geral),3,10.2,Concluída,49378.24,Fiação / Componentes menores
+WO-1109,469,WTG-03,Corrective,Equipe Alpha (Mecânica),3,7.2,Concluída,26538.3,Fiação / Componentes menores
+WO-1110,471,WTG-09,Preventive,Equipe Alpha (Mecânica),3,86.4,Concluída,5211.2,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1111,472,WTG-26,Corrective,Equipe Alpha (Mecânica),2,7.9,Concluída,12339.66,Fiação / Componentes menores
+WO-1112,478,WTG-11,Corrective,Equipe Alpha (Mecânica),2,10.3,Aguardando Peça,44214.23,Fiação / Componentes menores
+WO-1113,479,WTG-24,Corrective,Equipe Gama (Geral),2,28.0,Concluída,55253.17,Fiação / Componentes menores
+WO-1114,483,WTG-26,Corrective,Equipe Alpha (Mecânica),3,40.5,Concluída,42883.3,Fiação / Componentes menores
+WO-1115,491,WTG-02,Corrective,Equipe Gama (Geral),2,32.5,Concluída,28035.29,Fiação / Componentes menores
+WO-1116,497,WTG-03,Corrective,Equipe Alpha (Mecânica),2,42.1,Concluída,46172.56,Fiação / Componentes menores
+WO-1117,499,WTG-09,Corrective,Equipe Gama (Geral),3,31.1,Concluída,30569.09,Fiação / Componentes menores
+WO-1118,506,WTG-16,Corrective,Equipe Gama (Geral),2,19.3,Concluída,36957.8,Fiação / Componentes menores
+WO-1119,509,WTG-05,Corrective,Equipe Gama (Geral),3,11.2,Concluída,24790.72,Fiação / Componentes menores
+WO-1120,512,WTG-11,Corrective,Equipe Gama (Geral),3,21.1,Encerrada com Ressalva,15224.82,Fiação / Componentes menores
+WO-1121,516,WTG-27,Corrective,Equipe Gama (Geral),2,24.1,Concluída,47343.65,Fiação / Componentes menores
+WO-1122,517,WTG-12,Corrective,Equipe Gama (Geral),2,20.5,Concluída,6751.54,Fiação / Componentes menores
+WO-1123,518,WTG-03,Corrective,Equipe Gama (Geral),3,8.3,Encerrada com Ressalva,17871.59,Fiação / Componentes menores
+WO-1124,533,WTG-18,Corrective,Equipe Gama (Geral),3,25.5,Concluída,30864.16,Fiação / Componentes menores
+WO-1125,535,WTG-15,Preventive,Equipe Alpha (Mecânica),3,80.8,Concluída,12875.69,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1126,536,WTG-29,Corrective,Equipe Gama (Geral),3,5.2,Concluída,22415.06,Fiação / Componentes menores
+WO-1127,540,WTG-21,Preventive,Equipe Alpha (Mecânica),4,120.9,Aguardando Peça,10257.41,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1128,543,WTG-05,Corrective,Equipe Alpha (Mecânica),3,46.9,Concluída,22538.31,Fiação / Componentes menores
+WO-1129,554,WTG-14,Preventive,Equipe Alpha (Mecânica),4,125.2,Concluída,8307.75,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1130,555,WTG-27,Corrective,Equipe Gama (Geral),2,10.6,Concluída,13306.17,Fiação / Componentes menores
+WO-1131,564,WTG-06,Corrective,Equipe Alpha (Mecânica),3,53.8,Concluída,38933.32,Fiação / Componentes menores
+WO-1132,566,WTG-22,Preventive,Equipe Gama (Geral),3,91.4,Concluída,11538.87,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1133,568,WTG-13,Corrective,Equipe Alpha (Mecânica),3,7.3,Concluída,41766.87,Fiação / Componentes menores
+WO-1134,576,WTG-08,Corrective,Equipe Alpha (Mecânica),3,30.3,Concluída,6412.41,Fiação / Componentes menores
+WO-1135,595,WTG-19,Preventive,Equipe Alpha (Mecânica),4,100.8,Concluída,12766.32,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1136,600,WTG-25,Preventive,Equipe Alpha (Mecânica),4,123.1,Concluída,14590.45,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1137,603,WTG-18,Corrective,Equipe Gama (Geral),3,43.7,Aguardando Peça,50184.41,Fiação / Componentes menores
+WO-1138,605,WTG-05,Corrective,Equipe Alpha (Mecânica),2,9.0,Concluída,25478.31,Fiação / Componentes menores
+WO-1139,610,WTG-14,Corrective,Equipe Gama (Geral),2,20.0,Concluída,40967.88,Fiação / Componentes menores
+WO-1140,619,WTG-15,Corrective,Equipe Alpha (Mecânica),3,32.2,Concluída,50494.28,Fiação / Componentes menores
+WO-1141,624,WTG-18,Corrective,Equipe Gama (Geral),3,22.8,Concluída,55922.57,Fiação / Componentes menores
+WO-1142,626,WTG-18,Corrective,Equipe Gama (Geral),2,30.6,Aguardando Peça,3233.43,Fiação / Componentes menores
+WO-1143,627,WTG-14,Corrective,Equipe Gama (Geral),2,21.5,Concluída,34362.38,Fiação / Componentes menores
+WO-1144,630,WTG-24,Corrective,Equipe Gama (Geral),3,13.5,Encerrada com Ressalva,55920.76,Fiação / Componentes menores
+WO-1145,641,WTG-13,Corrective,Equipe Alpha (Mecânica),3,15.2,Concluída,5750.12,Fiação / Componentes menores
+WO-1146,647,WTG-21,Corrective,Equipe Alpha (Mecânica),3,18.1,Concluída,22778.65,Fiação / Componentes menores
+WO-1147,650,WTG-01,Corrective,Equipe Alpha (Mecânica),3,70.6,Encerrada com Ressalva,39897.39,Fiação / Componentes menores
+WO-1148,652,WTG-03,Corrective,Equipe Gama (Geral),2,26.2,Concluída,36422.56,Fiação / Componentes menores
+WO-1149,653,WTG-21,Corrective,Equipe Gama (Geral),2,33.3,Concluída,14861.08,Fiação / Componentes menores
+WO-1150,654,WTG-16,Corrective,Equipe Alpha (Mecânica),2,24.1,Aguardando Peça,45679.68,Fiação / Componentes menores
+WO-1151,663,WTG-06,Corrective,Equipe Alpha (Mecânica),3,31.5,Concluída,31002.68,Fiação / Componentes menores
+WO-1152,664,WTG-22,Corrective,Equipe Gama (Geral),3,63.1,Concluída,47125.2,Fiação / Componentes menores
+WO-1153,671,WTG-07,Corrective,Equipe Gama (Geral),2,19.8,Concluída,56674.12,Fiação / Componentes menores
+WO-1154,676,WTG-22,Corrective,Equipe Gama (Geral),2,32.0,Concluída,3511.2,Fiação / Componentes menores
+WO-1155,677,WTG-07,Corrective,Equipe Alpha (Mecânica),2,21.0,Concluída,44145.43,Fiação / Componentes menores
+WO-1156,680,WTG-18,Corrective,Equipe Gama (Geral),2,29.2,Concluída,2308.59,Fiação / Componentes menores
+WO-1157,691,WTG-15,Corrective,Equipe Alpha (Mecânica),3,69.5,Encerrada com Ressalva,35670.03,Fiação / Componentes menores
+WO-1158,693,WTG-05,Corrective,Equipe Gama (Geral),2,22.7,Concluída,24633.1,Fiação / Componentes menores
+WO-1159,699,WTG-25,Corrective,Equipe Gama (Geral),2,8.9,Concluída,6512.56,Fiação / Componentes menores
+WO-1160,700,WTG-06,Corrective,Equipe Alpha (Mecânica),3,48.1,Concluída,11759.79,Fiação / Componentes menores
+WO-1161,705,WTG-19,Corrective,Equipe Gama (Geral),3,10.6,Encerrada com Ressalva,13478.73,Fiação / Componentes menores
+WO-1162,707,WTG-30,Corrective,Equipe Alpha (Mecânica),3,47.6,Concluída,37009.28,Fiação / Componentes menores
+WO-1163,709,WTG-26,Corrective,Equipe Alpha (Mecânica),2,14.8,Concluída,27320.7,Fiação / Componentes menores
+WO-1164,711,WTG-06,Corrective,Equipe Alpha (Mecânica),3,30.7,Concluída,57943.76,Fiação / Componentes menores
+WO-1165,723,WTG-19,Corrective,Equipe Gama (Geral),2,10.4,Concluída,46914.56,Fiação / Componentes menores
+WO-1166,728,WTG-28,Corrective,Equipe Gama (Geral),3,15.8,Concluída,46282.47,Fiação / Componentes menores
+WO-1167,729,WTG-16,Corrective,Equipe Alpha (Mecânica),3,33.3,Encerrada com Ressalva,22704.23,Fiação / Componentes menores
+WO-1168,742,WTG-22,Corrective,Equipe Gama (Geral),3,36.8,Concluída,42796.37,Fiação / Componentes menores
+WO-1169,753,WTG-13,Corrective,Equipe Alpha (Mecânica),2,11.9,Aguardando Peça,41620.61,Fiação / Componentes menores
+WO-1170,771,WTG-21,Corrective,Equipe Gama (Geral),3,26.9,Concluída,46128.26,Fiação / Componentes menores
+WO-1171,773,WTG-28,Corrective,Equipe Alpha (Mecânica),3,31.4,Concluída,40153.83,Fiação / Componentes menores
+WO-1172,774,WTG-05,Corrective,Equipe Gama (Geral),3,42.7,Concluída,27210.59,Fiação / Componentes menores
+WO-1173,775,WTG-29,Corrective,Equipe Gama (Geral),3,42.2,Concluída,32994.51,Fiação / Componentes menores
+WO-1174,780,WTG-30,Corrective,Equipe Alpha (Mecânica),3,19.1,Concluída,50769.98,Fiação / Componentes menores
+WO-1175,791,WTG-07,Corrective,Equipe Gama (Geral),2,22.4,Concluída,41424.26,Fiação / Componentes menores
+WO-1176,795,WTG-11,Preventive,Equipe Gama (Geral),3,88.9,Concluída,7951.67,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1177,800,WTG-22,Corrective,Equipe Gama (Geral),2,45.0,Concluída,27540.61,Fiação / Componentes menores
+WO-1178,803,WTG-20,Corrective,Equipe Alpha (Mecânica),3,8.9,Concluída,34087.96,Fiação / Componentes menores
+WO-1179,810,WTG-24,Corrective,Equipe Alpha (Mecânica),2,25.4,Concluída,21599.88,Fiação / Componentes menores
+WO-1180,817,WTG-18,Corrective,Equipe Alpha (Mecânica),3,30.3,Concluída,22861.41,Fiação / Componentes menores
+WO-1181,819,WTG-04,Preventive,Equipe Gama (Geral),3,84.2,Concluída,8509.78,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1182,820,WTG-23,Corrective,Equipe Alpha (Mecânica),3,32.4,Concluída,42188.77,Fiação / Componentes menores
+WO-1183,821,WTG-27,Corrective,Equipe Gama (Geral),2,26.0,Concluída,18053.68,Fiação / Componentes menores
+WO-1184,822,WTG-05,Corrective,Equipe Alpha (Mecânica),2,41.4,Concluída,18202.42,Fiação / Componentes menores
+WO-1185,823,WTG-30,Corrective,Equipe Alpha (Mecânica),3,48.6,Concluída,18109.68,Fiação / Componentes menores
+WO-1186,824,WTG-23,Corrective,Equipe Alpha (Mecânica),2,19.9,Concluída,31866.58,Fiação / Componentes menores
+WO-1187,831,WTG-02,Corrective,Equipe Gama (Geral),2,5.6,Concluída,32704.81,Fiação / Componentes menores
+WO-1188,832,WTG-01,Corrective,Equipe Alpha (Mecânica),3,26.5,Encerrada com Ressalva,39525.29,Fiação / Componentes menores
+WO-1189,834,WTG-19,Corrective,Equipe Alpha (Mecânica),3,17.2,Concluída,55800.18,Fiação / Componentes menores
+WO-1190,835,WTG-10,Corrective,Equipe Gama (Geral),3,5.5,Concluída,20881.31,Fiação / Componentes menores
+WO-1191,836,WTG-28,Corrective,Equipe Alpha (Mecânica),2,20.4,Concluída,16364.23,Fiação / Componentes menores
+WO-1192,839,WTG-05,Corrective,Equipe Alpha (Mecânica),2,41.8,Concluída,38100.57,Fiação / Componentes menores
+WO-1193,841,WTG-19,Corrective,Equipe Gama (Geral),3,38.6,Concluída,29000.12,Fiação / Componentes menores
+WO-1194,851,WTG-06,Preventive,Equipe Alpha (Mecânica),3,80.4,Concluída,8399.74,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1195,854,WTG-24,Corrective,Equipe Alpha (Mecânica),2,25.9,Concluída,41008.2,Fiação / Componentes menores
+WO-1196,855,WTG-09,Corrective,Equipe Gama (Geral),3,38.7,Concluída,24782.21,Fiação / Componentes menores
+WO-1197,862,WTG-20,Corrective,Equipe Alpha (Mecânica),2,9.6,Concluída,51120.69,Fiação / Componentes menores
+WO-1198,864,WTG-22,Corrective,Equipe Alpha (Mecânica),3,35.2,Concluída,11827.26,Fiação / Componentes menores
+WO-1199,865,WTG-09,Corrective,Equipe Alpha (Mecânica),3,14.8,Concluída,23319.27,Fiação / Componentes menores
+WO-1200,870,WTG-08,Corrective,Equipe Alpha (Mecânica),3,25.7,Aguardando Peça,23149.54,Fiação / Componentes menores
+WO-1201,885,WTG-02,Corrective,Equipe Alpha (Mecânica),3,38.0,Concluída,52609.87,Fiação / Componentes menores
+WO-1202,887,WTG-03,Corrective,Equipe Alpha (Mecânica),3,38.2,Concluída,16379.36,Fiação / Componentes menores
+WO-1203,893,WTG-16,Corrective,Equipe Gama (Geral),2,43.9,Concluída,30163.94,Fiação / Componentes menores
+WO-1204,894,WTG-23,Corrective,Equipe Alpha (Mecânica),3,30.2,Concluída,28594.74,Fiação / Componentes menores
+WO-1205,898,WTG-21,Corrective,Equipe Alpha (Mecânica),3,47.3,Concluída,2449.46,Fiação / Componentes menores
+WO-1206,901,WTG-08,Corrective,Equipe Alpha (Mecânica),3,21.7,Concluída,55007.2,Fiação / Componentes menores
+WO-1207,907,WTG-11,Corrective,Equipe Alpha (Mecânica),3,16.3,Concluída,18460.97,Fiação / Componentes menores
+WO-1208,912,WTG-27,Corrective,Equipe Gama (Geral),3,12.1,Concluída,16126.67,Fiação / Componentes menores
+WO-1209,914,WTG-24,Corrective,Equipe Gama (Geral),2,15.6,Concluída,34931.14,Fiação / Componentes menores
+WO-1210,920,WTG-01,Corrective,Equipe Gama (Geral),3,10.1,Concluída,54735.13,Fiação / Componentes menores
+WO-1211,922,WTG-05,Corrective,Equipe Gama (Geral),3,56.2,Concluída,12031.76,Fiação / Componentes menores
+WO-1212,928,WTG-06,Corrective,Equipe Alpha (Mecânica),3,30.7,Concluída,12931.02,Fiação / Componentes menores
+WO-1213,935,WTG-12,Corrective,Equipe Gama (Geral),2,28.1,Concluída,4005.0,Fiação / Componentes menores
+WO-1214,937,WTG-12,Corrective,Equipe Alpha (Mecânica),3,31.3,Concluída,8706.78,Fiação / Componentes menores
+WO-1215,938,WTG-06,Corrective,Equipe Alpha (Mecânica),2,34.4,Concluída,45833.6,Fiação / Componentes menores
+WO-1216,944,WTG-29,Corrective,Equipe Alpha (Mecânica),2,24.5,Encerrada com Ressalva,2553.06,Fiação / Componentes menores
+WO-1217,946,WTG-04,Corrective,Equipe Alpha (Mecânica),3,36.8,Concluída,50269.38,Fiação / Componentes menores
+WO-1218,949,WTG-22,Preventive,Equipe Gama (Geral),4,122.5,Concluída,14979.2,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1219,951,WTG-15,Corrective,Equipe Gama (Geral),3,4.8,Concluída,2316.11,Fiação / Componentes menores
+WO-1220,954,WTG-08,Corrective,Equipe Alpha (Mecânica),3,48.0,Concluída,1899.45,Fiação / Componentes menores
+WO-1221,955,WTG-10,Corrective,Equipe Alpha (Mecânica),2,3.0,Concluída,40875.21,Fiação / Componentes menores
+WO-1222,957,WTG-09,Corrective,Equipe Gama (Geral),2,20.4,Concluída,5648.06,Fiação / Componentes menores
+WO-1223,972,WTG-14,Corrective,Equipe Gama (Geral),2,35.8,Concluída,21024.65,Fiação / Componentes menores
+WO-1224,976,WTG-02,Corrective,Equipe Gama (Geral),2,46.0,Concluída,45677.35,Fiação / Componentes menores
+WO-1225,979,WTG-07,Corrective,Equipe Alpha (Mecânica),2,30.2,Concluída,20275.98,Fiação / Componentes menores
+WO-1226,990,WTG-10,Preventive,Equipe Gama (Geral),3,89.4,Concluída,13250.72,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1227,991,WTG-27,Corrective,Equipe Gama (Geral),3,34.7,Encerrada com Ressalva,47110.33,Fiação / Componentes menores
+WO-1228,992,WTG-20,Corrective,Equipe Alpha (Mecânica),3,32.7,Concluída,57696.8,Fiação / Componentes menores
+WO-1229,995,WTG-20,Preventive,Equipe Alpha (Mecânica),3,76.3,Concluída,12086.12,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1230,1000,WTG-03,Corrective,Equipe Gama (Geral),2,12.8,Concluída,10009.57,Fiação / Componentes menores
+WO-1231,1001,WTG-30,Corrective,Equipe Gama (Geral),3,58.0,Concluída,21525.74,Fiação / Componentes menores
+WO-1232,1006,WTG-30,Corrective,Equipe Gama (Geral),2,29.1,Concluída,43745.03,Fiação / Componentes menores
+WO-1233,1007,WTG-04,Corrective,Equipe Alpha (Mecânica),3,26.1,Concluída,19140.77,Fiação / Componentes menores
+WO-1234,1008,WTG-09,Corrective,Equipe Alpha (Mecânica),2,8.1,Concluída,38946.04,Fiação / Componentes menores
+WO-1235,1014,WTG-29,Preventive,Equipe Alpha (Mecânica),3,81.6,Concluída,9042.87,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1236,1024,WTG-05,Corrective,Equipe Gama (Geral),3,25.5,Aguardando Peça,5574.36,Fiação / Componentes menores
+WO-1237,1037,WTG-28,Corrective,Equipe Alpha (Mecânica),3,65.2,Concluída,39352.38,Fiação / Componentes menores
+WO-1238,1047,WTG-22,Corrective,Equipe Alpha (Mecânica),3,25.9,Concluída,44762.15,Fiação / Componentes menores
+WO-1239,1055,WTG-20,Corrective,Equipe Gama (Geral),2,29.9,Concluída,19274.54,Fiação / Componentes menores
+WO-1240,1056,WTG-28,Corrective,Equipe Gama (Geral),3,6.8,Concluída,21870.48,Fiação / Componentes menores
+WO-1241,1059,WTG-18,Preventive,Equipe Gama (Geral),4,100.9,Concluída,9633.17,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1242,1061,WTG-03,Corrective,Equipe Gama (Geral),2,17.3,Concluída,31751.18,Fiação / Componentes menores
+WO-1243,1066,WTG-24,Preventive,Equipe Gama (Geral),3,89.5,Concluída,10558.53,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1244,1067,WTG-02,Preventive,Equipe Alpha (Mecânica),4,115.8,Concluída,12805.84,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1245,1071,WTG-07,Preventive,Equipe Alpha (Mecânica),3,76.4,Concluída,6232.05,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1246,1079,WTG-20,Corrective,Equipe Gama (Geral),2,35.3,Concluída,46085.39,Fiação / Componentes menores
+WO-1247,1082,WTG-25,Preventive,Equipe Alpha (Mecânica),4,102.5,Concluída,7838.07,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1248,1088,WTG-08,Corrective,Equipe Gama (Geral),3,19.0,Concluída,2206.32,Fiação / Componentes menores
+WO-1249,1091,WTG-20,Corrective,Equipe Gama (Geral),2,44.0,Concluída,53702.12,Fiação / Componentes menores
+WO-1250,1092,WTG-22,Corrective,Equipe Gama (Geral),2,27.6,Concluída,26206.56,Fiação / Componentes menores
+WO-1251,1098,WTG-12,Corrective,Equipe Alpha (Mecânica),3,24.2,Concluída,16165.2,Fiação / Componentes menores
+WO-1252,1099,WTG-09,Corrective,Equipe Gama (Geral),3,61.1,Encerrada com Ressalva,34862.95,Fiação / Componentes menores
+WO-1253,1101,WTG-30,Corrective,Equipe Gama (Geral),3,47.2,Concluída,6184.6,Fiação / Componentes menores
+WO-1254,1107,WTG-01,Preventive,Equipe Alpha (Mecânica),3,84.1,Concluída,14768.67,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1255,1108,WTG-14,Preventive,Equipe Alpha (Mecânica),4,112.8,Concluída,7365.17,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1256,1109,WTG-03,Corrective,Equipe Alpha (Mecânica),3,66.1,Concluída,38254.12,Fiação / Componentes menores
+WO-1257,1111,WTG-10,Corrective,Equipe Gama (Geral),3,30.2,Concluída,41627.02,Fiação / Componentes menores
+WO-1258,1114,WTG-13,Preventive,Equipe Gama (Geral),4,120.0,Concluída,13920.44,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1259,1118,WTG-06,Corrective,Equipe Gama (Geral),3,14.0,Concluída,25683.25,Fiação / Componentes menores
+WO-1260,1122,WTG-25,Corrective,Equipe Gama (Geral),2,7.5,Concluída,32040.46,Fiação / Componentes menores
+WO-1261,1129,WTG-05,Corrective,Equipe Gama (Geral),3,39.6,Concluída,40365.15,Fiação / Componentes menores
+WO-1262,1134,WTG-26,Preventive,Equipe Gama (Geral),4,101.1,Concluída,13603.87,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1263,1136,WTG-14,Corrective,Equipe Gama (Geral),2,26.5,Concluída,39667.75,Fiação / Componentes menores
+WO-1264,1143,WTG-08,Preventive,Equipe Alpha (Mecânica),4,100.8,Concluída,12293.09,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1265,1144,WTG-08,Corrective,Equipe Alpha (Mecânica),2,20.5,Concluída,40167.56,Fiação / Componentes menores
+WO-1266,1145,WTG-28,Corrective,Equipe Gama (Geral),2,17.7,Concluída,19902.79,Fiação / Componentes menores
+WO-1267,1147,WTG-26,Corrective,Equipe Gama (Geral),2,42.2,Concluída,43679.94,Fiação / Componentes menores
+WO-1268,1162,WTG-11,Corrective,Equipe Gama (Geral),2,38.8,Concluída,37261.6,Fiação / Componentes menores
+WO-1269,1164,WTG-15,Preventive,Equipe Gama (Geral),4,113.8,Concluída,13911.51,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1270,1166,WTG-18,Corrective,Equipe Alpha (Mecânica),3,15.7,Concluída,30221.51,Fiação / Componentes menores
+WO-1271,1173,WTG-19,Corrective,Equipe Gama (Geral),2,43.4,Concluída,2533.85,Fiação / Componentes menores
+WO-1272,1175,WTG-25,Corrective,Equipe Gama (Geral),3,9.9,Concluída,12928.59,Fiação / Componentes menores
+WO-1273,1176,WTG-13,Corrective,Equipe Alpha (Mecânica),3,34.9,Concluída,14735.76,Fiação / Componentes menores
+WO-1274,1177,WTG-28,Preventive,Equipe Gama (Geral),4,124.8,Concluída,6033.15,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1275,1180,WTG-17,Preventive,Equipe Gama (Geral),4,115.2,Concluída,7822.37,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1276,1182,WTG-25,Corrective,Equipe Gama (Geral),2,13.6,Aguardando Peça,56382.54,Fiação / Componentes menores
+WO-1277,1184,WTG-04,Corrective,Equipe Gama (Geral),3,26.8,Concluída,38463.72,Fiação / Componentes menores
+WO-1278,1185,WTG-12,Corrective,Equipe Alpha (Mecânica),2,39.6,Concluída,16997.75,Fiação / Componentes menores
+WO-1279,1186,WTG-04,Corrective,Equipe Gama (Geral),2,17.0,Concluída,13806.98,Fiação / Componentes menores
+WO-1280,1189,WTG-20,Corrective,Equipe Gama (Geral),3,30.6,Concluída,23699.39,Fiação / Componentes menores
+WO-1281,1202,WTG-05,Preventive,Equipe Alpha (Mecânica),4,109.6,Concluída,10897.52,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1282,1205,WTG-20,Corrective,Equipe Gama (Geral),2,44.9,Concluída,34118.34,Fiação / Componentes menores
+WO-1283,1207,WTG-28,Corrective,Equipe Alpha (Mecânica),2,49.1,Concluída,15161.57,Fiação / Componentes menores
+WO-1284,1209,WTG-14,Corrective,Equipe Gama (Geral),3,55.8,Concluída,15846.88,Fiação / Componentes menores
+WO-1285,1213,WTG-19,Preventive,Equipe Alpha (Mecânica),4,109.8,Concluída,12279.49,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1286,1215,WTG-20,Corrective,Equipe Alpha (Mecânica),2,28.9,Concluída,54955.26,Fiação / Componentes menores
+WO-1287,1219,WTG-23,Corrective,Equipe Gama (Geral),3,23.1,Concluída,14388.14,Fiação / Componentes menores
+WO-1288,1225,WTG-03,Preventive,Equipe Alpha (Mecânica),4,103.5,Concluída,5685.32,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1289,1242,WTG-18,Corrective,Equipe Alpha (Mecânica),3,16.0,Concluída,31533.73,Fiação / Componentes menores
+WO-1290,1245,WTG-28,Corrective,Equipe Alpha (Mecânica),3,28.3,Concluída,31281.59,Fiação / Componentes menores
+WO-1291,1255,WTG-17,Corrective,Equipe Gama (Geral),3,21.6,Concluída,31116.22,Fiação / Componentes menores
+WO-1292,1261,WTG-18,Corrective,Equipe Alpha (Mecânica),3,28.5,Concluída,1630.55,Fiação / Componentes menores
+WO-1293,1268,WTG-01,Corrective,Equipe Gama (Geral),3,55.5,Concluída,58614.5,Fiação / Componentes menores
+WO-1294,1281,WTG-20,Corrective,Equipe Alpha (Mecânica),3,48.0,Concluída,7969.8,Fiação / Componentes menores
+WO-1295,1285,WTG-07,Corrective,Equipe Gama (Geral),2,3.8,Concluída,26119.15,Fiação / Componentes menores
+WO-1296,1287,WTG-28,Corrective,Equipe Gama (Geral),3,33.7,Concluída,50656.35,Fiação / Componentes menores
+WO-1297,1294,WTG-01,Corrective,Equipe Gama (Geral),3,6.8,Concluída,41981.84,Fiação / Componentes menores
+WO-1298,1297,WTG-14,Corrective,Equipe Alpha (Mecânica),2,19.6,Concluída,24117.42,Fiação / Componentes menores
+WO-1299,1302,WTG-21,Preventive,Equipe Gama (Geral),4,113.5,Aguardando Peça,11879.77,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1300,1303,WTG-01,Corrective,Equipe Alpha (Mecânica),2,30.4,Concluída,35686.11,Fiação / Componentes menores
+WO-1301,1305,WTG-28,Corrective,Equipe Gama (Geral),3,39.6,Concluída,37698.17,Fiação / Componentes menores
+WO-1302,1318,WTG-24,Corrective,Equipe Gama (Geral),3,66.6,Concluída,41649.25,Fiação / Componentes menores
+WO-1303,1319,WTG-27,Preventive,Equipe Gama (Geral),4,105.4,Concluída,5330.45,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1304,1332,WTG-16,Corrective,Equipe Alpha (Mecânica),3,22.3,Concluída,54829.87,Fiação / Componentes menores
+WO-1305,1335,WTG-09,Preventive,Equipe Gama (Geral),3,87.0,Concluída,7532.56,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1306,1336,WTG-30,Preventive,Equipe Gama (Geral),4,112.5,Concluída,6530.48,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1307,1338,WTG-30,Corrective,Equipe Alpha (Mecânica),3,74.5,Concluída,58083.7,Fiação / Componentes menores
+WO-1308,1342,WTG-28,Corrective,Equipe Alpha (Mecânica),2,23.2,Concluída,12815.2,Fiação / Componentes menores
+WO-1309,1343,WTG-16,Preventive,Equipe Alpha (Mecânica),3,83.4,Concluída,10594.62,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1310,1354,WTG-08,Corrective,Equipe Gama (Geral),3,16.1,Aguardando Peça,48287.55,Fiação / Componentes menores
+WO-1311,1355,WTG-24,Corrective,Equipe Gama (Geral),3,72.0,Encerrada com Ressalva,32041.15,Fiação / Componentes menores
+WO-1312,1356,WTG-15,Corrective,Equipe Gama (Geral),3,2.2,Concluída,39397.89,Fiação / Componentes menores
+WO-1313,1359,WTG-12,Preventive,Equipe Alpha (Mecânica),3,77.5,Concluída,12427.66,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1314,1362,WTG-08,Corrective,Equipe Gama (Geral),3,50.4,Concluída,11283.53,Fiação / Componentes menores
+WO-1315,1365,WTG-23,Preventive,Equipe Alpha (Mecânica),3,94.0,Concluída,14388.77,"Óleo lubrificante, filtros de óleo, graxa, consumíveis gerais"
+WO-1316,1373,WTG-30,Corrective,Equipe Gama (Geral),3,13.1,Concluída,46759.97,Fiação / Componentes menores
+WO-1317,1376,WTG-11,Corrective,Equipe Gama (Geral),3,64.3,Concluída,54868.69,Fiação / Componentes menores
+WO-1318,1382,WTG-30,Corrective,Equipe Alpha (Mecânica),2,8.1,Concluída,37931.42,Fiação / Componentes menores
+WO-1319,1383,WTG-11,Corrective,Equipe Gama (Geral),3,17.4,Aguardando Peça,54931.17,Fiação / Componentes menores
+WO-1320,1384,WTG-15,Corrective,Equipe Gama (Geral),3,19.8,Concluída,40534.29,Fiação / Componentes menores
+WO-1321,1385,WTG-29,Corrective,Equipe Gama (Geral),3,6.1,Concluída,9718.91,Fiação / Componentes menores
+WO-1322,1388,WTG-11,Corrective,Equipe Gama (Geral),3,79.3,Concluída,49475.64,Fiação / Componentes menores
+WO-1323,1389,WTG-20,Corrective,Equipe Gama (Geral),2,11.5,Concluída,21441.59,Fiação / Componentes menores
+WO-1324,1394,WTG-26,Corrective,Equipe Alpha (Mecânica),2,21.1,Concluída,54545.09,Fiação / Componentes menores
+WO-1325,1395,WTG-08,Corrective,Equipe Alpha (Mecânica),3,22.7,Concluída,30431.18,Fiação / Componentes menores
+WO-1326,1399,WTG-03,Corrective,Equipe Alpha (Mecânica),2,36.7,Concluída,33646.95,Fiação / Componentes menores
+WO-1327,1403,WTG-15,Corrective,Equipe Alpha (Mecânica),3,4.5,Concluída,37318.49,Fiação / Componentes menores
+WO-1328,1414,WTG-18,Corrective,Equipe Alpha (Mecânica),2,10.8,Concluída,47008.22,Fiação / Componentes menores
+WO-1329,1418,WTG-19,Corrective,Equipe Alpha (Mecânica),2,11.6,Concluída,1775.72,Fiação / Componentes menores
+WO-1330,1428,WTG-17,Corrective,Equipe Gama (Geral),2,9.2,Concluída,43699.81,Fiação / Componentes menores
+WO-1331,1429,WTG-23,Corrective,Equipe Alpha (Mecânica),3,38.7,Concluída,9938.47,Fiação / Componentes menores
+WO-1332,1432,WTG-09,Corrective,Equipe Alpha (Mecânica),3,59.3,Concluída,38436.71,Fiação / Componentes menores
+WO-1333,1434,WTG-14,Corrective,Equipe Alpha (Mecânica),2,13.4,Concluída,13420.39,Fiação / Componentes menores
+WO-1334,1435,WTG-03,Corrective,Equipe Alpha (Mecânica),3,9.6,Encerrada com Ressalva,57881.88,Fiação / Componentes menores
+WO-1335,1436,WTG-22,Corrective,Equipe Alpha (Mecânica),3,46.6,Concluída,41659.69,Fiação / Componentes menores
+WO-1336,1438,WTG-21,Corrective,Equipe Gama (Geral),2,18.6,Encerrada com Ressalva,39170.12,Fiação / Componentes menores
+WO-1337,1445,WTG-19,Corrective,Equipe Alpha (Mecânica),3,10.2,Concluída,40900.86,Fiação / Componentes menores
+WO-1338,1458,WTG-12,Corrective,Equipe Alpha (Mecânica),3,30.4,Concluída,6766.75,Fiação / Componentes menores
+WO-1339,1459,WTG-12,Corrective,Equipe Gama (Geral),3,15.4,Concluída,59235.31,Fiação / Componentes menores
+WO-1340,1460,WTG-25,Corrective,Equipe Alpha (Mecânica),2,4.9,Concluída,30145.34,Fiação / Componentes menores
+WO-1341,1475,WTG-23,Corrective,Equipe Gama (Geral),3,6.7,Concluída,12603.46,Fiação / Componentes menores
+WO-1342,1484,WTG-17,Corrective,Equipe Alpha (Mecânica),3,50.9,Concluída,58310.84,Fiação / Componentes menores
+WO-1343,1486,WTG-25,Corrective,Equipe Alpha (Mecânica),3,6.4,Concluída,47341.64,Fiação / Componentes menores
+WO-1344,1487,WTG-23,Corrective,Equipe Gama (Geral),2,32.9,Concluída,50611.19,Fiação / Componentes menores
+WO-1345,1488,WTG-11,Corrective,Equipe Alpha (Mecânica),2,3.1,Concluída,59850.46,Fiação / Componentes menores
+WO-1346,1489,WTG-08,Corrective,Equipe Gama (Geral),3,43.3,Concluída,47908.49,Fiação / Componentes menores
+WO-1347,1493,WTG-21,Corrective,Equipe Gama (Geral),3,22.2,Concluída,33888.69,Fiação / Componentes menores
+WO-1348,1499,WTG-13,Corrective,Equipe Alpha (Mecânica),3,65.3,Concluída,57977.58,Fiação / Componentes menores
