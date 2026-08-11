@@ -1,0 +1,1501 @@
+id_parada,data_hora_inicio,data_hora_fim,aerogerador,subsistema,codigo_alarme,descricao_alarme,tempo_parada_horas,tipo_parada
+1,2025-01-01 05:58:00,2025-01-01 23:34:00,WTG-11,Pitch System,204,Pitch position sensor error,17.6,TRIP
+2,2025-01-01 23:40:00,2025-01-02 18:58:00,WTG-30,Pitch System,202,Pitch battery fault,19.3,TRIP
+3,2025-01-02 18:13:00,2025-01-02 23:07:00,WTG-18,Pitch System,204,Pitch position sensor error,4.9,TRIP
+4,2025-01-02 18:26:00,2025-01-03 07:56:00,WTG-26,PCM-CORR,002,manual stop_repair,13.5,Corrective
+5,2025-01-03 16:52:00,2025-01-04 09:16:00,WTG-30,Sensors,804,Ambient temperature out of range,16.4,TRIP
+6,2025-01-04 13:31:00,2025-01-05 04:49:00,WTG-09,Pitch System,202,Pitch battery fault,15.3,TRIP
+7,2025-01-04 18:48:00,2025-01-04 21:36:00,WTG-25,Hydraulic System,405,Valve switching failure,2.8,TRIP
+8,2025-01-05 05:30:00,2025-01-05 07:36:00,WTG-28,Sensors,803,Ice detection on blades,2.1,TRIP
+9,2025-01-05 06:50:00,2025-01-05 09:20:00,WTG-03,Pitch System,203,Pitch motor overtemperature,2.5,TRIP
+10,2025-01-05 17:16:00,2025-01-07 11:22:00,WTG-04,Sensors,804,Ambient temperature out of range,42.1,TRIP
+11,2025-01-06 10:18:00,2025-01-07 00:12:00,WTG-30,Electrical,601,Grid voltage out of limits,13.9,TRIP
+12,2025-01-06 11:53:00,2025-01-06 14:17:00,WTG-05,Hydraulic System,403,Hydraulic pump motor overload,2.4,TRIP
+13,2025-01-06 13:34:00,2025-01-07 01:46:00,WTG-07,Generator,501,High temperature winding,12.2,TRIP
+14,2025-01-06 15:34:00,2025-01-06 17:46:00,WTG-25,Yaw System,305,Yaw inverter fault,2.2,TRIP
+15,2025-01-06 19:01:00,2025-01-06 23:13:00,WTG-29,Hydraulic System,403,Hydraulic pump motor overload,4.2,TRIP
+16,2025-01-06 20:52:00,2025-01-07 07:58:00,WTG-09,Electrical,601,Grid voltage out of limits,11.1,TRIP
+17,2025-01-06 22:03:00,2025-01-06 22:45:00,WTG-12,Generator,505,Generator overspeed,0.7,TRIP
+18,2025-01-07 05:51:00,2025-01-08 05:03:00,WTG-26,Hydraulic System,402,High hydraulic pressure,23.2,TRIP
+19,2025-01-07 12:18:00,2025-01-07 18:06:00,WTG-08,Pitch System,203,Pitch motor overtemperature,5.8,TRIP
+20,2025-01-08 09:42:00,2025-01-09 06:18:00,WTG-28,Gearbox,702,High oil temperature,20.6,TRIP
+21,2025-01-08 11:14:00,2025-01-09 08:20:00,WTG-07,Hydraulic System,401,Low hydraulic pressure,21.1,TRIP
+22,2025-01-09 09:33:00,2025-01-09 22:51:00,WTG-05,PCM-CORR,002,manual stop_repair,13.3,Corrective
+23,2025-01-09 18:10:00,2025-01-10 13:28:00,WTG-19,PCM-CORR,002,manual stop_repair,19.3,Corrective
+24,2025-01-09 21:36:00,2025-01-09 23:00:00,WTG-22,Gearbox,705,Gear mesh frequency vibration,1.4,TRIP
+25,2025-01-10 07:04:00,2025-01-10 16:58:00,WTG-16,Pitch System,202,Pitch battery fault,9.9,TRIP
+26,2025-01-10 20:04:00,2025-01-11 04:10:00,WTG-12,Yaw System,302,Yaw motor overload,8.1,TRIP
+27,2025-01-10 21:02:00,2025-01-10 23:14:00,WTG-16,PCM-CORR,002,manual stop_repair,2.2,Corrective
+28,2025-01-11 03:38:00,2025-01-11 05:56:00,WTG-16,Generator,505,Generator overspeed,2.3,TRIP
+29,2025-01-11 05:20:00,2025-01-12 00:20:00,WTG-06,Generator,501,High temperature winding,19.0,TRIP
+30,2025-01-11 07:26:00,2025-01-11 10:50:00,WTG-18,Yaw System,302,Yaw motor overload,3.4,TRIP
+31,2025-01-11 09:07:00,2025-01-11 09:49:00,WTG-05,Sensors,803,Ice detection on blades,0.7,TRIP
+32,2025-01-11 09:53:00,2025-01-11 15:23:00,WTG-11,Electrical,603,Converter communication failure,5.5,TRIP
+33,2025-01-11 09:56:00,2025-01-11 12:08:00,WTG-04,Yaw System,302,Yaw motor overload,2.2,TRIP
+34,2025-01-11 13:51:00,2025-01-12 11:03:00,WTG-01,Gearbox,703,Bearing vibration high,21.2,TRIP
+35,2025-01-12 00:22:00,2025-01-13 00:28:00,WTG-24,PCM-CORR,002,manual stop_repair,24.1,Corrective
+36,2025-01-12 20:32:00,2025-01-12 23:08:00,WTG-14,Electrical,602,IGBT overtemperature,2.6,TRIP
+37,2025-01-13 00:07:00,2025-01-13 02:25:00,WTG-18,Pitch System,205,Blade angle asymmetry limit reached,2.3,TRIP
+38,2025-01-13 01:24:00,2025-01-14 10:48:00,WTG-15,Sensors,804,Ambient temperature out of range,33.4,TRIP
+39,2025-01-13 09:00:00,2025-01-16 09:00:00,WTG-02,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+40,2025-01-13 09:28:00,2025-01-14 07:46:00,WTG-22,PCM-CORR,002,manual stop_repair,22.3,Corrective
+41,2025-01-13 13:46:00,2025-01-14 01:16:00,WTG-21,Hydraulic System,404,Hydraulic oil low level,11.5,TRIP
+42,2025-01-13 14:18:00,2025-01-13 17:42:00,WTG-03,PCM-CORR,002,manual stop_repair,3.4,Corrective
+43,2025-01-14 12:12:00,2025-01-15 00:12:00,WTG-17,Hydraulic System,403,Hydraulic pump motor overload,12.0,TRIP
+44,2025-01-14 13:35:00,2025-01-14 17:11:00,WTG-02,Sensors,803,Ice detection on blades,3.6,TRIP
+45,2025-01-14 13:37:00,2025-01-15 04:31:00,WTG-18,Electrical,603,Converter communication failure,14.9,TRIP
+46,2025-01-14 14:13:00,2025-01-15 00:01:00,WTG-19,Pitch System,202,Pitch battery fault,9.8,TRIP
+47,2025-01-14 21:03:00,2025-01-15 02:45:00,WTG-04,Yaw System,305,Yaw inverter fault,5.7,TRIP
+48,2025-01-15 00:18:00,2025-01-15 09:42:00,WTG-09,Sensors,801,Anemometer mismatch,9.4,TRIP
+49,2025-01-15 08:24:00,2025-01-15 10:24:00,WTG-27,Generator,505,Generator overspeed,2.0,TRIP
+50,2025-01-15 10:46:00,2025-01-15 17:04:00,WTG-11,PCM-CORR,002,manual stop_repair,6.3,Corrective
+51,2025-01-15 23:37:00,2025-01-16 12:13:00,WTG-21,Generator,505,Generator overspeed,12.6,TRIP
+52,2025-01-16 03:25:00,2025-01-16 07:55:00,WTG-04,Electrical,602,IGBT overtemperature,4.5,TRIP
+53,2025-01-16 20:49:00,2025-01-16 22:55:00,WTG-08,Pitch System,205,Blade angle asymmetry limit reached,2.1,TRIP
+54,2025-01-16 23:03:00,2025-01-17 17:33:00,WTG-24,PCM-CORR,002,manual stop_repair,18.5,Corrective
+55,2025-01-17 08:36:00,2025-01-17 12:48:00,WTG-17,Sensors,803,Ice detection on blades,4.2,TRIP
+56,2025-01-17 08:55:00,2025-01-17 10:07:00,WTG-30,Pitch System,205,Blade angle asymmetry limit reached,1.2,TRIP
+57,2025-01-18 04:23:00,2025-01-18 08:53:00,WTG-18,Pitch System,203,Pitch motor overtemperature,4.5,TRIP
+58,2025-01-18 05:11:00,2025-01-18 20:17:00,WTG-05,PCM-CORR,002,manual stop_repair,15.1,Corrective
+59,2025-01-18 08:54:00,2025-01-19 19:18:00,WTG-20,PCM-CORR,002,manual stop_repair,34.4,Corrective
+60,2025-01-18 09:06:00,2025-01-18 17:42:00,WTG-13,PCM-CORR,002,manual stop_repair,8.6,Corrective
+61,2025-01-18 21:24:00,2025-01-19 20:42:00,WTG-05,Hydraulic System,403,Hydraulic pump motor overload,23.3,TRIP
+62,2025-01-18 22:39:00,2025-01-19 22:09:00,WTG-24,Hydraulic System,402,High hydraulic pressure,23.5,TRIP
+63,2025-01-19 02:50:00,2025-01-19 10:32:00,WTG-29,Hydraulic System,404,Hydraulic oil low level,7.7,TRIP
+64,2025-01-19 05:43:00,2025-01-19 06:25:00,WTG-18,Generator,502,Generator cooling failure,0.7,TRIP
+65,2025-01-19 07:41:00,2025-01-19 09:41:00,WTG-02,Yaw System,305,Yaw inverter fault,2.0,TRIP
+66,2025-01-19 08:22:00,2025-01-19 15:22:00,WTG-25,Hydraulic System,403,Hydraulic pump motor overload,7.0,TRIP
+67,2025-01-19 09:46:00,2025-01-19 20:10:00,WTG-30,Yaw System,304,Yaw brake failure,10.4,TRIP
+68,2025-01-19 20:39:00,2025-01-20 00:39:00,WTG-18,Hydraulic System,402,High hydraulic pressure,4.0,TRIP
+69,2025-01-20 09:30:00,2025-01-20 12:24:00,WTG-25,Generator,502,Generator cooling failure,2.9,TRIP
+70,2025-01-21 01:52:00,2025-01-21 10:28:00,WTG-22,Hydraulic System,403,Hydraulic pump motor overload,8.6,TRIP
+71,2025-01-21 02:22:00,2025-01-22 23:22:00,WTG-26,Electrical,605,Grid frequency instability,45.0,TRIP
+72,2025-01-21 08:00:00,2025-01-24 08:00:00,WTG-27,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+73,2025-01-22 04:24:00,2025-01-23 00:12:00,WTG-11,PCM-CORR,002,manual stop_repair,19.8,Corrective
+74,2025-01-22 07:27:00,2025-01-23 06:39:00,WTG-03,PCM-CORR,002,manual stop_repair,23.2,Corrective
+75,2025-01-22 07:55:00,2025-01-23 04:43:00,WTG-08,Gearbox,705,Gear mesh frequency vibration,20.8,TRIP
+76,2025-01-22 08:00:00,2025-01-25 08:00:00,WTG-16,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+77,2025-01-22 09:53:00,2025-01-22 20:23:00,WTG-10,PCM-CORR,002,manual stop_repair,10.5,Corrective
+78,2025-01-22 11:05:00,2025-01-22 13:41:00,WTG-09,Gearbox,703,Bearing vibration high,2.6,TRIP
+79,2025-01-22 11:37:00,2025-01-23 06:31:00,WTG-01,Yaw System,304,Yaw brake failure,18.9,TRIP
+80,2025-01-22 22:14:00,2025-01-23 00:14:00,WTG-06,Gearbox,705,Gear mesh frequency vibration,2.0,TRIP
+81,2025-01-22 22:29:00,2025-01-23 02:47:00,WTG-16,Gearbox,702,High oil temperature,4.3,TRIP
+82,2025-01-23 07:33:00,2025-01-23 23:03:00,WTG-30,Pitch System,205,Blade angle asymmetry limit reached,15.5,TRIP
+83,2025-01-23 21:19:00,2025-01-24 03:01:00,WTG-05,Sensors,804,Ambient temperature out of range,5.7,TRIP
+84,2025-01-23 22:20:00,2025-01-24 10:38:00,WTG-14,Gearbox,704,Oil filter clogged,12.3,TRIP
+85,2025-01-24 03:04:00,2025-01-24 12:58:00,WTG-29,Hydraulic System,405,Valve switching failure,9.9,TRIP
+86,2025-01-24 09:00:00,2025-01-27 09:00:00,WTG-23,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+87,2025-01-24 13:39:00,2025-01-25 07:45:00,WTG-20,Gearbox,702,High oil temperature,18.1,TRIP
+88,2025-01-24 18:37:00,2025-01-24 20:07:00,WTG-18,Generator,501,High temperature winding,1.5,TRIP
+89,2025-01-24 23:15:00,2025-01-25 05:45:00,WTG-26,Hydraulic System,401,Low hydraulic pressure,6.5,TRIP
+90,2025-01-25 04:35:00,2025-01-25 22:53:00,WTG-03,PCM-CORR,002,manual stop_repair,18.3,Corrective
+91,2025-01-25 20:56:00,2025-01-25 23:26:00,WTG-23,Gearbox,701,Low oil pressure,2.5,TRIP
+92,2025-01-26 05:08:00,2025-01-26 11:56:00,WTG-08,Generator,503,Bearing temperature high,6.8,TRIP
+93,2025-01-26 17:53:00,2025-01-27 00:23:00,WTG-24,Electrical,601,Grid voltage out of limits,6.5,TRIP
+94,2025-01-26 17:54:00,2025-01-27 07:00:00,WTG-06,Sensors,803,Ice detection on blades,13.1,TRIP
+95,2025-01-26 21:08:00,2025-01-27 05:26:00,WTG-16,PCM-CORR,002,manual stop_repair,8.3,Corrective
+96,2025-01-27 01:32:00,2025-01-27 05:38:00,WTG-11,PCM-CORR,002,manual stop_repair,4.1,Corrective
+97,2025-01-27 03:09:00,2025-01-27 07:09:00,WTG-05,Sensors,803,Ice detection on blades,4.0,TRIP
+98,2025-01-27 13:08:00,2025-01-28 02:32:00,WTG-17,Gearbox,705,Gear mesh frequency vibration,13.4,TRIP
+99,2025-01-27 15:05:00,2025-01-28 15:59:00,WTG-18,Pitch System,203,Pitch motor overtemperature,24.9,TRIP
+100,2025-01-27 21:12:00,2025-01-28 01:48:00,WTG-24,Pitch System,202,Pitch battery fault,4.6,TRIP
+101,2025-01-28 01:09:00,2025-01-28 03:57:00,WTG-30,Gearbox,701,Low oil pressure,2.8,TRIP
+102,2025-01-28 03:27:00,2025-01-28 17:33:00,WTG-10,PCM-CORR,002,manual stop_repair,14.1,Corrective
+103,2025-01-28 07:00:00,2025-01-28 11:48:00,WTG-17,Gearbox,701,Low oil pressure,4.8,TRIP
+104,2025-01-28 09:43:00,2025-01-29 06:55:00,WTG-02,PCM-CORR,002,manual stop_repair,21.2,Corrective
+105,2025-01-28 10:13:00,2025-01-28 13:49:00,WTG-04,Hydraulic System,402,High hydraulic pressure,3.6,TRIP
+106,2025-01-28 22:01:00,2025-01-29 02:13:00,WTG-07,Electrical,602,IGBT overtemperature,4.2,TRIP
+107,2025-01-28 23:38:00,2025-01-29 11:32:00,WTG-29,PCM-CORR,002,manual stop_repair,11.9,Corrective
+108,2025-01-29 01:14:00,2025-01-29 14:32:00,WTG-06,Generator,504,Slip ring brush wear limit,13.3,TRIP
+109,2025-01-29 07:13:00,2025-01-29 11:55:00,WTG-13,PCM-CORR,002,manual stop_repair,4.7,Corrective
+110,2025-01-29 09:15:00,2025-01-29 12:03:00,WTG-14,Sensors,802,Wind vane error,2.8,TRIP
+111,2025-01-29 09:22:00,2025-01-29 10:04:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,0.7,TRIP
+112,2025-01-29 14:45:00,2025-01-30 01:03:00,WTG-04,Generator,501,High temperature winding,10.3,TRIP
+113,2025-01-29 17:37:00,2025-01-30 16:43:00,WTG-09,PCM-CORR,002,manual stop_repair,23.1,Corrective
+114,2025-01-29 20:09:00,2025-01-30 07:45:00,WTG-26,PCM-CORR,002,manual stop_repair,11.6,Corrective
+115,2025-01-29 20:11:00,2025-01-30 05:47:00,WTG-28,Generator,505,Generator overspeed,9.6,TRIP
+116,2025-01-30 02:20:00,2025-01-30 04:20:00,WTG-08,Pitch System,203,Pitch motor overtemperature,2.0,TRIP
+117,2025-01-30 03:19:00,2025-01-31 06:55:00,WTG-16,Pitch System,201,Difference between Pitch angles,27.6,TRIP
+118,2025-01-30 03:46:00,2025-01-30 08:46:00,WTG-06,PCM-CORR,002,manual stop_repair,5.0,Corrective
+119,2025-01-31 09:00:00,2025-02-03 09:00:00,WTG-10,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+120,2025-01-31 12:44:00,2025-02-01 21:56:00,WTG-22,PCM-CORR,002,manual stop_repair,33.2,Corrective
+121,2025-01-31 18:29:00,2025-02-01 00:35:00,WTG-01,Gearbox,704,Oil filter clogged,6.1,TRIP
+122,2025-01-31 19:48:00,2025-02-01 08:54:00,WTG-18,Electrical,602,IGBT overtemperature,13.1,TRIP
+123,2025-02-01 05:46:00,2025-02-01 08:58:00,WTG-17,Sensors,804,Ambient temperature out of range,3.2,TRIP
+124,2025-02-01 09:00:00,2025-02-04 09:00:00,WTG-29,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+125,2025-02-01 20:00:00,2025-02-03 05:48:00,WTG-02,PCM-CORR,002,manual stop_repair,33.8,Corrective
+126,2025-02-02 08:53:00,2025-02-02 10:47:00,WTG-08,Sensors,802,Wind vane error,1.9,TRIP
+127,2025-02-02 17:40:00,2025-02-02 22:10:00,WTG-12,Yaw System,303,Cable twist limit exceeded,4.5,TRIP
+128,2025-02-03 05:04:00,2025-02-03 11:28:00,WTG-29,Sensors,803,Ice detection on blades,6.4,TRIP
+129,2025-02-03 12:55:00,2025-02-03 14:13:00,WTG-09,Yaw System,305,Yaw inverter fault,1.3,TRIP
+130,2025-02-03 14:52:00,2025-02-04 03:10:00,WTG-14,PCM-CORR,002,manual stop_repair,12.3,Corrective
+131,2025-02-03 15:19:00,2025-02-03 16:43:00,WTG-16,Electrical,605,Grid frequency instability,1.4,TRIP
+132,2025-02-03 16:30:00,2025-02-03 17:18:00,WTG-15,Gearbox,705,Gear mesh frequency vibration,0.8,TRIP
+133,2025-02-03 19:22:00,2025-02-04 15:16:00,WTG-10,Sensors,802,Wind vane error,19.9,TRIP
+134,2025-02-03 19:35:00,2025-02-03 21:29:00,WTG-24,Pitch System,201,Difference between Pitch angles,1.9,TRIP
+135,2025-02-04 10:41:00,2025-02-04 13:29:00,WTG-07,Yaw System,304,Yaw brake failure,2.8,TRIP
+136,2025-02-04 16:45:00,2025-02-04 18:51:00,WTG-21,Electrical,605,Grid frequency instability,2.1,TRIP
+137,2025-02-04 18:01:00,2025-02-05 01:31:00,WTG-13,Pitch System,204,Pitch position sensor error,7.5,TRIP
+138,2025-02-04 23:07:00,2025-02-05 03:19:00,WTG-23,Yaw System,302,Yaw motor overload,4.2,TRIP
+139,2025-02-05 00:20:00,2025-02-05 08:56:00,WTG-15,PCM-CORR,002,manual stop_repair,8.6,Corrective
+140,2025-02-05 17:02:00,2025-02-05 18:26:00,WTG-10,Yaw System,304,Yaw brake failure,1.4,TRIP
+141,2025-02-05 21:50:00,2025-02-05 23:08:00,WTG-09,Sensors,803,Ice detection on blades,1.3,TRIP
+142,2025-02-05 23:23:00,2025-02-06 04:23:00,WTG-10,Generator,501,High temperature winding,5.0,TRIP
+143,2025-02-06 01:14:00,2025-02-06 19:38:00,WTG-26,Sensors,804,Ambient temperature out of range,18.4,TRIP
+144,2025-02-06 13:48:00,2025-02-06 22:54:00,WTG-18,Sensors,801,Anemometer mismatch,9.1,TRIP
+145,2025-02-06 17:24:00,2025-02-07 00:18:00,WTG-01,Gearbox,705,Gear mesh frequency vibration,6.9,TRIP
+146,2025-02-07 02:11:00,2025-02-07 04:35:00,WTG-30,PCM-CORR,002,manual stop_repair,2.4,Corrective
+147,2025-02-07 09:00:00,2025-02-10 09:00:00,WTG-05,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+148,2025-02-07 12:21:00,2025-02-07 15:33:00,WTG-03,Gearbox,705,Gear mesh frequency vibration,3.2,TRIP
+149,2025-02-08 03:46:00,2025-02-08 08:28:00,WTG-26,Hydraulic System,403,Hydraulic pump motor overload,4.7,TRIP
+150,2025-02-08 05:26:00,2025-02-08 13:44:00,WTG-16,Electrical,605,Grid frequency instability,8.3,TRIP
+151,2025-02-08 06:03:00,2025-02-08 16:03:00,WTG-02,Gearbox,701,Low oil pressure,10.0,TRIP
+152,2025-02-08 10:23:00,2025-02-08 16:29:00,WTG-18,PCM-CORR,002,manual stop_repair,6.1,Corrective
+153,2025-02-08 18:54:00,2025-02-08 22:12:00,WTG-25,Generator,505,Generator overspeed,3.3,TRIP
+154,2025-02-08 22:26:00,2025-02-09 13:56:00,WTG-17,Generator,505,Generator overspeed,15.5,TRIP
+155,2025-02-09 10:00:00,2025-02-10 07:06:00,WTG-19,Generator,503,Bearing temperature high,21.1,TRIP
+156,2025-02-09 19:39:00,2025-02-09 23:27:00,WTG-18,Sensors,803,Ice detection on blades,3.8,TRIP
+157,2025-02-09 21:26:00,2025-02-10 05:02:00,WTG-14,Gearbox,701,Low oil pressure,7.6,TRIP
+158,2025-02-10 07:00:00,2025-02-13 07:00:00,WTG-28,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+159,2025-02-10 09:00:00,2025-02-13 09:00:00,WTG-03,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+160,2025-02-10 21:46:00,2025-02-11 01:16:00,WTG-22,Pitch System,204,Pitch position sensor error,3.5,TRIP
+161,2025-02-11 00:49:00,2025-02-11 07:01:00,WTG-03,Generator,505,Generator overspeed,6.2,TRIP
+162,2025-02-11 07:00:00,2025-02-14 07:00:00,WTG-08,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+163,2025-02-11 08:31:00,2025-02-11 14:25:00,WTG-02,Pitch System,201,Difference between Pitch angles,5.9,TRIP
+164,2025-02-11 16:05:00,2025-02-12 01:05:00,WTG-22,Sensors,801,Anemometer mismatch,9.0,TRIP
+165,2025-02-11 19:16:00,2025-02-12 14:22:00,WTG-01,PCM-CORR,002,manual stop_repair,19.1,Corrective
+166,2025-02-12 01:53:00,2025-02-12 06:59:00,WTG-01,Yaw System,305,Yaw inverter fault,5.1,TRIP
+167,2025-02-12 08:00:00,2025-02-15 08:00:00,WTG-24,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+168,2025-02-12 12:57:00,2025-02-13 16:21:00,WTG-04,Electrical,605,Grid frequency instability,27.4,TRIP
+169,2025-02-12 17:05:00,2025-02-12 22:41:00,WTG-04,Hydraulic System,401,Low hydraulic pressure,5.6,TRIP
+170,2025-02-13 03:01:00,2025-02-13 04:25:00,WTG-30,Sensors,801,Anemometer mismatch,1.4,TRIP
+171,2025-02-13 07:00:00,2025-02-16 07:00:00,WTG-18,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+172,2025-02-13 10:03:00,2025-02-13 17:15:00,WTG-28,Yaw System,305,Yaw inverter fault,7.2,TRIP
+173,2025-02-13 14:39:00,2025-02-13 15:57:00,WTG-14,Gearbox,703,Bearing vibration high,1.3,TRIP
+174,2025-02-14 04:22:00,2025-02-15 03:10:00,WTG-16,PCM-CORR,002,manual stop_repair,22.8,Corrective
+175,2025-02-14 08:00:00,2025-02-17 08:00:00,WTG-04,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+176,2025-02-14 08:22:00,2025-02-14 13:40:00,WTG-25,Gearbox,705,Gear mesh frequency vibration,5.3,TRIP
+177,2025-02-14 09:31:00,2025-02-14 22:31:00,WTG-11,Electrical,603,Converter communication failure,13.0,TRIP
+178,2025-02-14 14:11:00,2025-02-14 20:47:00,WTG-01,Yaw System,302,Yaw motor overload,6.6,TRIP
+179,2025-02-14 15:49:00,2025-02-15 16:55:00,WTG-15,Pitch System,204,Pitch position sensor error,25.1,TRIP
+180,2025-02-14 21:36:00,2025-02-14 23:36:00,WTG-17,Pitch System,205,Blade angle asymmetry limit reached,2.0,TRIP
+181,2025-02-14 22:20:00,2025-02-15 12:02:00,WTG-02,Gearbox,702,High oil temperature,13.7,TRIP
+182,2025-02-15 08:11:00,2025-02-15 23:05:00,WTG-09,PCM-CORR,002,manual stop_repair,14.9,Corrective
+183,2025-02-15 15:15:00,2025-02-15 17:15:00,WTG-14,PCM-CORR,002,manual stop_repair,2.0,Corrective
+184,2025-02-16 02:22:00,2025-02-16 16:58:00,WTG-22,Electrical,604,DC link overvoltage,14.6,TRIP
+185,2025-02-16 04:53:00,2025-02-16 14:35:00,WTG-12,PCM-CORR,002,manual stop_repair,9.7,Corrective
+186,2025-02-16 13:11:00,2025-02-17 06:59:00,WTG-20,Generator,505,Generator overspeed,17.8,TRIP
+187,2025-02-16 13:17:00,2025-02-17 03:17:00,WTG-15,PCM-CORR,002,manual stop_repair,14.0,Corrective
+188,2025-02-16 19:18:00,2025-02-17 02:54:00,WTG-14,Electrical,601,Grid voltage out of limits,7.6,TRIP
+189,2025-02-17 05:10:00,2025-02-18 06:10:00,WTG-03,Generator,504,Slip ring brush wear limit,25.0,TRIP
+190,2025-02-17 08:35:00,2025-02-17 10:11:00,WTG-06,Hydraulic System,402,High hydraulic pressure,1.6,TRIP
+191,2025-02-17 13:50:00,2025-02-18 14:32:00,WTG-01,Hydraulic System,403,Hydraulic pump motor overload,24.7,TRIP
+192,2025-02-17 17:10:00,2025-02-17 18:34:00,WTG-08,Gearbox,701,Low oil pressure,1.4,TRIP
+193,2025-02-17 20:40:00,2025-02-18 08:52:00,WTG-14,Gearbox,704,Oil filter clogged,12.2,TRIP
+194,2025-02-18 05:40:00,2025-02-18 15:22:00,WTG-05,Generator,501,High temperature winding,9.7,TRIP
+195,2025-02-18 06:14:00,2025-02-18 08:44:00,WTG-13,Gearbox,704,Oil filter clogged,2.5,TRIP
+196,2025-02-18 15:47:00,2025-02-18 20:11:00,WTG-04,Sensors,803,Ice detection on blades,4.4,TRIP
+197,2025-02-18 18:30:00,2025-02-20 05:36:00,WTG-04,Pitch System,205,Blade angle asymmetry limit reached,35.1,TRIP
+198,2025-02-18 18:41:00,2025-02-18 21:35:00,WTG-11,Gearbox,703,Bearing vibration high,2.9,TRIP
+199,2025-02-19 00:10:00,2025-02-19 06:04:00,WTG-21,PCM-CORR,002,manual stop_repair,5.9,Corrective
+200,2025-02-19 09:00:00,2025-02-22 09:00:00,WTG-30,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+201,2025-02-19 11:52:00,2025-02-19 12:22:00,WTG-21,Sensors,804,Ambient temperature out of range,0.5,TRIP
+202,2025-02-19 12:00:00,2025-02-20 22:06:00,WTG-03,PCM-CORR,002,manual stop_repair,34.1,Corrective
+203,2025-02-19 17:09:00,2025-02-20 02:51:00,WTG-28,Gearbox,702,High oil temperature,9.7,TRIP
+204,2025-02-20 09:00:00,2025-02-23 09:00:00,WTG-06,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+205,2025-02-20 20:50:00,2025-02-21 11:50:00,WTG-06,PCM-CORR,002,manual stop_repair,15.0,Corrective
+206,2025-02-21 01:08:00,2025-02-21 02:02:00,WTG-25,Sensors,801,Anemometer mismatch,0.9,TRIP
+207,2025-02-21 23:13:00,2025-02-23 01:13:00,WTG-11,PCM-CORR,002,manual stop_repair,26.0,Corrective
+208,2025-02-22 04:45:00,2025-02-22 09:15:00,WTG-18,Yaw System,302,Yaw motor overload,4.5,TRIP
+209,2025-02-23 12:09:00,2025-02-24 12:51:00,WTG-29,PCM-CORR,002,manual stop_repair,24.7,Corrective
+210,2025-02-23 19:50:00,2025-02-24 15:14:00,WTG-02,PCM-CORR,002,manual stop_repair,19.4,Corrective
+211,2025-02-23 22:02:00,2025-02-24 12:44:00,WTG-02,Electrical,604,DC link overvoltage,14.7,TRIP
+212,2025-02-23 23:28:00,2025-02-25 04:28:00,WTG-07,Hydraulic System,401,Low hydraulic pressure,29.0,TRIP
+213,2025-02-24 01:14:00,2025-02-24 07:02:00,WTG-05,Yaw System,302,Yaw motor overload,5.8,TRIP
+214,2025-02-24 06:39:00,2025-02-25 07:33:00,WTG-10,Sensors,804,Ambient temperature out of range,24.9,TRIP
+215,2025-02-24 09:25:00,2025-02-24 11:43:00,WTG-26,Generator,502,Generator cooling failure,2.3,TRIP
+216,2025-02-24 16:25:00,2025-02-25 02:31:00,WTG-26,PCM-CORR,002,manual stop_repair,10.1,Corrective
+217,2025-02-24 18:00:00,2025-02-25 23:06:00,WTG-13,Yaw System,303,Cable twist limit exceeded,29.1,TRIP
+218,2025-02-24 21:02:00,2025-02-25 11:56:00,WTG-25,PCM-CORR,002,manual stop_repair,14.9,Corrective
+219,2025-02-25 02:35:00,2025-02-25 16:47:00,WTG-13,PCM-CORR,002,manual stop_repair,14.2,Corrective
+220,2025-02-25 07:00:00,2025-02-28 07:00:00,WTG-17,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+221,2025-02-25 09:00:00,2025-02-28 09:00:00,WTG-11,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+222,2025-02-25 10:03:00,2025-02-25 20:27:00,WTG-25,Generator,501,High temperature winding,10.4,TRIP
+223,2025-02-25 18:04:00,2025-02-25 19:58:00,WTG-19,Pitch System,205,Blade angle asymmetry limit reached,1.9,TRIP
+224,2025-02-25 19:26:00,2025-02-26 05:26:00,WTG-12,Yaw System,304,Yaw brake failure,10.0,TRIP
+225,2025-02-25 23:06:00,2025-02-27 07:00:00,WTG-23,Generator,504,Slip ring brush wear limit,31.9,TRIP
+226,2025-02-26 07:00:00,2025-03-01 07:00:00,WTG-20,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+227,2025-02-26 07:28:00,2025-02-26 08:58:00,WTG-28,Generator,504,Slip ring brush wear limit,1.5,TRIP
+228,2025-02-26 14:41:00,2025-02-28 04:05:00,WTG-03,Generator,505,Generator overspeed,37.4,TRIP
+229,2025-02-26 16:40:00,2025-02-27 12:46:00,WTG-21,Sensors,801,Anemometer mismatch,20.1,TRIP
+230,2025-02-26 23:50:00,2025-02-27 15:02:00,WTG-27,Generator,502,Generator cooling failure,15.2,TRIP
+231,2025-02-27 02:12:00,2025-02-27 13:24:00,WTG-10,Gearbox,704,Oil filter clogged,11.2,TRIP
+232,2025-02-27 07:00:00,2025-03-02 07:00:00,WTG-13,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+233,2025-02-27 16:05:00,2025-02-27 19:11:00,WTG-12,Sensors,802,Wind vane error,3.1,TRIP
+234,2025-02-27 20:40:00,2025-02-27 21:46:00,WTG-22,Pitch System,204,Pitch position sensor error,1.1,TRIP
+235,2025-02-27 23:20:00,2025-02-28 05:26:00,WTG-08,Sensors,804,Ambient temperature out of range,6.1,TRIP
+236,2025-02-27 23:44:00,2025-02-28 17:08:00,WTG-23,Pitch System,201,Difference between Pitch angles,17.4,TRIP
+237,2025-02-28 16:47:00,2025-02-28 19:59:00,WTG-13,Pitch System,203,Pitch motor overtemperature,3.2,TRIP
+238,2025-02-28 20:02:00,2025-02-28 20:38:00,WTG-24,Sensors,801,Anemometer mismatch,0.6,TRIP
+239,2025-02-28 23:49:00,2025-03-01 01:37:00,WTG-19,Electrical,603,Converter communication failure,1.8,TRIP
+240,2025-03-01 00:40:00,2025-03-01 19:10:00,WTG-15,Generator,504,Slip ring brush wear limit,18.5,TRIP
+241,2025-03-01 03:44:00,2025-03-01 12:50:00,WTG-26,Generator,504,Slip ring brush wear limit,9.1,TRIP
+242,2025-03-01 05:29:00,2025-03-01 06:29:00,WTG-30,Electrical,602,IGBT overtemperature,1.0,TRIP
+243,2025-03-01 06:16:00,2025-03-01 06:46:00,WTG-27,Pitch System,202,Pitch battery fault,0.5,TRIP
+244,2025-03-01 09:24:00,2025-03-01 13:24:00,WTG-03,Yaw System,305,Yaw inverter fault,4.0,TRIP
+245,2025-03-01 20:27:00,2025-03-03 01:27:00,WTG-30,PCM-CORR,002,manual stop_repair,29.0,Corrective
+246,2025-03-02 01:59:00,2025-03-03 03:23:00,WTG-27,Generator,503,Bearing temperature high,25.4,TRIP
+247,2025-03-02 03:47:00,2025-03-03 05:17:00,WTG-24,PCM-CORR,002,manual stop_repair,25.5,Corrective
+248,2025-03-02 04:05:00,2025-03-02 13:47:00,WTG-13,Hydraulic System,401,Low hydraulic pressure,9.7,TRIP
+249,2025-03-02 05:38:00,2025-03-02 07:32:00,WTG-12,Hydraulic System,402,High hydraulic pressure,1.9,TRIP
+250,2025-03-02 14:44:00,2025-03-04 23:20:00,WTG-27,Electrical,602,IGBT overtemperature,56.6,TRIP
+251,2025-03-02 22:10:00,2025-03-03 06:22:00,WTG-09,Gearbox,702,High oil temperature,8.2,TRIP
+252,2025-03-03 03:26:00,2025-03-04 12:38:00,WTG-21,PCM-CORR,002,manual stop_repair,33.2,Corrective
+253,2025-03-04 01:51:00,2025-03-05 04:09:00,WTG-11,Electrical,602,IGBT overtemperature,26.3,TRIP
+254,2025-03-04 09:57:00,2025-03-04 10:45:00,WTG-29,Hydraulic System,403,Hydraulic pump motor overload,0.8,TRIP
+255,2025-03-04 22:33:00,2025-03-05 09:03:00,WTG-11,Generator,504,Slip ring brush wear limit,10.5,TRIP
+256,2025-03-05 06:37:00,2025-03-05 10:37:00,WTG-16,Gearbox,703,Bearing vibration high,4.0,TRIP
+257,2025-03-05 07:59:00,2025-03-05 18:53:00,WTG-06,PCM-CORR,002,manual stop_repair,10.9,Corrective
+258,2025-03-05 08:40:00,2025-03-05 10:28:00,WTG-21,Gearbox,705,Gear mesh frequency vibration,1.8,TRIP
+259,2025-03-06 06:01:00,2025-03-06 09:43:00,WTG-11,Electrical,604,DC link overvoltage,3.7,TRIP
+260,2025-03-06 07:48:00,2025-03-06 13:00:00,WTG-21,Sensors,801,Anemometer mismatch,5.2,TRIP
+261,2025-03-06 08:56:00,2025-03-06 12:26:00,WTG-16,Gearbox,705,Gear mesh frequency vibration,3.5,TRIP
+262,2025-03-06 10:32:00,2025-03-07 11:26:00,WTG-01,PCM-CORR,002,manual stop_repair,24.9,Corrective
+263,2025-03-06 16:43:00,2025-03-06 22:25:00,WTG-05,Gearbox,705,Gear mesh frequency vibration,5.7,TRIP
+264,2025-03-07 00:40:00,2025-03-07 13:40:00,WTG-07,Gearbox,705,Gear mesh frequency vibration,13.0,TRIP
+265,2025-03-07 04:40:00,2025-03-07 14:28:00,WTG-20,Hydraulic System,405,Valve switching failure,9.8,TRIP
+266,2025-03-07 05:52:00,2025-03-07 23:28:00,WTG-25,Sensors,801,Anemometer mismatch,17.6,TRIP
+267,2025-03-07 07:11:00,2025-03-07 10:41:00,WTG-22,Pitch System,203,Pitch motor overtemperature,3.5,TRIP
+268,2025-03-07 13:38:00,2025-03-07 21:32:00,WTG-03,Sensors,803,Ice detection on blades,7.9,TRIP
+269,2025-03-07 20:15:00,2025-03-08 14:21:00,WTG-16,Hydraulic System,403,Hydraulic pump motor overload,18.1,TRIP
+270,2025-03-08 14:33:00,2025-03-08 17:03:00,WTG-19,Generator,502,Generator cooling failure,2.5,TRIP
+271,2025-03-08 17:48:00,2025-03-09 00:30:00,WTG-25,PCM-CORR,002,manual stop_repair,6.7,Corrective
+272,2025-03-08 18:07:00,2025-03-09 15:37:00,WTG-15,Pitch System,204,Pitch position sensor error,21.5,TRIP
+273,2025-03-09 08:05:00,2025-03-10 07:53:00,WTG-27,Yaw System,305,Yaw inverter fault,23.8,TRIP
+274,2025-03-09 22:14:00,2025-03-10 21:50:00,WTG-01,Electrical,602,IGBT overtemperature,23.6,TRIP
+275,2025-03-09 23:00:00,2025-03-10 11:06:00,WTG-07,PCM-CORR,002,manual stop_repair,12.1,Corrective
+276,2025-03-10 00:14:00,2025-03-10 11:32:00,WTG-18,Sensors,803,Ice detection on blades,11.3,TRIP
+277,2025-03-10 18:18:00,2025-03-11 10:30:00,WTG-26,Generator,501,High temperature winding,16.2,TRIP
+278,2025-03-10 18:25:00,2025-03-10 20:31:00,WTG-19,Yaw System,301,Yaw error,2.1,TRIP
+279,2025-03-11 05:31:00,2025-03-11 12:55:00,WTG-14,Yaw System,304,Yaw brake failure,7.4,TRIP
+280,2025-03-11 06:55:00,2025-03-11 10:31:00,WTG-10,Sensors,802,Wind vane error,3.6,TRIP
+281,2025-03-11 16:07:00,2025-03-11 23:01:00,WTG-18,Pitch System,205,Blade angle asymmetry limit reached,6.9,TRIP
+282,2025-03-11 19:20:00,2025-03-12 00:44:00,WTG-22,Hydraulic System,404,Hydraulic oil low level,5.4,TRIP
+283,2025-03-12 04:53:00,2025-03-12 19:11:00,WTG-03,Hydraulic System,401,Low hydraulic pressure,14.3,TRIP
+284,2025-03-12 09:00:00,2025-03-15 09:00:00,WTG-01,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+285,2025-03-12 13:15:00,2025-03-12 17:03:00,WTG-09,Generator,505,Generator overspeed,3.8,TRIP
+286,2025-03-12 16:52:00,2025-03-13 16:34:00,WTG-11,Gearbox,701,Low oil pressure,23.7,TRIP
+287,2025-03-13 04:26:00,2025-03-13 08:26:00,WTG-12,Yaw System,303,Cable twist limit exceeded,4.0,TRIP
+288,2025-03-13 06:57:00,2025-03-13 09:45:00,WTG-26,Electrical,604,DC link overvoltage,2.8,TRIP
+289,2025-03-13 09:27:00,2025-03-13 20:51:00,WTG-04,Pitch System,202,Pitch battery fault,11.4,TRIP
+290,2025-03-13 11:17:00,2025-03-13 12:05:00,WTG-22,Hydraulic System,402,High hydraulic pressure,0.8,TRIP
+291,2025-03-13 17:37:00,2025-03-13 19:55:00,WTG-25,Generator,504,Slip ring brush wear limit,2.3,TRIP
+292,2025-03-13 21:29:00,2025-03-14 05:11:00,WTG-20,Pitch System,204,Pitch position sensor error,7.7,TRIP
+293,2025-03-14 02:58:00,2025-03-14 07:52:00,WTG-20,Pitch System,201,Difference between Pitch angles,4.9,TRIP
+294,2025-03-14 15:15:00,2025-03-14 20:39:00,WTG-27,Yaw System,305,Yaw inverter fault,5.4,TRIP
+295,2025-03-14 21:06:00,2025-03-14 22:30:00,WTG-06,Yaw System,304,Yaw brake failure,1.4,TRIP
+296,2025-03-15 02:14:00,2025-03-15 12:20:00,WTG-20,Yaw System,301,Yaw error,10.1,TRIP
+297,2025-03-15 05:00:00,2025-03-15 05:54:00,WTG-28,Gearbox,701,Low oil pressure,0.9,TRIP
+298,2025-03-15 06:36:00,2025-03-15 10:36:00,WTG-14,Gearbox,704,Oil filter clogged,4.0,TRIP
+299,2025-03-15 06:59:00,2025-03-16 02:59:00,WTG-13,Yaw System,305,Yaw inverter fault,20.0,TRIP
+300,2025-03-15 14:18:00,2025-03-15 17:54:00,WTG-12,Electrical,605,Grid frequency instability,3.6,TRIP
+301,2025-03-15 18:03:00,2025-03-16 18:21:00,WTG-07,Yaw System,301,Yaw error,24.3,TRIP
+302,2025-03-15 18:58:00,2025-03-16 07:40:00,WTG-01,Yaw System,305,Yaw inverter fault,12.7,TRIP
+303,2025-03-16 05:35:00,2025-03-16 14:11:00,WTG-28,Electrical,603,Converter communication failure,8.6,TRIP
+304,2025-03-16 06:00:00,2025-03-16 11:00:00,WTG-11,Pitch System,201,Difference between Pitch angles,5.0,TRIP
+305,2025-03-16 08:05:00,2025-03-16 12:35:00,WTG-29,Generator,505,Generator overspeed,4.5,TRIP
+306,2025-03-16 11:56:00,2025-03-17 02:08:00,WTG-12,Electrical,604,DC link overvoltage,14.2,TRIP
+307,2025-03-16 11:58:00,2025-03-17 08:28:00,WTG-04,Sensors,803,Ice detection on blades,20.5,TRIP
+308,2025-03-16 16:31:00,2025-03-16 19:31:00,WTG-12,Yaw System,302,Yaw motor overload,3.0,TRIP
+309,2025-03-16 20:30:00,2025-03-17 01:36:00,WTG-27,Pitch System,203,Pitch motor overtemperature,5.1,TRIP
+310,2025-03-16 22:31:00,2025-03-16 23:31:00,WTG-23,Gearbox,704,Oil filter clogged,1.0,TRIP
+311,2025-03-16 23:29:00,2025-03-17 10:47:00,WTG-21,Electrical,603,Converter communication failure,11.3,TRIP
+312,2025-03-17 00:54:00,2025-03-17 21:24:00,WTG-05,Gearbox,703,Bearing vibration high,20.5,TRIP
+313,2025-03-17 02:14:00,2025-03-17 04:08:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,1.9,TRIP
+314,2025-03-17 03:01:00,2025-03-17 17:37:00,WTG-29,Electrical,602,IGBT overtemperature,14.6,TRIP
+315,2025-03-17 08:33:00,2025-03-17 18:21:00,WTG-09,PCM-CORR,002,manual stop_repair,9.8,Corrective
+316,2025-03-18 01:30:00,2025-03-18 04:36:00,WTG-28,Hydraulic System,402,High hydraulic pressure,3.1,TRIP
+317,2025-03-18 03:04:00,2025-03-18 07:52:00,WTG-13,Gearbox,703,Bearing vibration high,4.8,TRIP
+318,2025-03-18 16:59:00,2025-03-18 18:41:00,WTG-03,Yaw System,302,Yaw motor overload,1.7,TRIP
+319,2025-03-19 06:09:00,2025-03-19 07:33:00,WTG-12,Hydraulic System,401,Low hydraulic pressure,1.4,TRIP
+320,2025-03-19 12:30:00,2025-03-19 16:06:00,WTG-06,Gearbox,703,Bearing vibration high,3.6,TRIP
+321,2025-03-19 21:17:00,2025-03-19 22:41:00,WTG-12,Pitch System,202,Pitch battery fault,1.4,TRIP
+322,2025-03-20 03:34:00,2025-03-22 02:28:00,WTG-14,Electrical,601,Grid voltage out of limits,46.9,TRIP
+323,2025-03-20 08:33:00,2025-03-20 19:39:00,WTG-09,Electrical,602,IGBT overtemperature,11.1,TRIP
+324,2025-03-20 23:04:00,2025-03-20 23:34:00,WTG-17,Gearbox,702,High oil temperature,0.5,TRIP
+325,2025-03-21 02:21:00,2025-03-21 05:57:00,WTG-03,Pitch System,203,Pitch motor overtemperature,3.6,TRIP
+326,2025-03-21 09:24:00,2025-03-21 10:24:00,WTG-07,Electrical,601,Grid voltage out of limits,1.0,TRIP
+327,2025-03-21 10:09:00,2025-03-21 22:15:00,WTG-06,PCM-CORR,002,manual stop_repair,12.1,Corrective
+328,2025-03-21 11:08:00,2025-03-21 12:14:00,WTG-24,Electrical,602,IGBT overtemperature,1.1,TRIP
+329,2025-03-21 14:21:00,2025-03-22 00:45:00,WTG-22,Yaw System,301,Yaw error,10.4,TRIP
+330,2025-03-21 15:53:00,2025-03-21 19:47:00,WTG-06,Gearbox,702,High oil temperature,3.9,TRIP
+331,2025-03-21 19:36:00,2025-03-23 04:00:00,WTG-24,PCM-CORR,002,manual stop_repair,32.4,Corrective
+332,2025-03-22 01:38:00,2025-03-22 05:32:00,WTG-22,Pitch System,205,Blade angle asymmetry limit reached,3.9,TRIP
+333,2025-03-22 10:39:00,2025-03-22 17:45:00,WTG-06,Electrical,602,IGBT overtemperature,7.1,TRIP
+334,2025-03-22 12:28:00,2025-03-22 19:10:00,WTG-07,Generator,505,Generator overspeed,6.7,TRIP
+335,2025-03-22 15:02:00,2025-03-23 03:50:00,WTG-10,Gearbox,704,Oil filter clogged,12.8,TRIP
+336,2025-03-23 05:18:00,2025-03-23 10:30:00,WTG-16,Pitch System,203,Pitch motor overtemperature,5.2,TRIP
+337,2025-03-23 05:34:00,2025-03-23 09:58:00,WTG-14,Gearbox,705,Gear mesh frequency vibration,4.4,TRIP
+338,2025-03-24 00:20:00,2025-03-24 09:32:00,WTG-27,Generator,505,Generator overspeed,9.2,TRIP
+339,2025-03-24 10:01:00,2025-03-24 13:43:00,WTG-28,Sensors,802,Wind vane error,3.7,TRIP
+340,2025-03-24 14:01:00,2025-03-24 18:31:00,WTG-07,PCM-CORR,002,manual stop_repair,4.5,Corrective
+341,2025-03-24 17:58:00,2025-03-25 10:04:00,WTG-20,PCM-CORR,002,manual stop_repair,16.1,Corrective
+342,2025-03-24 18:12:00,2025-03-24 22:30:00,WTG-19,Sensors,803,Ice detection on blades,4.3,TRIP
+343,2025-03-25 01:17:00,2025-03-25 04:17:00,WTG-13,Yaw System,302,Yaw motor overload,3.0,TRIP
+344,2025-03-25 03:53:00,2025-03-25 14:41:00,WTG-16,Gearbox,704,Oil filter clogged,10.8,TRIP
+345,2025-03-25 18:49:00,2025-03-25 21:19:00,WTG-20,Sensors,801,Anemometer mismatch,2.5,TRIP
+346,2025-03-25 21:46:00,2025-03-26 21:46:00,WTG-29,PCM-CORR,002,manual stop_repair,24.0,Corrective
+347,2025-03-26 00:13:00,2025-03-26 11:49:00,WTG-28,Generator,501,High temperature winding,11.6,TRIP
+348,2025-03-26 04:41:00,2025-03-26 05:29:00,WTG-24,Gearbox,703,Bearing vibration high,0.8,TRIP
+349,2025-03-26 09:00:00,2025-03-29 09:00:00,WTG-26,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+350,2025-03-26 10:03:00,2025-03-26 11:39:00,WTG-02,Generator,505,Generator overspeed,1.6,TRIP
+351,2025-03-26 12:55:00,2025-03-26 16:13:00,WTG-06,Electrical,602,IGBT overtemperature,3.3,TRIP
+352,2025-03-27 01:38:00,2025-03-27 18:32:00,WTG-26,Hydraulic System,403,Hydraulic pump motor overload,16.9,TRIP
+353,2025-03-27 07:49:00,2025-03-27 12:55:00,WTG-22,Pitch System,202,Pitch battery fault,5.1,TRIP
+354,2025-03-27 08:19:00,2025-03-28 18:49:00,WTG-20,PCM-CORR,002,manual stop_repair,34.5,Corrective
+355,2025-03-27 09:34:00,2025-03-27 14:52:00,WTG-26,Hydraulic System,405,Valve switching failure,5.3,TRIP
+356,2025-03-27 12:43:00,2025-03-28 01:49:00,WTG-19,PCM-CORR,002,manual stop_repair,13.1,Corrective
+357,2025-03-27 23:15:00,2025-03-28 00:21:00,WTG-07,Pitch System,203,Pitch motor overtemperature,1.1,TRIP
+358,2025-03-28 05:06:00,2025-03-28 15:00:00,WTG-17,Hydraulic System,403,Hydraulic pump motor overload,9.9,TRIP
+359,2025-03-28 10:15:00,2025-03-29 21:39:00,WTG-27,PCM-CORR,002,manual stop_repair,35.4,Corrective
+360,2025-03-28 12:42:00,2025-03-28 18:06:00,WTG-30,Sensors,804,Ambient temperature out of range,5.4,TRIP
+361,2025-03-29 02:45:00,2025-03-29 20:45:00,WTG-20,Generator,503,Bearing temperature high,18.0,TRIP
+362,2025-03-29 10:17:00,2025-03-29 15:53:00,WTG-03,Yaw System,304,Yaw brake failure,5.6,TRIP
+363,2025-03-29 10:17:00,2025-03-29 12:53:00,WTG-16,Pitch System,201,Difference between Pitch angles,2.6,TRIP
+364,2025-03-29 10:48:00,2025-03-30 13:48:00,WTG-09,Hydraulic System,402,High hydraulic pressure,27.0,TRIP
+365,2025-03-29 11:08:00,2025-03-30 01:56:00,WTG-24,PCM-CORR,002,manual stop_repair,14.8,Corrective
+366,2025-03-29 18:32:00,2025-03-29 23:56:00,WTG-01,Electrical,604,DC link overvoltage,5.4,TRIP
+367,2025-03-29 21:01:00,2025-03-30 02:01:00,WTG-18,Hydraulic System,405,Valve switching failure,5.0,TRIP
+368,2025-03-30 02:40:00,2025-03-30 08:04:00,WTG-18,Electrical,602,IGBT overtemperature,5.4,TRIP
+369,2025-03-30 12:46:00,2025-03-30 15:22:00,WTG-02,Pitch System,204,Pitch position sensor error,2.6,TRIP
+370,2025-03-30 23:25:00,2025-03-31 04:55:00,WTG-04,PCM-CORR,002,manual stop_repair,5.5,Corrective
+371,2025-03-31 05:22:00,2025-04-01 08:28:00,WTG-25,PCM-CORR,002,manual stop_repair,27.1,Corrective
+372,2025-04-01 01:15:00,2025-04-02 08:57:00,WTG-27,PCM-CORR,002,manual stop_repair,31.7,Corrective
+373,2025-04-01 11:30:00,2025-04-01 16:42:00,WTG-03,Generator,503,Bearing temperature high,5.2,TRIP
+374,2025-04-02 07:17:00,2025-04-02 09:47:00,WTG-13,Pitch System,201,Difference between Pitch angles,2.5,TRIP
+375,2025-04-02 11:03:00,2025-04-02 12:27:00,WTG-25,Electrical,604,DC link overvoltage,1.4,TRIP
+376,2025-04-02 19:40:00,2025-04-03 01:04:00,WTG-06,Gearbox,703,Bearing vibration high,5.4,TRIP
+377,2025-04-04 01:47:00,2025-04-04 04:23:00,WTG-16,Hydraulic System,403,Hydraulic pump motor overload,2.6,TRIP
+378,2025-04-04 20:31:00,2025-04-04 23:55:00,WTG-28,Yaw System,302,Yaw motor overload,3.4,TRIP
+379,2025-04-05 04:52:00,2025-04-05 05:52:00,WTG-23,Hydraulic System,401,Low hydraulic pressure,1.0,TRIP
+380,2025-04-05 11:41:00,2025-04-05 15:17:00,WTG-06,Yaw System,302,Yaw motor overload,3.6,TRIP
+381,2025-04-06 03:26:00,2025-04-06 10:32:00,WTG-20,Electrical,602,IGBT overtemperature,7.1,TRIP
+382,2025-04-06 06:26:00,2025-04-06 18:44:00,WTG-11,Sensors,803,Ice detection on blades,12.3,TRIP
+383,2025-04-06 10:15:00,2025-04-07 16:33:00,WTG-23,PCM-CORR,002,manual stop_repair,30.3,Corrective
+384,2025-04-06 13:47:00,2025-04-06 21:41:00,WTG-08,PCM-CORR,002,manual stop_repair,7.9,Corrective
+385,2025-04-06 16:10:00,2025-04-07 09:40:00,WTG-20,PCM-CORR,002,manual stop_repair,17.5,Corrective
+386,2025-04-07 00:42:00,2025-04-07 08:30:00,WTG-05,Gearbox,702,High oil temperature,7.8,TRIP
+387,2025-04-07 04:41:00,2025-04-07 06:23:00,WTG-10,Electrical,603,Converter communication failure,1.7,TRIP
+388,2025-04-07 06:30:00,2025-04-07 08:42:00,WTG-24,Gearbox,701,Low oil pressure,2.2,TRIP
+389,2025-04-07 09:46:00,2025-04-07 20:46:00,WTG-30,Electrical,602,IGBT overtemperature,11.0,TRIP
+390,2025-04-07 13:03:00,2025-04-08 16:03:00,WTG-28,PCM-CORR,002,manual stop_repair,27.0,Corrective
+391,2025-04-07 15:37:00,2025-04-07 17:55:00,WTG-01,Pitch System,203,Pitch motor overtemperature,2.3,TRIP
+392,2025-04-08 03:10:00,2025-04-08 10:10:00,WTG-25,Electrical,602,IGBT overtemperature,7.0,TRIP
+393,2025-04-08 13:35:00,2025-04-09 04:29:00,WTG-18,Generator,504,Slip ring brush wear limit,14.9,TRIP
+394,2025-04-08 13:57:00,2025-04-09 07:39:00,WTG-15,Pitch System,201,Difference between Pitch angles,17.7,TRIP
+395,2025-04-08 16:19:00,2025-04-09 04:43:00,WTG-20,PCM-CORR,002,manual stop_repair,12.4,Corrective
+396,2025-04-08 23:53:00,2025-04-09 06:05:00,WTG-25,Gearbox,704,Oil filter clogged,6.2,TRIP
+397,2025-04-09 12:12:00,2025-04-09 13:42:00,WTG-30,Pitch System,204,Pitch position sensor error,1.5,TRIP
+398,2025-04-10 03:34:00,2025-04-10 17:52:00,WTG-15,PCM-CORR,002,manual stop_repair,14.3,Corrective
+399,2025-04-10 14:12:00,2025-04-10 22:42:00,WTG-14,Generator,502,Generator cooling failure,8.5,TRIP
+400,2025-04-10 16:27:00,2025-04-11 01:03:00,WTG-12,Generator,501,High temperature winding,8.6,TRIP
+401,2025-04-10 17:47:00,2025-04-11 01:47:00,WTG-12,Yaw System,305,Yaw inverter fault,8.0,TRIP
+402,2025-04-11 00:52:00,2025-04-11 02:04:00,WTG-30,Gearbox,705,Gear mesh frequency vibration,1.2,TRIP
+403,2025-04-11 02:02:00,2025-04-11 05:20:00,WTG-17,Sensors,801,Anemometer mismatch,3.3,TRIP
+404,2025-04-11 02:33:00,2025-04-11 10:15:00,WTG-08,Sensors,802,Wind vane error,7.7,TRIP
+405,2025-04-11 03:10:00,2025-04-11 07:52:00,WTG-22,Electrical,602,IGBT overtemperature,4.7,TRIP
+406,2025-04-11 06:30:00,2025-04-12 14:06:00,WTG-18,PCM-CORR,002,manual stop_repair,31.6,Corrective
+407,2025-04-11 08:30:00,2025-04-11 11:24:00,WTG-17,Yaw System,302,Yaw motor overload,2.9,TRIP
+408,2025-04-11 12:08:00,2025-04-11 15:38:00,WTG-19,Gearbox,703,Bearing vibration high,3.5,TRIP
+409,2025-04-11 20:17:00,2025-04-12 08:23:00,WTG-25,Sensors,802,Wind vane error,12.1,TRIP
+410,2025-04-11 22:32:00,2025-04-13 06:08:00,WTG-29,PCM-CORR,002,manual stop_repair,31.6,Corrective
+411,2025-04-12 02:23:00,2025-04-12 03:23:00,WTG-14,Electrical,601,Grid voltage out of limits,1.0,TRIP
+412,2025-04-12 06:25:00,2025-04-12 07:31:00,WTG-13,Generator,505,Generator overspeed,1.1,TRIP
+413,2025-04-12 08:00:00,2025-04-15 08:00:00,WTG-12,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+414,2025-04-12 22:03:00,2025-04-13 06:39:00,WTG-19,Sensors,802,Wind vane error,8.6,TRIP
+415,2025-04-13 02:17:00,2025-04-13 06:53:00,WTG-18,Yaw System,304,Yaw brake failure,4.6,TRIP
+416,2025-04-13 02:41:00,2025-04-14 07:29:00,WTG-18,PCM-CORR,002,manual stop_repair,28.8,Corrective
+417,2025-04-13 10:54:00,2025-04-13 18:06:00,WTG-17,Yaw System,301,Yaw error,7.2,TRIP
+418,2025-04-13 12:02:00,2025-04-15 20:32:00,WTG-08,Sensors,803,Ice detection on blades,56.5,TRIP
+419,2025-04-13 12:47:00,2025-04-14 06:59:00,WTG-28,PCM-CORR,002,manual stop_repair,18.2,Corrective
+420,2025-04-13 19:15:00,2025-04-14 06:57:00,WTG-04,PCM-CORR,002,manual stop_repair,11.7,Corrective
+421,2025-04-14 06:25:00,2025-04-14 17:55:00,WTG-30,Pitch System,201,Difference between Pitch angles,11.5,TRIP
+422,2025-04-14 07:13:00,2025-04-15 12:55:00,WTG-06,Generator,503,Bearing temperature high,29.7,TRIP
+423,2025-04-14 16:49:00,2025-04-14 17:43:00,WTG-11,Electrical,602,IGBT overtemperature,0.9,TRIP
+424,2025-04-14 22:06:00,2025-04-15 13:36:00,WTG-09,Electrical,602,IGBT overtemperature,15.5,TRIP
+425,2025-04-15 07:38:00,2025-04-15 17:44:00,WTG-01,Hydraulic System,404,Hydraulic oil low level,10.1,TRIP
+426,2025-04-15 08:37:00,2025-04-16 01:01:00,WTG-01,Sensors,801,Anemometer mismatch,16.4,TRIP
+427,2025-04-15 09:39:00,2025-04-15 11:51:00,WTG-20,Generator,502,Generator cooling failure,2.2,TRIP
+428,2025-04-15 23:02:00,2025-04-16 00:44:00,WTG-13,Yaw System,303,Cable twist limit exceeded,1.7,TRIP
+429,2025-04-16 00:38:00,2025-04-17 01:32:00,WTG-27,Gearbox,704,Oil filter clogged,24.9,TRIP
+430,2025-04-16 05:29:00,2025-04-16 11:53:00,WTG-18,Sensors,802,Wind vane error,6.4,TRIP
+431,2025-04-16 13:54:00,2025-04-16 19:24:00,WTG-12,Electrical,605,Grid frequency instability,5.5,TRIP
+432,2025-04-16 18:10:00,2025-04-17 08:04:00,WTG-01,Yaw System,302,Yaw motor overload,13.9,TRIP
+433,2025-04-16 21:26:00,2025-04-17 04:44:00,WTG-29,Yaw System,302,Yaw motor overload,7.3,TRIP
+434,2025-04-17 01:46:00,2025-04-17 07:40:00,WTG-24,Hydraulic System,405,Valve switching failure,5.9,TRIP
+435,2025-04-17 01:51:00,2025-04-18 05:27:00,WTG-22,PCM-CORR,002,manual stop_repair,27.6,Corrective
+436,2025-04-17 10:26:00,2025-04-17 12:08:00,WTG-20,Yaw System,303,Cable twist limit exceeded,1.7,TRIP
+437,2025-04-17 15:15:00,2025-04-17 18:51:00,WTG-14,PCM-CORR,002,manual stop_repair,3.6,Corrective
+438,2025-04-17 17:04:00,2025-04-18 05:10:00,WTG-19,PCM-CORR,002,manual stop_repair,12.1,Corrective
+439,2025-04-17 19:16:00,2025-04-17 21:16:00,WTG-01,Electrical,604,DC link overvoltage,2.0,TRIP
+440,2025-04-17 19:53:00,2025-04-19 07:29:00,WTG-29,PCM-CORR,002,manual stop_repair,35.6,Corrective
+441,2025-04-18 05:27:00,2025-04-18 08:57:00,WTG-04,PCM-CORR,002,manual stop_repair,3.5,Corrective
+442,2025-04-18 08:00:00,2025-04-21 08:00:00,WTG-07,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+443,2025-04-18 08:13:00,2025-04-18 20:19:00,WTG-08,Electrical,604,DC link overvoltage,12.1,TRIP
+444,2025-04-18 11:12:00,2025-04-18 18:12:00,WTG-25,Yaw System,303,Cable twist limit exceeded,7.0,TRIP
+445,2025-04-18 14:36:00,2025-04-18 15:12:00,WTG-18,Yaw System,302,Yaw motor overload,0.6,TRIP
+446,2025-04-18 16:45:00,2025-04-18 20:09:00,WTG-24,Generator,504,Slip ring brush wear limit,3.4,TRIP
+447,2025-04-18 20:25:00,2025-04-19 04:19:00,WTG-16,Generator,501,High temperature winding,7.9,TRIP
+448,2025-04-19 03:48:00,2025-04-19 19:54:00,WTG-13,Electrical,604,DC link overvoltage,16.1,TRIP
+449,2025-04-19 04:08:00,2025-04-19 05:38:00,WTG-27,Hydraulic System,404,Hydraulic oil low level,1.5,TRIP
+450,2025-04-19 04:24:00,2025-04-19 19:12:00,WTG-22,PCM-CORR,002,manual stop_repair,14.8,Corrective
+451,2025-04-19 05:21:00,2025-04-19 21:09:00,WTG-15,Yaw System,301,Yaw error,15.8,TRIP
+452,2025-04-19 07:34:00,2025-04-20 07:52:00,WTG-01,Generator,505,Generator overspeed,24.3,TRIP
+453,2025-04-19 07:37:00,2025-04-19 08:13:00,WTG-15,Yaw System,302,Yaw motor overload,0.6,TRIP
+454,2025-04-19 14:39:00,2025-04-19 17:27:00,WTG-25,PCM-CORR,002,manual stop_repair,2.8,Corrective
+455,2025-04-19 14:41:00,2025-04-19 15:29:00,WTG-16,Yaw System,302,Yaw motor overload,0.8,TRIP
+456,2025-04-19 16:51:00,2025-04-20 05:51:00,WTG-03,Yaw System,302,Yaw motor overload,13.0,TRIP
+457,2025-04-19 18:09:00,2025-04-19 20:09:00,WTG-21,Hydraulic System,402,High hydraulic pressure,2.0,TRIP
+458,2025-04-19 18:24:00,2025-04-19 19:54:00,WTG-03,Gearbox,702,High oil temperature,1.5,TRIP
+459,2025-04-19 22:18:00,2025-04-20 03:48:00,WTG-07,PCM-CORR,002,manual stop_repair,5.5,Corrective
+460,2025-04-19 23:52:00,2025-04-20 03:16:00,WTG-03,Electrical,601,Grid voltage out of limits,3.4,TRIP
+461,2025-04-20 14:14:00,2025-04-20 17:38:00,WTG-03,Gearbox,705,Gear mesh frequency vibration,3.4,TRIP
+462,2025-04-20 14:51:00,2025-04-20 17:09:00,WTG-19,Gearbox,702,High oil temperature,2.3,TRIP
+463,2025-04-20 17:26:00,2025-04-20 19:50:00,WTG-04,Sensors,802,Wind vane error,2.4,TRIP
+464,2025-04-20 18:05:00,2025-04-21 07:29:00,WTG-29,Sensors,802,Wind vane error,13.4,TRIP
+465,2025-04-20 19:51:00,2025-04-20 23:57:00,WTG-04,Hydraulic System,402,High hydraulic pressure,4.1,TRIP
+466,2025-04-20 21:15:00,2025-04-21 01:15:00,WTG-28,Yaw System,303,Cable twist limit exceeded,4.0,TRIP
+467,2025-04-20 23:07:00,2025-04-22 02:37:00,WTG-23,Yaw System,303,Cable twist limit exceeded,27.5,TRIP
+468,2025-04-21 00:51:00,2025-04-21 04:21:00,WTG-10,Sensors,804,Ambient temperature out of range,3.5,TRIP
+469,2025-04-21 06:52:00,2025-04-21 12:22:00,WTG-03,PCM-CORR,002,manual stop_repair,5.5,Corrective
+470,2025-04-21 06:57:00,2025-04-21 10:09:00,WTG-19,Sensors,803,Ice detection on blades,3.2,TRIP
+471,2025-04-21 09:00:00,2025-04-24 09:00:00,WTG-09,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+472,2025-04-21 15:16:00,2025-04-22 02:40:00,WTG-26,PCM-CORR,002,manual stop_repair,11.4,Corrective
+473,2025-04-21 16:42:00,2025-04-21 19:06:00,WTG-12,Pitch System,202,Pitch battery fault,2.4,TRIP
+474,2025-04-21 19:08:00,2025-04-22 06:20:00,WTG-28,Hydraulic System,401,Low hydraulic pressure,11.2,TRIP
+475,2025-04-22 11:16:00,2025-04-22 12:28:00,WTG-19,Generator,505,Generator overspeed,1.2,TRIP
+476,2025-04-22 12:36:00,2025-04-22 21:06:00,WTG-16,Gearbox,705,Gear mesh frequency vibration,8.5,TRIP
+477,2025-04-22 13:33:00,2025-04-22 18:57:00,WTG-02,Gearbox,704,Oil filter clogged,5.4,TRIP
+478,2025-04-22 13:49:00,2025-04-22 21:37:00,WTG-11,PCM-CORR,002,manual stop_repair,7.8,Corrective
+479,2025-04-22 17:11:00,2025-04-23 11:53:00,WTG-24,PCM-CORR,002,manual stop_repair,18.7,Corrective
+480,2025-04-22 20:07:00,2025-04-23 17:19:00,WTG-25,Pitch System,205,Blade angle asymmetry limit reached,21.2,TRIP
+481,2025-04-23 08:37:00,2025-04-24 10:55:00,WTG-20,Yaw System,305,Yaw inverter fault,26.3,TRIP
+482,2025-04-23 15:01:00,2025-04-25 05:55:00,WTG-16,Pitch System,201,Difference between Pitch angles,38.9,TRIP
+483,2025-04-23 16:46:00,2025-04-24 13:58:00,WTG-26,PCM-CORR,002,manual stop_repair,21.2,Corrective
+484,2025-04-24 21:14:00,2025-04-25 03:50:00,WTG-27,Yaw System,303,Cable twist limit exceeded,6.6,TRIP
+485,2025-04-24 21:40:00,2025-04-26 02:04:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,28.4,TRIP
+486,2025-04-25 05:22:00,2025-04-26 04:10:00,WTG-23,Electrical,603,Converter communication failure,22.8,TRIP
+487,2025-04-25 18:57:00,2025-04-27 03:45:00,WTG-17,Hydraulic System,404,Hydraulic oil low level,32.8,TRIP
+488,2025-04-25 20:45:00,2025-04-26 01:45:00,WTG-13,Pitch System,203,Pitch motor overtemperature,5.0,TRIP
+489,2025-04-25 21:48:00,2025-04-26 10:24:00,WTG-05,Yaw System,305,Yaw inverter fault,12.6,TRIP
+490,2025-04-25 23:15:00,2025-04-26 03:09:00,WTG-14,Yaw System,302,Yaw motor overload,3.9,TRIP
+491,2025-04-26 01:56:00,2025-04-27 08:32:00,WTG-02,PCM-CORR,002,manual stop_repair,30.6,Corrective
+492,2025-04-26 03:33:00,2025-04-27 18:39:00,WTG-01,Hydraulic System,402,High hydraulic pressure,39.1,TRIP
+493,2025-04-26 04:59:00,2025-04-26 18:23:00,WTG-08,Gearbox,704,Oil filter clogged,13.4,TRIP
+494,2025-04-26 05:46:00,2025-04-26 07:04:00,WTG-27,Generator,502,Generator cooling failure,1.3,TRIP
+495,2025-04-26 10:41:00,2025-04-26 15:47:00,WTG-08,Pitch System,204,Pitch position sensor error,5.1,TRIP
+496,2025-04-26 13:19:00,2025-04-26 15:07:00,WTG-09,Generator,502,Generator cooling failure,1.8,TRIP
+497,2025-04-26 15:53:00,2025-04-27 18:23:00,WTG-03,PCM-CORR,002,manual stop_repair,26.5,Corrective
+498,2025-04-26 23:28:00,2025-04-28 03:40:00,WTG-24,Yaw System,302,Yaw motor overload,28.2,TRIP
+499,2025-04-26 23:54:00,2025-04-27 13:54:00,WTG-09,PCM-CORR,002,manual stop_repair,14.0,Corrective
+500,2025-04-27 05:09:00,2025-04-27 16:39:00,WTG-03,Gearbox,701,Low oil pressure,11.5,TRIP
+501,2025-04-27 12:36:00,2025-04-27 16:18:00,WTG-10,Gearbox,704,Oil filter clogged,3.7,TRIP
+502,2025-04-27 13:17:00,2025-04-27 17:47:00,WTG-13,Pitch System,205,Blade angle asymmetry limit reached,4.5,TRIP
+503,2025-04-27 18:27:00,2025-04-28 06:51:00,WTG-04,Electrical,605,Grid frequency instability,12.4,TRIP
+504,2025-04-28 03:29:00,2025-04-28 06:11:00,WTG-11,Pitch System,201,Difference between Pitch angles,2.7,TRIP
+505,2025-04-28 04:11:00,2025-04-28 06:53:00,WTG-26,Sensors,803,Ice detection on blades,2.7,TRIP
+506,2025-04-28 07:08:00,2025-04-29 10:32:00,WTG-16,PCM-CORR,002,manual stop_repair,27.4,Corrective
+507,2025-04-28 13:43:00,2025-04-28 16:31:00,WTG-21,Yaw System,301,Yaw error,2.8,TRIP
+508,2025-04-28 21:28:00,2025-04-29 06:10:00,WTG-09,Sensors,802,Wind vane error,8.7,TRIP
+509,2025-04-29 20:27:00,2025-04-30 06:51:00,WTG-05,PCM-CORR,002,manual stop_repair,10.4,Corrective
+510,2025-04-30 02:47:00,2025-04-30 18:35:00,WTG-12,Gearbox,704,Oil filter clogged,15.8,TRIP
+511,2025-04-30 09:02:00,2025-04-30 11:32:00,WTG-10,Pitch System,201,Difference between Pitch angles,2.5,TRIP
+512,2025-04-30 10:28:00,2025-04-30 21:28:00,WTG-11,PCM-CORR,002,manual stop_repair,11.0,Corrective
+513,2025-04-30 13:58:00,2025-04-30 18:04:00,WTG-09,Sensors,801,Anemometer mismatch,4.1,TRIP
+514,2025-04-30 17:25:00,2025-04-30 21:55:00,WTG-18,Hydraulic System,404,Hydraulic oil low level,4.5,TRIP
+515,2025-05-01 06:01:00,2025-05-01 14:49:00,WTG-19,Yaw System,302,Yaw motor overload,8.8,TRIP
+516,2025-05-01 08:09:00,2025-05-02 05:39:00,WTG-27,PCM-CORR,002,manual stop_repair,21.5,Corrective
+517,2025-05-01 21:52:00,2025-05-02 11:10:00,WTG-12,PCM-CORR,002,manual stop_repair,13.3,Corrective
+518,2025-05-01 22:14:00,2025-05-02 03:08:00,WTG-03,PCM-CORR,002,manual stop_repair,4.9,Corrective
+519,2025-05-02 01:36:00,2025-05-03 00:12:00,WTG-25,Hydraulic System,405,Valve switching failure,22.6,TRIP
+520,2025-05-02 07:03:00,2025-05-02 10:27:00,WTG-18,Generator,502,Generator cooling failure,3.4,TRIP
+521,2025-05-02 09:56:00,2025-05-02 22:44:00,WTG-30,Electrical,603,Converter communication failure,12.8,TRIP
+522,2025-05-02 12:38:00,2025-05-02 13:38:00,WTG-11,Electrical,605,Grid frequency instability,1.0,TRIP
+523,2025-05-03 01:38:00,2025-05-03 23:08:00,WTG-28,Generator,502,Generator cooling failure,21.5,TRIP
+524,2025-05-03 06:36:00,2025-05-03 17:00:00,WTG-04,Hydraulic System,403,Hydraulic pump motor overload,10.4,TRIP
+525,2025-05-03 12:35:00,2025-05-03 15:53:00,WTG-19,Pitch System,204,Pitch position sensor error,3.3,TRIP
+526,2025-05-03 12:36:00,2025-05-03 15:24:00,WTG-16,Pitch System,201,Difference between Pitch angles,2.8,TRIP
+527,2025-05-03 17:39:00,2025-05-05 01:15:00,WTG-10,Hydraulic System,404,Hydraulic oil low level,31.6,TRIP
+528,2025-05-04 02:48:00,2025-05-04 19:12:00,WTG-26,Yaw System,305,Yaw inverter fault,16.4,TRIP
+529,2025-05-04 05:22:00,2025-05-04 11:34:00,WTG-01,Electrical,602,IGBT overtemperature,6.2,TRIP
+530,2025-05-04 06:11:00,2025-05-04 08:53:00,WTG-30,Sensors,801,Anemometer mismatch,2.7,TRIP
+531,2025-05-04 09:53:00,2025-05-04 15:59:00,WTG-13,Generator,505,Generator overspeed,6.1,TRIP
+532,2025-05-04 10:45:00,2025-05-05 02:03:00,WTG-09,Gearbox,704,Oil filter clogged,15.3,TRIP
+533,2025-05-04 18:40:00,2025-05-05 09:34:00,WTG-18,PCM-CORR,002,manual stop_repair,14.9,Corrective
+534,2025-05-04 21:30:00,2025-05-05 00:30:00,WTG-26,Pitch System,202,Pitch battery fault,3.0,TRIP
+535,2025-05-05 07:00:00,2025-05-08 07:00:00,WTG-15,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+536,2025-05-05 08:57:00,2025-05-05 12:15:00,WTG-29,PCM-CORR,002,manual stop_repair,3.3,Corrective
+537,2025-05-06 11:06:00,2025-05-06 17:06:00,WTG-13,Sensors,803,Ice detection on blades,6.0,TRIP
+538,2025-05-06 11:19:00,2025-05-06 15:43:00,WTG-17,Pitch System,202,Pitch battery fault,4.4,TRIP
+539,2025-05-06 22:23:00,2025-05-06 23:11:00,WTG-21,Hydraulic System,403,Hydraulic pump motor overload,0.8,TRIP
+540,2025-05-07 08:00:00,2025-05-10 08:00:00,WTG-21,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+541,2025-05-07 10:21:00,2025-05-07 22:15:00,WTG-14,Yaw System,304,Yaw brake failure,11.9,TRIP
+542,2025-05-07 21:13:00,2025-05-08 01:31:00,WTG-07,Gearbox,704,Oil filter clogged,4.3,TRIP
+543,2025-05-07 23:40:00,2025-05-09 06:58:00,WTG-05,PCM-CORR,002,manual stop_repair,31.3,Corrective
+544,2025-05-08 00:57:00,2025-05-08 02:21:00,WTG-05,Gearbox,701,Low oil pressure,1.4,TRIP
+545,2025-05-08 03:48:00,2025-05-08 13:06:00,WTG-30,Yaw System,304,Yaw brake failure,9.3,TRIP
+546,2025-05-08 10:04:00,2025-05-09 01:52:00,WTG-23,Pitch System,202,Pitch battery fault,15.8,TRIP
+547,2025-05-08 13:26:00,2025-05-08 15:50:00,WTG-21,Sensors,802,Wind vane error,2.4,TRIP
+548,2025-05-09 03:01:00,2025-05-09 21:31:00,WTG-22,Hydraulic System,404,Hydraulic oil low level,18.5,TRIP
+549,2025-05-09 15:26:00,2025-05-09 21:02:00,WTG-30,Electrical,602,IGBT overtemperature,5.6,TRIP
+550,2025-05-09 15:58:00,2025-05-09 18:04:00,WTG-25,Generator,503,Bearing temperature high,2.1,TRIP
+551,2025-05-09 18:13:00,2025-05-10 06:55:00,WTG-21,Hydraulic System,404,Hydraulic oil low level,12.7,TRIP
+552,2025-05-10 00:59:00,2025-05-10 16:05:00,WTG-21,Gearbox,701,Low oil pressure,15.1,TRIP
+553,2025-05-10 02:25:00,2025-05-10 09:37:00,WTG-02,Pitch System,203,Pitch motor overtemperature,7.2,TRIP
+554,2025-05-10 08:00:00,2025-05-13 08:00:00,WTG-14,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+555,2025-05-10 08:14:00,2025-05-10 19:50:00,WTG-27,PCM-CORR,002,manual stop_repair,11.6,Corrective
+556,2025-05-10 14:18:00,2025-05-11 05:54:00,WTG-17,Gearbox,702,High oil temperature,15.6,TRIP
+557,2025-05-11 03:49:00,2025-05-11 04:49:00,WTG-23,Pitch System,205,Blade angle asymmetry limit reached,1.0,TRIP
+558,2025-05-11 19:34:00,2025-05-12 11:52:00,WTG-27,Sensors,801,Anemometer mismatch,16.3,TRIP
+559,2025-05-11 20:59:00,2025-05-11 23:23:00,WTG-02,Electrical,603,Converter communication failure,2.4,TRIP
+560,2025-05-12 01:17:00,2025-05-12 10:47:00,WTG-08,Electrical,604,DC link overvoltage,9.5,TRIP
+561,2025-05-12 07:59:00,2025-05-13 02:53:00,WTG-18,Gearbox,704,Oil filter clogged,18.9,TRIP
+562,2025-05-12 22:14:00,2025-05-14 05:44:00,WTG-23,Gearbox,701,Low oil pressure,31.5,TRIP
+563,2025-05-13 02:49:00,2025-05-13 05:31:00,WTG-08,Pitch System,204,Pitch position sensor error,2.7,TRIP
+564,2025-05-13 12:13:00,2025-05-14 15:25:00,WTG-06,PCM-CORR,002,manual stop_repair,27.2,Corrective
+565,2025-05-14 01:48:00,2025-05-14 08:06:00,WTG-12,Hydraulic System,402,High hydraulic pressure,6.3,TRIP
+566,2025-05-14 09:00:00,2025-05-17 09:00:00,WTG-22,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+567,2025-05-14 10:34:00,2025-05-14 20:16:00,WTG-20,Gearbox,705,Gear mesh frequency vibration,9.7,TRIP
+568,2025-05-14 13:22:00,2025-05-14 16:28:00,WTG-13,PCM-CORR,002,manual stop_repair,3.1,Corrective
+569,2025-05-14 13:52:00,2025-05-15 16:16:00,WTG-04,Hydraulic System,401,Low hydraulic pressure,26.4,TRIP
+570,2025-05-14 19:21:00,2025-05-14 21:03:00,WTG-01,Yaw System,302,Yaw motor overload,1.7,TRIP
+571,2025-05-14 21:14:00,2025-05-15 02:20:00,WTG-13,Yaw System,302,Yaw motor overload,5.1,TRIP
+572,2025-05-14 22:25:00,2025-05-15 16:49:00,WTG-24,Pitch System,204,Pitch position sensor error,18.4,TRIP
+573,2025-05-14 23:55:00,2025-05-16 12:37:00,WTG-23,Electrical,602,IGBT overtemperature,36.7,TRIP
+574,2025-05-15 02:58:00,2025-05-16 07:46:00,WTG-01,Sensors,803,Ice detection on blades,28.8,TRIP
+575,2025-05-15 11:35:00,2025-05-15 16:59:00,WTG-03,Sensors,804,Ambient temperature out of range,5.4,TRIP
+576,2025-05-15 14:26:00,2025-05-16 05:44:00,WTG-08,PCM-CORR,002,manual stop_repair,15.3,Corrective
+577,2025-05-15 19:17:00,2025-05-16 13:05:00,WTG-30,Generator,503,Bearing temperature high,17.8,TRIP
+578,2025-05-15 22:38:00,2025-05-16 03:50:00,WTG-13,Electrical,603,Converter communication failure,5.2,TRIP
+579,2025-05-16 04:47:00,2025-05-16 05:53:00,WTG-22,Yaw System,303,Cable twist limit exceeded,1.1,TRIP
+580,2025-05-16 05:46:00,2025-05-16 17:34:00,WTG-07,Generator,503,Bearing temperature high,11.8,TRIP
+581,2025-05-16 09:04:00,2025-05-17 01:22:00,WTG-04,Yaw System,304,Yaw brake failure,16.3,TRIP
+582,2025-05-16 14:45:00,2025-05-16 16:09:00,WTG-27,Pitch System,203,Pitch motor overtemperature,1.4,TRIP
+583,2025-05-17 21:39:00,2025-05-18 00:39:00,WTG-14,Pitch System,205,Blade angle asymmetry limit reached,3.0,TRIP
+584,2025-05-17 23:58:00,2025-05-18 04:10:00,WTG-08,Electrical,605,Grid frequency instability,4.2,TRIP
+585,2025-05-18 05:38:00,2025-05-18 11:56:00,WTG-20,Pitch System,204,Pitch position sensor error,6.3,TRIP
+586,2025-05-18 09:34:00,2025-05-19 08:46:00,WTG-26,Gearbox,705,Gear mesh frequency vibration,23.2,TRIP
+587,2025-05-18 15:10:00,2025-05-18 17:34:00,WTG-11,Pitch System,202,Pitch battery fault,2.4,TRIP
+588,2025-05-18 15:23:00,2025-05-18 17:17:00,WTG-09,Pitch System,203,Pitch motor overtemperature,1.9,TRIP
+589,2025-05-18 21:31:00,2025-05-19 12:31:00,WTG-09,Hydraulic System,402,High hydraulic pressure,15.0,TRIP
+590,2025-05-19 02:20:00,2025-05-19 08:08:00,WTG-02,Electrical,604,DC link overvoltage,5.8,TRIP
+591,2025-05-19 03:45:00,2025-05-19 14:21:00,WTG-07,Pitch System,203,Pitch motor overtemperature,10.6,TRIP
+592,2025-05-19 04:31:00,2025-05-19 12:07:00,WTG-05,Yaw System,302,Yaw motor overload,7.6,TRIP
+593,2025-05-19 05:55:00,2025-05-20 01:49:00,WTG-28,Sensors,804,Ambient temperature out of range,19.9,TRIP
+594,2025-05-19 06:58:00,2025-05-19 19:04:00,WTG-04,Sensors,801,Anemometer mismatch,12.1,TRIP
+595,2025-05-19 08:00:00,2025-05-22 08:00:00,WTG-19,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+596,2025-05-19 08:47:00,2025-05-19 11:11:00,WTG-24,Gearbox,701,Low oil pressure,2.4,TRIP
+597,2025-05-19 14:53:00,2025-05-19 16:17:00,WTG-08,Gearbox,704,Oil filter clogged,1.4,TRIP
+598,2025-05-20 04:54:00,2025-05-20 12:12:00,WTG-28,Gearbox,705,Gear mesh frequency vibration,7.3,TRIP
+599,2025-05-20 07:48:00,2025-05-20 11:00:00,WTG-22,Electrical,602,IGBT overtemperature,3.2,TRIP
+600,2025-05-20 08:00:00,2025-05-23 08:00:00,WTG-25,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+601,2025-05-20 17:04:00,2025-05-21 00:46:00,WTG-29,Hydraulic System,402,High hydraulic pressure,7.7,TRIP
+602,2025-05-20 20:01:00,2025-05-21 02:55:00,WTG-22,Pitch System,205,Blade angle asymmetry limit reached,6.9,TRIP
+603,2025-05-21 07:02:00,2025-05-22 06:44:00,WTG-18,PCM-CORR,002,manual stop_repair,23.7,Corrective
+604,2025-05-21 14:50:00,2025-05-21 18:08:00,WTG-15,Generator,502,Generator cooling failure,3.3,TRIP
+605,2025-05-21 20:20:00,2025-05-22 02:02:00,WTG-05,PCM-CORR,002,manual stop_repair,5.7,Corrective
+606,2025-05-22 12:02:00,2025-05-22 20:44:00,WTG-10,Electrical,604,DC link overvoltage,8.7,TRIP
+607,2025-05-22 12:34:00,2025-05-23 04:04:00,WTG-18,Hydraulic System,404,Hydraulic oil low level,15.5,TRIP
+608,2025-05-22 15:14:00,2025-05-23 04:32:00,WTG-10,Gearbox,704,Oil filter clogged,13.3,TRIP
+609,2025-05-22 15:22:00,2025-05-22 17:16:00,WTG-12,Sensors,802,Wind vane error,1.9,TRIP
+610,2025-05-22 21:13:00,2025-05-23 15:55:00,WTG-14,PCM-CORR,002,manual stop_repair,18.7,Corrective
+611,2025-05-23 02:03:00,2025-05-23 07:33:00,WTG-08,Electrical,605,Grid frequency instability,5.5,TRIP
+612,2025-05-23 05:44:00,2025-05-23 14:38:00,WTG-13,Pitch System,204,Pitch position sensor error,8.9,TRIP
+613,2025-05-23 19:20:00,2025-05-24 08:20:00,WTG-26,Pitch System,201,Difference between Pitch angles,13.0,TRIP
+614,2025-05-24 01:26:00,2025-05-24 02:20:00,WTG-21,Pitch System,203,Pitch motor overtemperature,0.9,TRIP
+615,2025-05-24 02:07:00,2025-05-24 06:25:00,WTG-25,Gearbox,701,Low oil pressure,4.3,TRIP
+616,2025-05-24 11:00:00,2025-05-24 15:00:00,WTG-04,Electrical,604,DC link overvoltage,4.0,TRIP
+617,2025-05-25 05:57:00,2025-05-25 16:15:00,WTG-06,Yaw System,305,Yaw inverter fault,10.3,TRIP
+618,2025-05-25 17:34:00,2025-05-26 02:28:00,WTG-24,Electrical,602,IGBT overtemperature,8.9,TRIP
+619,2025-05-25 17:57:00,2025-05-26 18:21:00,WTG-15,PCM-CORR,002,manual stop_repair,24.4,Corrective
+620,2025-05-25 22:01:00,2025-05-25 23:07:00,WTG-09,Electrical,602,IGBT overtemperature,1.1,TRIP
+621,2025-05-26 02:12:00,2025-05-26 04:18:00,WTG-23,Hydraulic System,403,Hydraulic pump motor overload,2.1,TRIP
+622,2025-05-26 02:16:00,2025-05-26 21:58:00,WTG-18,Gearbox,701,Low oil pressure,19.7,TRIP
+623,2025-05-26 16:39:00,2025-05-26 21:15:00,WTG-15,Generator,503,Bearing temperature high,4.6,TRIP
+624,2025-05-27 01:54:00,2025-05-28 00:54:00,WTG-18,PCM-CORR,002,manual stop_repair,23.0,Corrective
+625,2025-05-27 02:14:00,2025-05-27 11:26:00,WTG-13,Sensors,801,Anemometer mismatch,9.2,TRIP
+626,2025-05-27 17:43:00,2025-05-28 14:07:00,WTG-18,PCM-CORR,002,manual stop_repair,20.4,Corrective
+627,2025-05-28 07:33:00,2025-05-29 14:33:00,WTG-14,PCM-CORR,002,manual stop_repair,31.0,Corrective
+628,2025-05-28 10:55:00,2025-05-29 03:13:00,WTG-23,Gearbox,705,Gear mesh frequency vibration,16.3,TRIP
+629,2025-05-28 16:19:00,2025-05-28 19:19:00,WTG-24,Electrical,602,IGBT overtemperature,3.0,TRIP
+630,2025-05-29 02:39:00,2025-05-29 13:57:00,WTG-24,PCM-CORR,002,manual stop_repair,11.3,Corrective
+631,2025-05-29 13:08:00,2025-05-29 14:38:00,WTG-01,Generator,502,Generator cooling failure,1.5,TRIP
+632,2025-05-29 15:55:00,2025-05-30 02:37:00,WTG-19,Gearbox,701,Low oil pressure,10.7,TRIP
+633,2025-05-30 10:41:00,2025-05-30 20:23:00,WTG-14,Generator,502,Generator cooling failure,9.7,TRIP
+634,2025-05-30 18:04:00,2025-05-30 19:40:00,WTG-21,Generator,503,Bearing temperature high,1.6,TRIP
+635,2025-05-30 22:12:00,2025-05-30 23:06:00,WTG-13,Yaw System,305,Yaw inverter fault,0.9,TRIP
+636,2025-05-31 02:16:00,2025-05-31 06:28:00,WTG-15,Yaw System,303,Cable twist limit exceeded,4.2,TRIP
+637,2025-05-31 16:52:00,2025-05-31 19:34:00,WTG-09,Hydraulic System,402,High hydraulic pressure,2.7,TRIP
+638,2025-06-01 09:19:00,2025-06-01 14:55:00,WTG-26,Hydraulic System,404,Hydraulic oil low level,5.6,TRIP
+639,2025-06-01 11:04:00,2025-06-01 20:10:00,WTG-07,Hydraulic System,404,Hydraulic oil low level,9.1,TRIP
+640,2025-06-01 13:24:00,2025-06-02 08:42:00,WTG-12,Yaw System,305,Yaw inverter fault,19.3,TRIP
+641,2025-06-01 14:42:00,2025-06-02 04:54:00,WTG-13,PCM-CORR,002,manual stop_repair,14.2,Corrective
+642,2025-06-02 01:09:00,2025-06-02 04:57:00,WTG-11,Gearbox,705,Gear mesh frequency vibration,3.8,TRIP
+643,2025-06-02 20:38:00,2025-06-03 08:32:00,WTG-09,Hydraulic System,405,Valve switching failure,11.9,TRIP
+644,2025-06-02 21:25:00,2025-06-03 00:07:00,WTG-29,Electrical,601,Grid voltage out of limits,2.7,TRIP
+645,2025-06-03 04:30:00,2025-06-03 11:54:00,WTG-14,Electrical,604,DC link overvoltage,7.4,TRIP
+646,2025-06-03 07:04:00,2025-06-03 10:28:00,WTG-29,Sensors,802,Wind vane error,3.4,TRIP
+647,2025-06-03 14:12:00,2025-06-04 09:30:00,WTG-21,PCM-CORR,002,manual stop_repair,19.3,Corrective
+648,2025-06-03 17:09:00,2025-06-03 22:57:00,WTG-21,Generator,505,Generator overspeed,5.8,TRIP
+649,2025-06-03 19:13:00,2025-06-03 20:07:00,WTG-29,Electrical,604,DC link overvoltage,0.9,TRIP
+650,2025-06-04 09:23:00,2025-06-05 20:59:00,WTG-01,PCM-CORR,002,manual stop_repair,35.6,Corrective
+651,2025-06-04 14:18:00,2025-06-04 18:42:00,WTG-16,Pitch System,204,Pitch position sensor error,4.4,TRIP
+652,2025-06-04 21:57:00,2025-06-06 02:03:00,WTG-03,PCM-CORR,002,manual stop_repair,28.1,Corrective
+653,2025-06-05 04:02:00,2025-06-06 10:50:00,WTG-21,PCM-CORR,002,manual stop_repair,30.8,Corrective
+654,2025-06-05 07:08:00,2025-06-06 06:20:00,WTG-16,PCM-CORR,002,manual stop_repair,23.2,Corrective
+655,2025-06-05 20:30:00,2025-06-06 05:06:00,WTG-05,Gearbox,703,Bearing vibration high,8.6,TRIP
+656,2025-06-06 04:28:00,2025-06-06 08:10:00,WTG-28,Electrical,605,Grid frequency instability,3.7,TRIP
+657,2025-06-06 05:38:00,2025-06-06 09:20:00,WTG-16,Yaw System,302,Yaw motor overload,3.7,TRIP
+658,2025-06-06 07:01:00,2025-06-06 11:31:00,WTG-16,Generator,503,Bearing temperature high,4.5,TRIP
+659,2025-06-06 11:57:00,2025-06-06 17:15:00,WTG-01,Sensors,801,Anemometer mismatch,5.3,TRIP
+660,2025-06-06 14:27:00,2025-06-07 11:03:00,WTG-08,Electrical,605,Grid frequency instability,20.6,TRIP
+661,2025-06-06 20:13:00,2025-06-07 11:07:00,WTG-08,Generator,502,Generator cooling failure,14.9,TRIP
+662,2025-06-06 22:24:00,2025-06-07 22:54:00,WTG-25,Yaw System,304,Yaw brake failure,24.5,TRIP
+663,2025-06-07 07:35:00,2025-06-08 15:47:00,WTG-06,PCM-CORR,002,manual stop_repair,32.2,Corrective
+664,2025-06-08 14:46:00,2025-06-09 21:46:00,WTG-22,PCM-CORR,002,manual stop_repair,31.0,Corrective
+665,2025-06-09 05:04:00,2025-06-10 00:40:00,WTG-11,Generator,503,Bearing temperature high,19.6,TRIP
+666,2025-06-09 06:44:00,2025-06-10 04:32:00,WTG-11,Gearbox,703,Bearing vibration high,21.8,TRIP
+667,2025-06-10 00:43:00,2025-06-10 12:07:00,WTG-19,Sensors,802,Wind vane error,11.4,TRIP
+668,2025-06-10 07:52:00,2025-06-11 12:16:00,WTG-19,Hydraulic System,404,Hydraulic oil low level,28.4,TRIP
+669,2025-06-10 14:57:00,2025-06-10 16:03:00,WTG-24,Pitch System,202,Pitch battery fault,1.1,TRIP
+670,2025-06-10 23:47:00,2025-06-11 05:17:00,WTG-22,Yaw System,303,Cable twist limit exceeded,5.5,TRIP
+671,2025-06-11 00:49:00,2025-06-11 14:13:00,WTG-07,PCM-CORR,002,manual stop_repair,13.4,Corrective
+672,2025-06-11 07:36:00,2025-06-11 21:30:00,WTG-28,Hydraulic System,404,Hydraulic oil low level,13.9,TRIP
+673,2025-06-11 14:29:00,2025-06-11 18:53:00,WTG-04,Yaw System,302,Yaw motor overload,4.4,TRIP
+674,2025-06-11 17:27:00,2025-06-11 19:57:00,WTG-29,Gearbox,705,Gear mesh frequency vibration,2.5,TRIP
+675,2025-06-11 21:36:00,2025-06-12 02:12:00,WTG-02,Yaw System,301,Yaw error,4.6,TRIP
+676,2025-06-11 23:01:00,2025-06-13 09:25:00,WTG-22,PCM-CORR,002,manual stop_repair,34.4,Corrective
+677,2025-06-12 01:05:00,2025-06-12 16:47:00,WTG-07,PCM-CORR,002,manual stop_repair,15.7,Corrective
+678,2025-06-12 04:01:00,2025-06-12 05:31:00,WTG-04,Hydraulic System,405,Valve switching failure,1.5,TRIP
+679,2025-06-12 12:05:00,2025-06-12 16:47:00,WTG-10,Yaw System,305,Yaw inverter fault,4.7,TRIP
+680,2025-06-13 02:09:00,2025-06-14 01:39:00,WTG-18,PCM-CORR,002,manual stop_repair,23.5,Corrective
+681,2025-06-13 07:59:00,2025-06-13 09:53:00,WTG-27,Gearbox,705,Gear mesh frequency vibration,1.9,TRIP
+682,2025-06-13 10:49:00,2025-06-13 13:49:00,WTG-23,Sensors,801,Anemometer mismatch,3.0,TRIP
+683,2025-06-13 13:06:00,2025-06-13 14:00:00,WTG-30,Generator,505,Generator overspeed,0.9,TRIP
+684,2025-06-14 02:35:00,2025-06-14 18:35:00,WTG-20,Gearbox,702,High oil temperature,16.0,TRIP
+685,2025-06-14 03:13:00,2025-06-14 06:19:00,WTG-20,Hydraulic System,402,High hydraulic pressure,3.1,TRIP
+686,2025-06-14 18:14:00,2025-06-14 19:14:00,WTG-24,Gearbox,704,Oil filter clogged,1.0,TRIP
+687,2025-06-15 05:05:00,2025-06-15 19:05:00,WTG-29,Pitch System,202,Pitch battery fault,14.0,TRIP
+688,2025-06-15 09:28:00,2025-06-15 18:52:00,WTG-05,Gearbox,701,Low oil pressure,9.4,TRIP
+689,2025-06-15 10:00:00,2025-06-16 03:06:00,WTG-16,Sensors,804,Ambient temperature out of range,17.1,TRIP
+690,2025-06-16 04:54:00,2025-06-16 05:54:00,WTG-22,Sensors,803,Ice detection on blades,1.0,TRIP
+691,2025-06-16 05:37:00,2025-06-17 16:19:00,WTG-15,PCM-CORR,002,manual stop_repair,34.7,Corrective
+692,2025-06-16 08:20:00,2025-06-16 18:26:00,WTG-06,Gearbox,705,Gear mesh frequency vibration,10.1,TRIP
+693,2025-06-16 09:30:00,2025-06-17 01:00:00,WTG-05,PCM-CORR,002,manual stop_repair,15.5,Corrective
+694,2025-06-16 18:25:00,2025-06-17 06:55:00,WTG-22,Sensors,802,Wind vane error,12.5,TRIP
+695,2025-06-16 21:14:00,2025-06-16 21:50:00,WTG-24,Sensors,804,Ambient temperature out of range,0.6,TRIP
+696,2025-06-17 09:53:00,2025-06-17 10:23:00,WTG-28,Sensors,803,Ice detection on blades,0.5,TRIP
+697,2025-06-17 22:55:00,2025-06-18 01:49:00,WTG-17,Gearbox,703,Bearing vibration high,2.9,TRIP
+698,2025-06-18 05:24:00,2025-06-18 12:30:00,WTG-30,Hydraulic System,404,Hydraulic oil low level,7.1,TRIP
+699,2025-06-18 12:37:00,2025-06-18 20:43:00,WTG-25,PCM-CORR,002,manual stop_repair,8.1,Corrective
+700,2025-06-18 13:43:00,2025-06-19 20:07:00,WTG-06,PCM-CORR,002,manual stop_repair,30.4,Corrective
+701,2025-06-19 10:40:00,2025-06-19 19:40:00,WTG-29,Electrical,601,Grid voltage out of limits,9.0,TRIP
+702,2025-06-19 10:51:00,2025-06-19 20:03:00,WTG-30,Electrical,602,IGBT overtemperature,9.2,TRIP
+703,2025-06-19 18:33:00,2025-06-20 04:45:00,WTG-18,Hydraulic System,405,Valve switching failure,10.2,TRIP
+704,2025-06-20 00:27:00,2025-06-20 16:21:00,WTG-07,Gearbox,705,Gear mesh frequency vibration,15.9,TRIP
+705,2025-06-20 07:46:00,2025-06-20 12:58:00,WTG-19,PCM-CORR,002,manual stop_repair,5.2,Corrective
+706,2025-06-20 12:03:00,2025-06-20 12:39:00,WTG-24,Gearbox,705,Gear mesh frequency vibration,0.6,TRIP
+707,2025-06-20 18:41:00,2025-06-21 23:29:00,WTG-30,PCM-CORR,002,manual stop_repair,28.8,Corrective
+708,2025-06-20 19:47:00,2025-06-21 10:41:00,WTG-21,Gearbox,704,Oil filter clogged,14.9,TRIP
+709,2025-06-21 03:34:00,2025-06-21 16:46:00,WTG-26,PCM-CORR,002,manual stop_repair,13.2,Corrective
+710,2025-06-21 07:41:00,2025-06-21 11:59:00,WTG-06,Electrical,605,Grid frequency instability,4.3,TRIP
+711,2025-06-21 18:21:00,2025-06-22 07:09:00,WTG-06,PCM-CORR,002,manual stop_repair,12.8,Corrective
+712,2025-06-21 18:39:00,2025-06-22 01:03:00,WTG-21,Pitch System,205,Blade angle asymmetry limit reached,6.4,TRIP
+713,2025-06-21 19:35:00,2025-06-21 23:23:00,WTG-25,Electrical,601,Grid voltage out of limits,3.8,TRIP
+714,2025-06-22 02:35:00,2025-06-22 12:05:00,WTG-30,Yaw System,305,Yaw inverter fault,9.5,TRIP
+715,2025-06-22 09:27:00,2025-06-22 12:27:00,WTG-26,Hydraulic System,405,Valve switching failure,3.0,TRIP
+716,2025-06-22 17:00:00,2025-06-22 18:30:00,WTG-28,Electrical,605,Grid frequency instability,1.5,TRIP
+717,2025-06-23 02:00:00,2025-06-23 19:42:00,WTG-07,Pitch System,204,Pitch position sensor error,17.7,TRIP
+718,2025-06-23 04:20:00,2025-06-23 08:20:00,WTG-04,Generator,505,Generator overspeed,4.0,TRIP
+719,2025-06-23 06:14:00,2025-06-23 11:08:00,WTG-22,Sensors,802,Wind vane error,4.9,TRIP
+720,2025-06-23 07:46:00,2025-06-23 21:40:00,WTG-22,Gearbox,703,Bearing vibration high,13.9,TRIP
+721,2025-06-23 08:00:00,2025-06-23 18:24:00,WTG-27,Pitch System,204,Pitch position sensor error,10.4,TRIP
+722,2025-06-23 09:53:00,2025-06-23 14:11:00,WTG-23,Sensors,804,Ambient temperature out of range,4.3,TRIP
+723,2025-06-23 11:12:00,2025-06-23 21:18:00,WTG-19,PCM-CORR,002,manual stop_repair,10.1,Corrective
+724,2025-06-23 12:13:00,2025-06-23 13:55:00,WTG-18,Gearbox,703,Bearing vibration high,1.7,TRIP
+725,2025-06-23 13:03:00,2025-06-23 14:57:00,WTG-10,Hydraulic System,402,High hydraulic pressure,1.9,TRIP
+726,2025-06-23 17:16:00,2025-06-23 20:22:00,WTG-24,Yaw System,302,Yaw motor overload,3.1,TRIP
+727,2025-06-24 03:41:00,2025-06-24 13:41:00,WTG-05,Hydraulic System,404,Hydraulic oil low level,10.0,TRIP
+728,2025-06-24 09:57:00,2025-06-25 01:33:00,WTG-28,PCM-CORR,002,manual stop_repair,15.6,Corrective
+729,2025-06-24 19:13:00,2025-06-25 22:31:00,WTG-16,PCM-CORR,002,manual stop_repair,27.3,Corrective
+730,2025-06-24 20:55:00,2025-06-24 22:07:00,WTG-09,Hydraulic System,401,Low hydraulic pressure,1.2,TRIP
+731,2025-06-25 14:44:00,2025-06-25 17:26:00,WTG-28,Gearbox,703,Bearing vibration high,2.7,TRIP
+732,2025-06-25 23:58:00,2025-06-26 03:40:00,WTG-15,Hydraulic System,405,Valve switching failure,3.7,TRIP
+733,2025-06-26 05:57:00,2025-06-26 15:51:00,WTG-24,Sensors,801,Anemometer mismatch,9.9,TRIP
+734,2025-06-26 07:33:00,2025-06-26 09:15:00,WTG-26,Sensors,801,Anemometer mismatch,1.7,TRIP
+735,2025-06-26 18:55:00,2025-06-27 00:13:00,WTG-07,Hydraulic System,402,High hydraulic pressure,5.3,TRIP
+736,2025-06-27 14:49:00,2025-06-27 22:19:00,WTG-16,Hydraulic System,403,Hydraulic pump motor overload,7.5,TRIP
+737,2025-06-27 16:18:00,2025-06-28 01:24:00,WTG-30,Electrical,603,Converter communication failure,9.1,TRIP
+738,2025-06-27 18:19:00,2025-06-27 19:19:00,WTG-27,Pitch System,205,Blade angle asymmetry limit reached,1.0,TRIP
+739,2025-06-28 00:00:00,2025-06-28 05:12:00,WTG-01,Sensors,801,Anemometer mismatch,5.2,TRIP
+740,2025-06-28 00:07:00,2025-06-28 11:43:00,WTG-23,Hydraulic System,401,Low hydraulic pressure,11.6,TRIP
+741,2025-06-28 01:01:00,2025-06-28 12:13:00,WTG-23,Generator,504,Slip ring brush wear limit,11.2,TRIP
+742,2025-06-28 03:57:00,2025-06-28 23:51:00,WTG-22,PCM-CORR,002,manual stop_repair,19.9,Corrective
+743,2025-06-28 12:42:00,2025-06-28 23:36:00,WTG-23,Sensors,804,Ambient temperature out of range,10.9,TRIP
+744,2025-06-28 14:10:00,2025-06-28 21:28:00,WTG-08,Electrical,605,Grid frequency instability,7.3,TRIP
+745,2025-06-29 14:38:00,2025-06-29 15:14:00,WTG-04,Pitch System,205,Blade angle asymmetry limit reached,0.6,TRIP
+746,2025-06-29 17:03:00,2025-06-29 19:27:00,WTG-19,Generator,504,Slip ring brush wear limit,2.4,TRIP
+747,2025-06-29 17:08:00,2025-06-30 13:56:00,WTG-11,Pitch System,205,Blade angle asymmetry limit reached,20.8,TRIP
+748,2025-06-29 17:10:00,2025-06-30 05:28:00,WTG-02,Pitch System,201,Difference between Pitch angles,12.3,TRIP
+749,2025-06-30 01:59:00,2025-06-30 20:35:00,WTG-22,Yaw System,303,Cable twist limit exceeded,18.6,TRIP
+750,2025-06-30 03:12:00,2025-06-30 07:42:00,WTG-10,Pitch System,205,Blade angle asymmetry limit reached,4.5,TRIP
+751,2025-06-30 05:54:00,2025-06-30 19:30:00,WTG-15,Sensors,802,Wind vane error,13.6,TRIP
+752,2025-06-30 15:19:00,2025-06-30 20:37:00,WTG-28,Gearbox,701,Low oil pressure,5.3,TRIP
+753,2025-06-30 17:10:00,2025-07-01 01:58:00,WTG-13,PCM-CORR,002,manual stop_repair,8.8,Corrective
+754,2025-07-01 00:21:00,2025-07-01 02:15:00,WTG-05,Electrical,605,Grid frequency instability,1.9,TRIP
+755,2025-07-01 06:59:00,2025-07-01 11:35:00,WTG-07,Yaw System,305,Yaw inverter fault,4.6,TRIP
+756,2025-07-02 03:44:00,2025-07-02 10:08:00,WTG-15,Electrical,604,DC link overvoltage,6.4,TRIP
+757,2025-07-02 07:03:00,2025-07-02 13:45:00,WTG-07,Sensors,801,Anemometer mismatch,6.7,TRIP
+758,2025-07-02 18:57:00,2025-07-02 20:15:00,WTG-14,Generator,503,Bearing temperature high,1.3,TRIP
+759,2025-07-03 03:36:00,2025-07-03 04:30:00,WTG-26,Sensors,804,Ambient temperature out of range,0.9,TRIP
+760,2025-07-03 05:49:00,2025-07-03 14:13:00,WTG-13,Gearbox,704,Oil filter clogged,8.4,TRIP
+761,2025-07-03 15:08:00,2025-07-04 00:08:00,WTG-12,Pitch System,201,Difference between Pitch angles,9.0,TRIP
+762,2025-07-03 15:12:00,2025-07-03 20:06:00,WTG-10,Pitch System,204,Pitch position sensor error,4.9,TRIP
+763,2025-07-03 16:48:00,2025-07-04 03:12:00,WTG-08,Yaw System,305,Yaw inverter fault,10.4,TRIP
+764,2025-07-04 00:04:00,2025-07-04 05:04:00,WTG-07,Hydraulic System,405,Valve switching failure,5.0,TRIP
+765,2025-07-04 03:11:00,2025-07-04 06:05:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,2.9,TRIP
+766,2025-07-04 10:06:00,2025-07-04 21:54:00,WTG-02,Electrical,605,Grid frequency instability,11.8,TRIP
+767,2025-07-04 13:43:00,2025-07-05 03:55:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,14.2,TRIP
+768,2025-07-04 13:49:00,2025-07-04 21:07:00,WTG-05,Electrical,605,Grid frequency instability,7.3,TRIP
+769,2025-07-04 15:20:00,2025-07-04 17:14:00,WTG-11,Pitch System,203,Pitch motor overtemperature,1.9,TRIP
+770,2025-07-04 23:25:00,2025-07-05 00:55:00,WTG-20,Electrical,602,IGBT overtemperature,1.5,TRIP
+771,2025-07-05 11:46:00,2025-07-06 16:52:00,WTG-21,PCM-CORR,002,manual stop_repair,29.1,Corrective
+772,2025-07-05 20:45:00,2025-07-06 01:39:00,WTG-06,Generator,503,Bearing temperature high,4.9,TRIP
+773,2025-07-06 07:10:00,2025-07-06 23:28:00,WTG-28,PCM-CORR,002,manual stop_repair,16.3,Corrective
+774,2025-07-06 08:46:00,2025-07-07 11:28:00,WTG-05,PCM-CORR,002,manual stop_repair,26.7,Corrective
+775,2025-07-07 01:05:00,2025-07-08 05:23:00,WTG-29,PCM-CORR,002,manual stop_repair,28.3,Corrective
+776,2025-07-07 02:30:00,2025-07-07 05:36:00,WTG-15,Yaw System,302,Yaw motor overload,3.1,TRIP
+777,2025-07-07 02:36:00,2025-07-07 07:42:00,WTG-18,Sensors,803,Ice detection on blades,5.1,TRIP
+778,2025-07-07 05:49:00,2025-07-08 00:01:00,WTG-03,Hydraulic System,404,Hydraulic oil low level,18.2,TRIP
+779,2025-07-07 08:28:00,2025-07-07 16:40:00,WTG-18,Yaw System,301,Yaw error,8.2,TRIP
+780,2025-07-07 12:40:00,2025-07-07 21:46:00,WTG-30,PCM-CORR,002,manual stop_repair,9.1,Corrective
+781,2025-07-07 13:49:00,2025-07-07 16:43:00,WTG-16,Hydraulic System,403,Hydraulic pump motor overload,2.9,TRIP
+782,2025-07-07 18:53:00,2025-07-09 16:35:00,WTG-28,Pitch System,205,Blade angle asymmetry limit reached,45.7,TRIP
+783,2025-07-07 22:12:00,2025-07-07 22:48:00,WTG-04,Hydraulic System,404,Hydraulic oil low level,0.6,TRIP
+784,2025-07-08 01:02:00,2025-07-08 02:14:00,WTG-14,Sensors,803,Ice detection on blades,1.2,TRIP
+785,2025-07-08 15:28:00,2025-07-08 16:16:00,WTG-27,Yaw System,305,Yaw inverter fault,0.8,TRIP
+786,2025-07-08 16:19:00,2025-07-08 17:01:00,WTG-22,Pitch System,203,Pitch motor overtemperature,0.7,TRIP
+787,2025-07-08 17:01:00,2025-07-08 18:43:00,WTG-04,Generator,501,High temperature winding,1.7,TRIP
+788,2025-07-08 17:30:00,2025-07-08 21:48:00,WTG-11,Gearbox,705,Gear mesh frequency vibration,4.3,TRIP
+789,2025-07-08 21:48:00,2025-07-10 08:00:00,WTG-13,Gearbox,705,Gear mesh frequency vibration,34.2,TRIP
+790,2025-07-09 02:59:00,2025-07-09 18:23:00,WTG-01,Generator,505,Generator overspeed,15.4,TRIP
+791,2025-07-09 08:34:00,2025-07-10 19:10:00,WTG-07,PCM-CORR,002,manual stop_repair,34.6,Corrective
+792,2025-07-09 08:58:00,2025-07-09 14:04:00,WTG-06,Hydraulic System,403,Hydraulic pump motor overload,5.1,TRIP
+793,2025-07-09 09:23:00,2025-07-10 01:29:00,WTG-07,Electrical,604,DC link overvoltage,16.1,TRIP
+794,2025-07-09 18:21:00,2025-07-10 02:03:00,WTG-13,Pitch System,205,Blade angle asymmetry limit reached,7.7,TRIP
+795,2025-07-10 09:00:00,2025-07-13 09:00:00,WTG-11,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+796,2025-07-10 11:52:00,2025-07-12 04:52:00,WTG-26,Gearbox,704,Oil filter clogged,41.0,TRIP
+797,2025-07-10 19:42:00,2025-07-11 07:00:00,WTG-30,Sensors,802,Wind vane error,11.3,TRIP
+798,2025-07-10 22:45:00,2025-07-11 17:51:00,WTG-17,Generator,503,Bearing temperature high,19.1,TRIP
+799,2025-07-11 00:36:00,2025-07-11 15:42:00,WTG-15,Gearbox,702,High oil temperature,15.1,TRIP
+800,2025-07-11 01:25:00,2025-07-12 06:01:00,WTG-22,PCM-CORR,002,manual stop_repair,28.6,Corrective
+801,2025-07-11 04:19:00,2025-07-11 08:43:00,WTG-08,Hydraulic System,401,Low hydraulic pressure,4.4,TRIP
+802,2025-07-11 23:15:00,2025-07-13 16:15:00,WTG-23,Sensors,801,Anemometer mismatch,41.0,TRIP
+803,2025-07-12 00:10:00,2025-07-12 08:40:00,WTG-20,PCM-CORR,002,manual stop_repair,8.5,Corrective
+804,2025-07-12 02:59:00,2025-07-12 08:11:00,WTG-25,Gearbox,702,High oil temperature,5.2,TRIP
+805,2025-07-12 05:12:00,2025-07-13 03:54:00,WTG-09,Generator,501,High temperature winding,22.7,TRIP
+806,2025-07-12 07:02:00,2025-07-12 14:56:00,WTG-08,Yaw System,301,Yaw error,7.9,TRIP
+807,2025-07-12 12:24:00,2025-07-12 16:12:00,WTG-06,Sensors,803,Ice detection on blades,3.8,TRIP
+808,2025-07-12 20:15:00,2025-07-13 02:51:00,WTG-06,Electrical,601,Grid voltage out of limits,6.6,TRIP
+809,2025-07-12 20:42:00,2025-07-13 04:30:00,WTG-09,Generator,502,Generator cooling failure,7.8,TRIP
+810,2025-07-12 23:39:00,2025-07-13 21:39:00,WTG-24,PCM-CORR,002,manual stop_repair,22.0,Corrective
+811,2025-07-13 02:07:00,2025-07-13 03:55:00,WTG-25,Yaw System,302,Yaw motor overload,1.8,TRIP
+812,2025-07-13 02:19:00,2025-07-14 02:31:00,WTG-25,Sensors,802,Wind vane error,24.2,TRIP
+813,2025-07-13 09:45:00,2025-07-13 12:15:00,WTG-04,Hydraulic System,401,Low hydraulic pressure,2.5,TRIP
+814,2025-07-13 15:48:00,2025-07-14 02:48:00,WTG-11,Sensors,802,Wind vane error,11.0,TRIP
+815,2025-07-13 23:10:00,2025-07-14 10:40:00,WTG-13,Pitch System,202,Pitch battery fault,11.5,TRIP
+816,2025-07-13 23:26:00,2025-07-14 12:26:00,WTG-14,Gearbox,703,Bearing vibration high,13.0,TRIP
+817,2025-07-13 23:45:00,2025-07-14 17:27:00,WTG-18,PCM-CORR,002,manual stop_repair,17.7,Corrective
+818,2025-07-14 06:54:00,2025-07-14 11:48:00,WTG-22,Hydraulic System,401,Low hydraulic pressure,4.9,TRIP
+819,2025-07-14 07:00:00,2025-07-17 07:00:00,WTG-04,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+820,2025-07-14 12:36:00,2025-07-15 05:24:00,WTG-23,PCM-CORR,002,manual stop_repair,16.8,Corrective
+821,2025-07-14 17:13:00,2025-07-15 13:01:00,WTG-27,PCM-CORR,002,manual stop_repair,19.8,Corrective
+822,2025-07-15 08:21:00,2025-07-16 13:27:00,WTG-05,PCM-CORR,002,manual stop_repair,29.1,Corrective
+823,2025-07-15 08:42:00,2025-07-16 07:00:00,WTG-30,PCM-CORR,002,manual stop_repair,22.3,Corrective
+824,2025-07-15 08:52:00,2025-07-16 08:22:00,WTG-23,PCM-CORR,002,manual stop_repair,23.5,Corrective
+825,2025-07-15 10:55:00,2025-07-15 23:13:00,WTG-04,Gearbox,704,Oil filter clogged,12.3,TRIP
+826,2025-07-15 13:30:00,2025-07-15 14:12:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,0.7,TRIP
+827,2025-07-15 14:19:00,2025-07-15 22:55:00,WTG-25,Electrical,602,IGBT overtemperature,8.6,TRIP
+828,2025-07-16 02:51:00,2025-07-16 21:45:00,WTG-18,Generator,503,Bearing temperature high,18.9,TRIP
+829,2025-07-16 04:26:00,2025-07-16 07:14:00,WTG-13,Generator,503,Bearing temperature high,2.8,TRIP
+830,2025-07-16 05:54:00,2025-07-16 18:00:00,WTG-28,Sensors,804,Ambient temperature out of range,12.1,TRIP
+831,2025-07-16 17:50:00,2025-07-16 22:44:00,WTG-02,PCM-CORR,002,manual stop_repair,4.9,Corrective
+832,2025-07-17 01:30:00,2025-07-17 22:36:00,WTG-01,PCM-CORR,002,manual stop_repair,21.1,Corrective
+833,2025-07-17 06:00:00,2025-07-17 13:30:00,WTG-18,Gearbox,705,Gear mesh frequency vibration,7.5,TRIP
+834,2025-07-17 07:29:00,2025-07-17 15:35:00,WTG-19,PCM-CORR,002,manual stop_repair,8.1,Corrective
+835,2025-07-17 13:11:00,2025-07-17 18:11:00,WTG-10,PCM-CORR,002,manual stop_repair,5.0,Corrective
+836,2025-07-17 16:02:00,2025-07-18 04:56:00,WTG-28,PCM-CORR,002,manual stop_repair,12.9,Corrective
+837,2025-07-18 05:42:00,2025-07-18 20:24:00,WTG-15,Gearbox,704,Oil filter clogged,14.7,TRIP
+838,2025-07-18 07:30:00,2025-07-18 11:24:00,WTG-06,Yaw System,305,Yaw inverter fault,3.9,TRIP
+839,2025-07-18 10:20:00,2025-07-19 12:32:00,WTG-05,PCM-CORR,002,manual stop_repair,26.2,Corrective
+840,2025-07-18 13:16:00,2025-07-19 03:10:00,WTG-12,Sensors,804,Ambient temperature out of range,13.9,TRIP
+841,2025-07-19 03:19:00,2025-07-20 13:43:00,WTG-19,PCM-CORR,002,manual stop_repair,34.4,Corrective
+842,2025-07-19 07:06:00,2025-07-19 14:18:00,WTG-19,Electrical,601,Grid voltage out of limits,7.2,TRIP
+843,2025-07-19 12:39:00,2025-07-20 02:51:00,WTG-20,Yaw System,301,Yaw error,14.2,TRIP
+844,2025-07-20 08:11:00,2025-07-20 10:23:00,WTG-29,Sensors,802,Wind vane error,2.2,TRIP
+845,2025-07-20 08:35:00,2025-07-20 19:23:00,WTG-27,Generator,503,Bearing temperature high,10.8,TRIP
+846,2025-07-20 14:58:00,2025-07-21 12:10:00,WTG-09,Electrical,603,Converter communication failure,21.2,TRIP
+847,2025-07-20 16:10:00,2025-07-22 05:04:00,WTG-30,Yaw System,305,Yaw inverter fault,36.9,TRIP
+848,2025-07-20 18:07:00,2025-07-20 19:55:00,WTG-30,Gearbox,705,Gear mesh frequency vibration,1.8,TRIP
+849,2025-07-20 22:04:00,2025-07-21 13:16:00,WTG-06,Sensors,803,Ice detection on blades,15.2,TRIP
+850,2025-07-21 05:16:00,2025-07-21 20:40:00,WTG-21,Yaw System,303,Cable twist limit exceeded,15.4,TRIP
+851,2025-07-21 08:00:00,2025-07-24 08:00:00,WTG-06,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+852,2025-07-21 10:04:00,2025-07-21 15:28:00,WTG-28,Generator,501,High temperature winding,5.4,TRIP
+853,2025-07-21 12:43:00,2025-07-21 14:49:00,WTG-03,Generator,503,Bearing temperature high,2.1,TRIP
+854,2025-07-21 20:02:00,2025-07-22 21:56:00,WTG-24,PCM-CORR,002,manual stop_repair,25.9,Corrective
+855,2025-07-22 01:29:00,2025-07-23 10:05:00,WTG-09,PCM-CORR,002,manual stop_repair,32.6,Corrective
+856,2025-07-22 17:31:00,2025-07-22 18:19:00,WTG-20,Yaw System,302,Yaw motor overload,0.8,TRIP
+857,2025-07-23 12:42:00,2025-07-23 19:00:00,WTG-18,Generator,503,Bearing temperature high,6.3,TRIP
+858,2025-07-23 17:31:00,2025-07-23 19:55:00,WTG-16,Sensors,802,Wind vane error,2.4,TRIP
+859,2025-07-23 19:51:00,2025-07-25 03:57:00,WTG-08,Yaw System,305,Yaw inverter fault,32.1,TRIP
+860,2025-07-24 00:02:00,2025-07-25 04:50:00,WTG-27,Sensors,804,Ambient temperature out of range,28.8,TRIP
+861,2025-07-24 01:36:00,2025-07-24 06:18:00,WTG-29,Sensors,802,Wind vane error,4.7,TRIP
+862,2025-07-24 02:42:00,2025-07-24 09:00:00,WTG-20,PCM-CORR,002,manual stop_repair,6.3,Corrective
+863,2025-07-24 02:58:00,2025-07-24 07:10:00,WTG-14,Sensors,802,Wind vane error,4.2,TRIP
+864,2025-07-24 04:49:00,2025-07-24 21:01:00,WTG-22,PCM-CORR,002,manual stop_repair,16.2,Corrective
+865,2025-07-24 14:28:00,2025-07-25 01:22:00,WTG-09,PCM-CORR,002,manual stop_repair,10.9,Corrective
+866,2025-07-25 00:56:00,2025-07-25 05:02:00,WTG-12,Pitch System,204,Pitch position sensor error,4.1,TRIP
+867,2025-07-25 03:49:00,2025-07-25 06:37:00,WTG-30,Yaw System,302,Yaw motor overload,2.8,TRIP
+868,2025-07-25 04:19:00,2025-07-25 05:19:00,WTG-13,Pitch System,205,Blade angle asymmetry limit reached,1.0,TRIP
+869,2025-07-25 09:18:00,2025-07-25 10:24:00,WTG-13,Gearbox,703,Bearing vibration high,1.1,TRIP
+870,2025-07-25 17:42:00,2025-07-26 10:30:00,WTG-08,PCM-CORR,002,manual stop_repair,16.8,Corrective
+871,2025-07-25 20:26:00,2025-07-26 00:56:00,WTG-22,Generator,502,Generator cooling failure,4.5,TRIP
+872,2025-07-26 05:54:00,2025-07-26 09:42:00,WTG-18,Yaw System,301,Yaw error,3.8,TRIP
+873,2025-07-26 07:53:00,2025-07-26 08:59:00,WTG-25,Hydraulic System,405,Valve switching failure,1.1,TRIP
+874,2025-07-26 11:05:00,2025-07-26 20:41:00,WTG-02,Hydraulic System,403,Hydraulic pump motor overload,9.6,TRIP
+875,2025-07-26 21:42:00,2025-07-27 05:54:00,WTG-03,Yaw System,303,Cable twist limit exceeded,8.2,TRIP
+876,2025-07-27 06:18:00,2025-07-27 09:18:00,WTG-16,Generator,505,Generator overspeed,3.0,TRIP
+877,2025-07-27 12:56:00,2025-07-27 14:56:00,WTG-25,Gearbox,705,Gear mesh frequency vibration,2.0,TRIP
+878,2025-07-27 22:38:00,2025-07-28 03:56:00,WTG-04,Generator,502,Generator cooling failure,5.3,TRIP
+879,2025-07-28 01:18:00,2025-07-28 02:00:00,WTG-09,Yaw System,301,Yaw error,0.7,TRIP
+880,2025-07-28 07:16:00,2025-07-28 12:40:00,WTG-21,Gearbox,701,Low oil pressure,5.4,TRIP
+881,2025-07-28 14:12:00,2025-07-28 22:00:00,WTG-20,Gearbox,701,Low oil pressure,7.8,TRIP
+882,2025-07-28 15:06:00,2025-07-28 20:36:00,WTG-12,Hydraulic System,402,High hydraulic pressure,5.5,TRIP
+883,2025-07-29 04:53:00,2025-07-29 05:47:00,WTG-05,Sensors,802,Wind vane error,0.9,TRIP
+884,2025-07-29 09:01:00,2025-07-29 13:19:00,WTG-16,Electrical,602,IGBT overtemperature,4.3,TRIP
+885,2025-07-29 09:19:00,2025-07-30 15:19:00,WTG-02,PCM-CORR,002,manual stop_repair,30.0,Corrective
+886,2025-07-30 00:56:00,2025-07-30 15:56:00,WTG-13,Electrical,601,Grid voltage out of limits,15.0,TRIP
+887,2025-07-30 10:50:00,2025-07-31 07:50:00,WTG-03,PCM-CORR,002,manual stop_repair,21.0,Corrective
+888,2025-07-30 12:19:00,2025-07-30 18:37:00,WTG-08,Electrical,604,DC link overvoltage,6.3,TRIP
+889,2025-07-30 12:56:00,2025-07-30 13:32:00,WTG-11,Electrical,604,DC link overvoltage,0.6,TRIP
+890,2025-07-30 20:12:00,2025-07-31 07:24:00,WTG-14,Gearbox,703,Bearing vibration high,11.2,TRIP
+891,2025-07-30 20:21:00,2025-07-31 11:33:00,WTG-10,Electrical,604,DC link overvoltage,15.2,TRIP
+892,2025-07-30 21:20:00,2025-07-31 14:38:00,WTG-03,Yaw System,302,Yaw motor overload,17.3,TRIP
+893,2025-07-31 03:07:00,2025-08-01 11:07:00,WTG-16,PCM-CORR,002,manual stop_repair,32.0,Corrective
+894,2025-07-31 08:19:00,2025-08-01 14:37:00,WTG-23,PCM-CORR,002,manual stop_repair,30.3,Corrective
+895,2025-07-31 09:55:00,2025-07-31 16:55:00,WTG-08,Sensors,802,Wind vane error,7.0,TRIP
+896,2025-07-31 16:02:00,2025-08-01 06:44:00,WTG-04,Yaw System,305,Yaw inverter fault,14.7,TRIP
+897,2025-07-31 19:10:00,2025-08-01 04:10:00,WTG-12,Generator,503,Bearing temperature high,9.0,TRIP
+898,2025-07-31 19:15:00,2025-08-01 20:03:00,WTG-21,PCM-CORR,002,manual stop_repair,24.8,Corrective
+899,2025-07-31 21:33:00,2025-07-31 22:57:00,WTG-28,Gearbox,705,Gear mesh frequency vibration,1.4,TRIP
+900,2025-07-31 21:54:00,2025-08-01 04:06:00,WTG-01,Generator,502,Generator cooling failure,6.2,TRIP
+901,2025-07-31 23:59:00,2025-08-01 16:11:00,WTG-08,PCM-CORR,002,manual stop_repair,16.2,Corrective
+902,2025-08-01 00:08:00,2025-08-01 01:44:00,WTG-20,Sensors,801,Anemometer mismatch,1.6,TRIP
+903,2025-08-01 01:11:00,2025-08-01 04:05:00,WTG-08,Gearbox,703,Bearing vibration high,2.9,TRIP
+904,2025-08-01 08:38:00,2025-08-01 09:38:00,WTG-07,Generator,503,Bearing temperature high,1.0,TRIP
+905,2025-08-01 09:15:00,2025-08-01 12:03:00,WTG-05,Electrical,603,Converter communication failure,2.8,TRIP
+906,2025-08-01 22:20:00,2025-08-02 17:14:00,WTG-25,Electrical,604,DC link overvoltage,18.9,TRIP
+907,2025-08-02 06:12:00,2025-08-02 16:06:00,WTG-11,PCM-CORR,002,manual stop_repair,9.9,Corrective
+908,2025-08-02 23:29:00,2025-08-03 00:59:00,WTG-02,Gearbox,705,Gear mesh frequency vibration,1.5,TRIP
+909,2025-08-03 01:05:00,2025-08-03 17:05:00,WTG-09,Gearbox,705,Gear mesh frequency vibration,16.0,TRIP
+910,2025-08-03 05:41:00,2025-08-03 13:29:00,WTG-23,Generator,501,High temperature winding,7.8,TRIP
+911,2025-08-04 03:55:00,2025-08-04 05:55:00,WTG-17,Generator,503,Bearing temperature high,2.0,TRIP
+912,2025-08-04 05:46:00,2025-08-04 13:58:00,WTG-27,PCM-CORR,002,manual stop_repair,8.2,Corrective
+913,2025-08-04 08:00:00,2025-08-04 21:12:00,WTG-04,Gearbox,705,Gear mesh frequency vibration,13.2,TRIP
+914,2025-08-04 11:22:00,2025-08-04 21:16:00,WTG-24,PCM-CORR,002,manual stop_repair,9.9,Corrective
+915,2025-08-04 14:47:00,2025-08-04 23:59:00,WTG-14,Generator,503,Bearing temperature high,9.2,TRIP
+916,2025-08-04 17:39:00,2025-08-04 20:39:00,WTG-16,Pitch System,201,Difference between Pitch angles,3.0,TRIP
+917,2025-08-04 22:53:00,2025-08-05 04:23:00,WTG-29,Pitch System,202,Pitch battery fault,5.5,TRIP
+918,2025-08-05 01:00:00,2025-08-05 01:48:00,WTG-21,Pitch System,205,Blade angle asymmetry limit reached,0.8,TRIP
+919,2025-08-05 03:38:00,2025-08-05 08:56:00,WTG-24,Yaw System,305,Yaw inverter fault,5.3,TRIP
+920,2025-08-05 05:13:00,2025-08-05 13:01:00,WTG-01,PCM-CORR,002,manual stop_repair,7.8,Corrective
+921,2025-08-05 11:26:00,2025-08-05 22:20:00,WTG-11,Electrical,604,DC link overvoltage,10.9,TRIP
+922,2025-08-05 17:46:00,2025-08-07 03:16:00,WTG-05,PCM-CORR,002,manual stop_repair,33.5,Corrective
+923,2025-08-06 00:40:00,2025-08-06 06:40:00,WTG-30,Gearbox,701,Low oil pressure,6.0,TRIP
+924,2025-08-06 05:17:00,2025-08-06 18:41:00,WTG-06,Generator,503,Bearing temperature high,13.4,TRIP
+925,2025-08-06 06:34:00,2025-08-06 10:10:00,WTG-30,Sensors,801,Anemometer mismatch,3.6,TRIP
+926,2025-08-06 08:27:00,2025-08-06 11:33:00,WTG-28,Electrical,603,Converter communication failure,3.1,TRIP
+927,2025-08-06 08:33:00,2025-08-07 03:09:00,WTG-05,Gearbox,704,Oil filter clogged,18.6,TRIP
+928,2025-08-06 18:51:00,2025-08-08 03:33:00,WTG-06,PCM-CORR,002,manual stop_repair,32.7,Corrective
+929,2025-08-07 00:58:00,2025-08-07 02:40:00,WTG-03,Yaw System,304,Yaw brake failure,1.7,TRIP
+930,2025-08-08 00:49:00,2025-08-08 02:07:00,WTG-11,Generator,504,Slip ring brush wear limit,1.3,TRIP
+931,2025-08-08 12:51:00,2025-08-09 03:03:00,WTG-30,Yaw System,304,Yaw brake failure,14.2,TRIP
+932,2025-08-08 23:43:00,2025-08-09 03:25:00,WTG-01,Gearbox,703,Bearing vibration high,3.7,TRIP
+933,2025-08-09 10:31:00,2025-08-09 22:55:00,WTG-13,Electrical,603,Converter communication failure,12.4,TRIP
+934,2025-08-09 19:48:00,2025-08-10 01:48:00,WTG-10,Generator,502,Generator cooling failure,6.0,TRIP
+935,2025-08-10 01:39:00,2025-08-11 13:27:00,WTG-12,PCM-CORR,002,manual stop_repair,35.8,Corrective
+936,2025-08-10 06:46:00,2025-08-10 09:34:00,WTG-17,Generator,504,Slip ring brush wear limit,2.8,TRIP
+937,2025-08-10 08:17:00,2025-08-11 18:35:00,WTG-12,PCM-CORR,002,manual stop_repair,34.3,Corrective
+938,2025-08-10 13:53:00,2025-08-11 18:05:00,WTG-06,PCM-CORR,002,manual stop_repair,28.2,Corrective
+939,2025-08-10 20:39:00,2025-08-11 13:09:00,WTG-17,Yaw System,304,Yaw brake failure,16.5,TRIP
+940,2025-08-10 22:04:00,2025-08-11 00:04:00,WTG-18,Sensors,804,Ambient temperature out of range,2.0,TRIP
+941,2025-08-11 01:11:00,2025-08-12 01:53:00,WTG-13,Sensors,801,Anemometer mismatch,24.7,TRIP
+942,2025-08-11 13:52:00,2025-08-12 07:58:00,WTG-29,Hydraulic System,404,Hydraulic oil low level,18.1,TRIP
+943,2025-08-11 18:16:00,2025-08-11 18:58:00,WTG-03,Hydraulic System,403,Hydraulic pump motor overload,0.7,TRIP
+944,2025-08-12 05:13:00,2025-08-12 22:19:00,WTG-29,PCM-CORR,002,manual stop_repair,17.1,Corrective
+945,2025-08-12 12:41:00,2025-08-13 02:05:00,WTG-22,Electrical,604,DC link overvoltage,13.4,TRIP
+946,2025-08-13 01:27:00,2025-08-13 22:21:00,WTG-04,PCM-CORR,002,manual stop_repair,20.9,Corrective
+947,2025-08-13 01:59:00,2025-08-13 07:11:00,WTG-12,Sensors,801,Anemometer mismatch,5.2,TRIP
+948,2025-08-13 02:41:00,2025-08-13 05:11:00,WTG-02,Yaw System,304,Yaw brake failure,2.5,TRIP
+949,2025-08-13 07:00:00,2025-08-16 07:00:00,WTG-22,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+950,2025-08-13 07:32:00,2025-08-15 01:38:00,WTG-23,Yaw System,303,Cable twist limit exceeded,42.1,TRIP
+951,2025-08-13 14:19:00,2025-08-13 16:25:00,WTG-15,PCM-CORR,002,manual stop_repair,2.1,Corrective
+952,2025-08-13 17:48:00,2025-08-13 22:30:00,WTG-13,Pitch System,201,Difference between Pitch angles,4.7,TRIP
+953,2025-08-13 19:12:00,2025-08-13 20:00:00,WTG-30,Gearbox,704,Oil filter clogged,0.8,TRIP
+954,2025-08-14 05:17:00,2025-08-15 02:41:00,WTG-08,PCM-CORR,002,manual stop_repair,21.4,Corrective
+955,2025-08-14 09:10:00,2025-08-14 12:16:00,WTG-10,PCM-CORR,002,manual stop_repair,3.1,Corrective
+956,2025-08-14 22:04:00,2025-08-15 00:28:00,WTG-22,Yaw System,302,Yaw motor overload,2.4,TRIP
+957,2025-08-15 03:39:00,2025-08-15 19:51:00,WTG-09,PCM-CORR,002,manual stop_repair,16.2,Corrective
+958,2025-08-15 20:52:00,2025-08-16 22:22:00,WTG-16,Electrical,605,Grid frequency instability,25.5,TRIP
+959,2025-08-16 06:54:00,2025-08-16 10:18:00,WTG-10,Electrical,602,IGBT overtemperature,3.4,TRIP
+960,2025-08-16 07:38:00,2025-08-16 15:38:00,WTG-30,Pitch System,201,Difference between Pitch angles,8.0,TRIP
+961,2025-08-16 15:43:00,2025-08-16 21:01:00,WTG-16,Hydraulic System,403,Hydraulic pump motor overload,5.3,TRIP
+962,2025-08-16 19:28:00,2025-08-17 01:52:00,WTG-27,Pitch System,203,Pitch motor overtemperature,6.4,TRIP
+963,2025-08-16 19:31:00,2025-08-16 20:37:00,WTG-06,Yaw System,304,Yaw brake failure,1.1,TRIP
+964,2025-08-17 04:56:00,2025-08-17 11:20:00,WTG-23,Sensors,801,Anemometer mismatch,6.4,TRIP
+965,2025-08-17 05:58:00,2025-08-17 06:34:00,WTG-11,Pitch System,203,Pitch motor overtemperature,0.6,TRIP
+966,2025-08-17 16:55:00,2025-08-17 23:01:00,WTG-28,Generator,505,Generator overspeed,6.1,TRIP
+967,2025-08-17 20:02:00,2025-08-19 15:02:00,WTG-23,Generator,505,Generator overspeed,43.0,TRIP
+968,2025-08-18 05:52:00,2025-08-18 13:40:00,WTG-03,Pitch System,204,Pitch position sensor error,7.8,TRIP
+969,2025-08-18 10:19:00,2025-08-18 14:01:00,WTG-25,Hydraulic System,402,High hydraulic pressure,3.7,TRIP
+970,2025-08-18 11:39:00,2025-08-19 00:45:00,WTG-08,Electrical,602,IGBT overtemperature,13.1,TRIP
+971,2025-08-18 13:03:00,2025-08-18 16:51:00,WTG-28,Generator,502,Generator cooling failure,3.8,TRIP
+972,2025-08-18 16:02:00,2025-08-19 20:14:00,WTG-14,PCM-CORR,002,manual stop_repair,28.2,Corrective
+973,2025-08-18 21:53:00,2025-08-19 12:23:00,WTG-20,Sensors,804,Ambient temperature out of range,14.5,TRIP
+974,2025-08-18 23:29:00,2025-08-19 10:29:00,WTG-16,Hydraulic System,404,Hydraulic oil low level,11.0,TRIP
+975,2025-08-19 09:38:00,2025-08-19 13:02:00,WTG-08,Yaw System,305,Yaw inverter fault,3.4,TRIP
+976,2025-08-19 15:23:00,2025-08-20 22:29:00,WTG-02,PCM-CORR,002,manual stop_repair,31.1,Corrective
+977,2025-08-19 17:11:00,2025-08-20 06:53:00,WTG-09,Yaw System,304,Yaw brake failure,13.7,TRIP
+978,2025-08-19 21:28:00,2025-08-20 06:16:00,WTG-10,Electrical,605,Grid frequency instability,8.8,TRIP
+979,2025-08-20 03:06:00,2025-08-21 03:12:00,WTG-07,PCM-CORR,002,manual stop_repair,24.1,Corrective
+980,2025-08-20 09:25:00,2025-08-20 12:13:00,WTG-20,Hydraulic System,403,Hydraulic pump motor overload,2.8,TRIP
+981,2025-08-21 12:47:00,2025-08-21 21:11:00,WTG-17,Electrical,604,DC link overvoltage,8.4,TRIP
+982,2025-08-21 12:52:00,2025-08-21 13:34:00,WTG-26,Sensors,801,Anemometer mismatch,0.7,TRIP
+983,2025-08-21 15:45:00,2025-08-22 08:33:00,WTG-22,Electrical,605,Grid frequency instability,16.8,TRIP
+984,2025-08-21 18:24:00,2025-08-22 07:30:00,WTG-10,Pitch System,203,Pitch motor overtemperature,13.1,TRIP
+985,2025-08-21 21:15:00,2025-08-21 23:39:00,WTG-10,Gearbox,705,Gear mesh frequency vibration,2.4,TRIP
+986,2025-08-22 00:00:00,2025-08-22 05:54:00,WTG-18,Gearbox,704,Oil filter clogged,5.9,TRIP
+987,2025-08-22 04:00:00,2025-08-22 05:54:00,WTG-23,Pitch System,202,Pitch battery fault,1.9,TRIP
+988,2025-08-22 04:54:00,2025-08-22 19:18:00,WTG-18,Gearbox,705,Gear mesh frequency vibration,14.4,TRIP
+989,2025-08-22 08:05:00,2025-08-22 08:35:00,WTG-01,Hydraulic System,403,Hydraulic pump motor overload,0.5,TRIP
+990,2025-08-22 09:00:00,2025-08-25 09:00:00,WTG-10,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+991,2025-08-22 10:53:00,2025-08-23 20:47:00,WTG-27,PCM-CORR,002,manual stop_repair,33.9,Corrective
+992,2025-08-22 12:04:00,2025-08-23 08:46:00,WTG-20,PCM-CORR,002,manual stop_repair,20.7,Corrective
+993,2025-08-22 17:31:00,2025-08-23 03:19:00,WTG-29,Generator,503,Bearing temperature high,9.8,TRIP
+994,2025-08-22 22:57:00,2025-08-23 07:45:00,WTG-01,Sensors,803,Ice detection on blades,8.8,TRIP
+995,2025-08-23 08:00:00,2025-08-26 08:00:00,WTG-20,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+996,2025-08-24 05:24:00,2025-08-24 08:18:00,WTG-02,Gearbox,702,High oil temperature,2.9,TRIP
+997,2025-08-24 11:28:00,2025-08-25 00:22:00,WTG-25,Generator,502,Generator cooling failure,12.9,TRIP
+998,2025-08-25 02:44:00,2025-08-25 09:08:00,WTG-14,Yaw System,303,Cable twist limit exceeded,6.4,TRIP
+999,2025-08-25 12:58:00,2025-08-25 20:04:00,WTG-16,Pitch System,201,Difference between Pitch angles,7.1,TRIP
+1000,2025-08-25 16:30:00,2025-08-26 01:00:00,WTG-03,PCM-CORR,002,manual stop_repair,8.5,Corrective
+1001,2025-08-25 20:15:00,2025-08-26 22:57:00,WTG-30,PCM-CORR,002,manual stop_repair,26.7,Corrective
+1002,2025-08-26 00:01:00,2025-08-26 01:19:00,WTG-30,Yaw System,302,Yaw motor overload,1.3,TRIP
+1003,2025-08-26 01:38:00,2025-08-26 05:02:00,WTG-15,Sensors,801,Anemometer mismatch,3.4,TRIP
+1004,2025-08-26 13:41:00,2025-08-26 17:53:00,WTG-28,Electrical,604,DC link overvoltage,4.2,TRIP
+1005,2025-08-26 20:11:00,2025-08-27 06:05:00,WTG-21,Electrical,603,Converter communication failure,9.9,TRIP
+1006,2025-08-26 21:25:00,2025-08-27 19:43:00,WTG-30,PCM-CORR,002,manual stop_repair,22.3,Corrective
+1007,2025-08-27 06:37:00,2025-08-27 18:25:00,WTG-04,PCM-CORR,002,manual stop_repair,11.8,Corrective
+1008,2025-08-27 11:38:00,2025-08-27 18:20:00,WTG-09,PCM-CORR,002,manual stop_repair,6.7,Corrective
+1009,2025-08-28 00:23:00,2025-08-28 12:59:00,WTG-26,Pitch System,203,Pitch motor overtemperature,12.6,TRIP
+1010,2025-08-28 02:08:00,2025-08-28 11:44:00,WTG-07,Electrical,603,Converter communication failure,9.6,TRIP
+1011,2025-08-29 08:56:00,2025-08-29 14:38:00,WTG-14,Hydraulic System,403,Hydraulic pump motor overload,5.7,TRIP
+1012,2025-08-30 01:59:00,2025-08-30 05:59:00,WTG-19,Gearbox,705,Gear mesh frequency vibration,4.0,TRIP
+1013,2025-08-30 05:37:00,2025-08-30 14:31:00,WTG-25,Generator,502,Generator cooling failure,8.9,TRIP
+1014,2025-08-30 08:00:00,2025-09-02 08:00:00,WTG-29,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1015,2025-08-30 11:26:00,2025-08-31 18:02:00,WTG-25,Gearbox,702,High oil temperature,30.6,TRIP
+1016,2025-08-30 18:06:00,2025-08-31 05:12:00,WTG-20,Gearbox,705,Gear mesh frequency vibration,11.1,TRIP
+1017,2025-08-30 19:33:00,2025-08-31 18:45:00,WTG-15,Sensors,801,Anemometer mismatch,23.2,TRIP
+1018,2025-08-31 19:43:00,2025-09-01 21:13:00,WTG-02,Electrical,604,DC link overvoltage,25.5,TRIP
+1019,2025-09-01 02:38:00,2025-09-01 04:38:00,WTG-10,Yaw System,302,Yaw motor overload,2.0,TRIP
+1020,2025-09-01 11:31:00,2025-09-02 04:25:00,WTG-14,Hydraulic System,402,High hydraulic pressure,16.9,TRIP
+1021,2025-09-01 21:29:00,2025-09-02 08:59:00,WTG-03,Gearbox,703,Bearing vibration high,11.5,TRIP
+1022,2025-09-01 23:16:00,2025-09-02 17:28:00,WTG-25,Hydraulic System,403,Hydraulic pump motor overload,18.2,TRIP
+1023,2025-09-01 23:26:00,2025-09-02 01:14:00,WTG-27,Hydraulic System,402,High hydraulic pressure,1.8,TRIP
+1024,2025-09-02 05:07:00,2025-09-03 03:25:00,WTG-05,PCM-CORR,002,manual stop_repair,22.3,Corrective
+1025,2025-09-02 09:44:00,2025-09-02 16:02:00,WTG-24,Yaw System,304,Yaw brake failure,6.3,TRIP
+1026,2025-09-02 13:26:00,2025-09-02 16:38:00,WTG-29,Pitch System,203,Pitch motor overtemperature,3.2,TRIP
+1027,2025-09-02 13:29:00,2025-09-02 22:35:00,WTG-09,Generator,502,Generator cooling failure,9.1,TRIP
+1028,2025-09-02 15:11:00,2025-09-03 09:11:00,WTG-06,Pitch System,203,Pitch motor overtemperature,18.0,TRIP
+1029,2025-09-02 17:13:00,2025-09-02 22:13:00,WTG-04,Pitch System,203,Pitch motor overtemperature,5.0,TRIP
+1030,2025-09-03 00:05:00,2025-09-03 05:29:00,WTG-11,Hydraulic System,403,Hydraulic pump motor overload,5.4,TRIP
+1031,2025-09-03 02:49:00,2025-09-04 05:37:00,WTG-20,Sensors,802,Wind vane error,26.8,TRIP
+1032,2025-09-03 05:33:00,2025-09-03 18:39:00,WTG-27,Hydraulic System,405,Valve switching failure,13.1,TRIP
+1033,2025-09-03 12:36:00,2025-09-03 21:48:00,WTG-22,Hydraulic System,401,Low hydraulic pressure,9.2,TRIP
+1034,2025-09-03 13:34:00,2025-09-03 15:40:00,WTG-14,Yaw System,303,Cable twist limit exceeded,2.1,TRIP
+1035,2025-09-03 16:07:00,2025-09-03 17:19:00,WTG-13,Sensors,802,Wind vane error,1.2,TRIP
+1036,2025-09-04 08:16:00,2025-09-04 20:16:00,WTG-17,Generator,501,High temperature winding,12.0,TRIP
+1037,2025-09-04 19:08:00,2025-09-06 05:20:00,WTG-28,PCM-CORR,002,manual stop_repair,34.2,Corrective
+1038,2025-09-04 22:01:00,2025-09-05 00:43:00,WTG-08,Yaw System,303,Cable twist limit exceeded,2.7,TRIP
+1039,2025-09-05 07:36:00,2025-09-05 17:36:00,WTG-17,Gearbox,701,Low oil pressure,10.0,TRIP
+1040,2025-09-05 08:14:00,2025-09-05 12:14:00,WTG-26,Yaw System,301,Yaw error,4.0,TRIP
+1041,2025-09-05 12:35:00,2025-09-05 22:47:00,WTG-23,Yaw System,305,Yaw inverter fault,10.2,TRIP
+1042,2025-09-05 12:38:00,2025-09-06 08:08:00,WTG-09,Electrical,601,Grid voltage out of limits,19.5,TRIP
+1043,2025-09-05 14:48:00,2025-09-05 18:18:00,WTG-05,Gearbox,701,Low oil pressure,3.5,TRIP
+1044,2025-09-05 15:46:00,2025-09-06 03:16:00,WTG-30,Sensors,804,Ambient temperature out of range,11.5,TRIP
+1045,2025-09-06 03:53:00,2025-09-06 05:47:00,WTG-08,Hydraulic System,405,Valve switching failure,1.9,TRIP
+1046,2025-09-06 05:32:00,2025-09-06 07:02:00,WTG-14,Sensors,804,Ambient temperature out of range,1.5,TRIP
+1047,2025-09-06 08:50:00,2025-09-07 06:08:00,WTG-22,PCM-CORR,002,manual stop_repair,21.3,Corrective
+1048,2025-09-06 09:46:00,2025-09-06 16:22:00,WTG-27,Gearbox,701,Low oil pressure,6.6,TRIP
+1049,2025-09-06 10:13:00,2025-09-06 17:31:00,WTG-13,Sensors,804,Ambient temperature out of range,7.3,TRIP
+1050,2025-09-06 13:38:00,2025-09-07 01:38:00,WTG-17,Pitch System,201,Difference between Pitch angles,12.0,TRIP
+1051,2025-09-06 15:10:00,2025-09-06 23:46:00,WTG-21,Hydraulic System,404,Hydraulic oil low level,8.6,TRIP
+1052,2025-09-06 16:17:00,2025-09-06 18:23:00,WTG-22,Hydraulic System,404,Hydraulic oil low level,2.1,TRIP
+1053,2025-09-06 18:07:00,2025-09-07 00:49:00,WTG-30,Yaw System,302,Yaw motor overload,6.7,TRIP
+1054,2025-09-07 00:15:00,2025-09-07 09:57:00,WTG-30,Electrical,604,DC link overvoltage,9.7,TRIP
+1055,2025-09-07 07:58:00,2025-09-08 09:22:00,WTG-20,PCM-CORR,002,manual stop_repair,25.4,Corrective
+1056,2025-09-08 01:39:00,2025-09-08 08:03:00,WTG-28,PCM-CORR,002,manual stop_repair,6.4,Corrective
+1057,2025-09-08 04:27:00,2025-09-08 11:51:00,WTG-27,Generator,505,Generator overspeed,7.4,TRIP
+1058,2025-09-08 04:30:00,2025-09-08 06:00:00,WTG-06,Gearbox,704,Oil filter clogged,1.5,TRIP
+1059,2025-09-08 08:00:00,2025-09-11 08:00:00,WTG-18,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1060,2025-09-08 11:43:00,2025-09-08 18:49:00,WTG-10,Yaw System,302,Yaw motor overload,7.1,TRIP
+1061,2025-09-08 14:58:00,2025-09-09 08:28:00,WTG-03,PCM-CORR,002,manual stop_repair,17.5,Corrective
+1062,2025-09-08 17:04:00,2025-09-08 23:04:00,WTG-30,Yaw System,303,Cable twist limit exceeded,6.0,TRIP
+1063,2025-09-08 22:16:00,2025-09-10 07:34:00,WTG-27,Electrical,602,IGBT overtemperature,33.3,TRIP
+1064,2025-09-08 23:47:00,2025-09-09 05:29:00,WTG-07,Sensors,801,Anemometer mismatch,5.7,TRIP
+1065,2025-09-09 02:55:00,2025-09-09 11:07:00,WTG-03,Sensors,803,Ice detection on blades,8.2,TRIP
+1066,2025-09-09 07:00:00,2025-09-12 07:00:00,WTG-24,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1067,2025-09-09 08:00:00,2025-09-12 08:00:00,WTG-02,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1068,2025-09-09 22:22:00,2025-09-10 23:10:00,WTG-23,Gearbox,703,Bearing vibration high,24.8,TRIP
+1069,2025-09-09 23:03:00,2025-09-10 04:51:00,WTG-03,Sensors,804,Ambient temperature out of range,5.8,TRIP
+1070,2025-09-10 05:34:00,2025-09-10 07:04:00,WTG-16,Yaw System,302,Yaw motor overload,1.5,TRIP
+1071,2025-09-10 07:00:00,2025-09-13 07:00:00,WTG-07,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1072,2025-09-10 11:53:00,2025-09-10 14:53:00,WTG-18,Yaw System,305,Yaw inverter fault,3.0,TRIP
+1073,2025-09-10 15:07:00,2025-09-10 19:31:00,WTG-05,Generator,501,High temperature winding,4.4,TRIP
+1074,2025-09-10 15:55:00,2025-09-10 23:31:00,WTG-25,Yaw System,302,Yaw motor overload,7.6,TRIP
+1075,2025-09-10 16:29:00,2025-09-11 03:47:00,WTG-12,Gearbox,704,Oil filter clogged,11.3,TRIP
+1076,2025-09-11 03:11:00,2025-09-12 03:59:00,WTG-09,Gearbox,703,Bearing vibration high,24.8,TRIP
+1077,2025-09-11 05:33:00,2025-09-11 07:27:00,WTG-21,Electrical,604,DC link overvoltage,1.9,TRIP
+1078,2025-09-11 07:05:00,2025-09-11 16:53:00,WTG-25,Pitch System,201,Difference between Pitch angles,9.8,TRIP
+1079,2025-09-11 08:03:00,2025-09-12 18:33:00,WTG-20,PCM-CORR,002,manual stop_repair,34.5,Corrective
+1080,2025-09-11 09:04:00,2025-09-11 10:52:00,WTG-28,Pitch System,202,Pitch battery fault,1.8,TRIP
+1081,2025-09-11 16:59:00,2025-09-11 19:23:00,WTG-11,Hydraulic System,404,Hydraulic oil low level,2.4,TRIP
+1082,2025-09-12 09:00:00,2025-09-15 09:00:00,WTG-25,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1083,2025-09-12 21:05:00,2025-09-13 03:29:00,WTG-05,Hydraulic System,401,Low hydraulic pressure,6.4,TRIP
+1084,2025-09-12 21:09:00,2025-09-13 13:03:00,WTG-09,Hydraulic System,402,High hydraulic pressure,15.9,TRIP
+1085,2025-09-13 04:31:00,2025-09-13 11:01:00,WTG-25,Hydraulic System,401,Low hydraulic pressure,6.5,TRIP
+1086,2025-09-13 10:04:00,2025-09-13 15:10:00,WTG-27,Generator,502,Generator cooling failure,5.1,TRIP
+1087,2025-09-14 02:46:00,2025-09-14 05:52:00,WTG-15,Electrical,601,Grid voltage out of limits,3.1,TRIP
+1088,2025-09-14 07:00:00,2025-09-14 18:24:00,WTG-08,PCM-CORR,002,manual stop_repair,11.4,Corrective
+1089,2025-09-14 11:52:00,2025-09-14 16:16:00,WTG-05,Pitch System,205,Blade angle asymmetry limit reached,4.4,TRIP
+1090,2025-09-15 00:47:00,2025-09-15 14:11:00,WTG-25,Generator,505,Generator overspeed,13.4,TRIP
+1091,2025-09-15 09:37:00,2025-09-16 19:55:00,WTG-20,PCM-CORR,002,manual stop_repair,34.3,Corrective
+1092,2025-09-15 15:00:00,2025-09-16 20:54:00,WTG-22,PCM-CORR,002,manual stop_repair,29.9,Corrective
+1093,2025-09-15 23:16:00,2025-09-17 06:40:00,WTG-29,Yaw System,301,Yaw error,31.4,TRIP
+1094,2025-09-16 02:31:00,2025-09-16 03:55:00,WTG-16,Generator,502,Generator cooling failure,1.4,TRIP
+1095,2025-09-16 13:14:00,2025-09-16 20:26:00,WTG-15,Hydraulic System,403,Hydraulic pump motor overload,7.2,TRIP
+1096,2025-09-16 14:23:00,2025-09-16 18:29:00,WTG-20,Hydraulic System,405,Valve switching failure,4.1,TRIP
+1097,2025-09-16 20:16:00,2025-09-17 00:40:00,WTG-01,Pitch System,204,Pitch position sensor error,4.4,TRIP
+1098,2025-09-17 05:16:00,2025-09-17 21:34:00,WTG-12,PCM-CORR,002,manual stop_repair,16.3,Corrective
+1099,2025-09-17 05:53:00,2025-09-18 14:17:00,WTG-09,PCM-CORR,002,manual stop_repair,32.4,Corrective
+1100,2025-09-17 09:15:00,2025-09-17 12:27:00,WTG-07,Sensors,801,Anemometer mismatch,3.2,TRIP
+1101,2025-09-17 13:02:00,2025-09-18 11:26:00,WTG-30,PCM-CORR,002,manual stop_repair,22.4,Corrective
+1102,2025-09-17 22:14:00,2025-09-18 03:56:00,WTG-18,Pitch System,204,Pitch position sensor error,5.7,TRIP
+1103,2025-09-18 04:39:00,2025-09-18 17:15:00,WTG-11,Electrical,603,Converter communication failure,12.6,TRIP
+1104,2025-09-18 06:30:00,2025-09-18 11:18:00,WTG-24,Yaw System,303,Cable twist limit exceeded,4.8,TRIP
+1105,2025-09-18 08:51:00,2025-09-18 10:21:00,WTG-05,Sensors,803,Ice detection on blades,1.5,TRIP
+1106,2025-09-18 09:31:00,2025-09-18 13:19:00,WTG-30,Electrical,604,DC link overvoltage,3.8,TRIP
+1107,2025-09-19 07:00:00,2025-09-22 07:00:00,WTG-01,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1108,2025-09-19 07:00:00,2025-09-22 07:00:00,WTG-14,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1109,2025-09-19 15:06:00,2025-09-21 00:12:00,WTG-03,PCM-CORR,002,manual stop_repair,33.1,Corrective
+1110,2025-09-19 21:39:00,2025-09-19 22:33:00,WTG-19,Electrical,603,Converter communication failure,0.9,TRIP
+1111,2025-09-20 03:03:00,2025-09-20 18:03:00,WTG-10,PCM-CORR,002,manual stop_repair,15.0,Corrective
+1112,2025-09-20 03:17:00,2025-09-21 07:47:00,WTG-05,Gearbox,702,High oil temperature,28.5,TRIP
+1113,2025-09-20 04:22:00,2025-09-20 07:10:00,WTG-15,Gearbox,703,Bearing vibration high,2.8,TRIP
+1114,2025-09-20 08:00:00,2025-09-23 08:00:00,WTG-13,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1115,2025-09-20 08:01:00,2025-09-20 22:25:00,WTG-05,Pitch System,204,Pitch position sensor error,14.4,TRIP
+1116,2025-09-20 23:27:00,2025-09-21 04:33:00,WTG-06,Pitch System,203,Pitch motor overtemperature,5.1,TRIP
+1117,2025-09-21 04:47:00,2025-09-21 06:53:00,WTG-09,Yaw System,304,Yaw brake failure,2.1,TRIP
+1118,2025-09-21 09:20:00,2025-09-21 16:14:00,WTG-06,PCM-CORR,002,manual stop_repair,6.9,Corrective
+1119,2025-09-21 19:15:00,2025-09-22 04:09:00,WTG-07,Electrical,602,IGBT overtemperature,8.9,TRIP
+1120,2025-09-22 10:05:00,2025-09-22 21:17:00,WTG-09,Gearbox,702,High oil temperature,11.2,TRIP
+1121,2025-09-22 12:03:00,2025-09-22 15:03:00,WTG-28,Hydraulic System,402,High hydraulic pressure,3.0,TRIP
+1122,2025-09-22 12:46:00,2025-09-22 22:40:00,WTG-25,PCM-CORR,002,manual stop_repair,9.9,Corrective
+1123,2025-09-22 20:02:00,2025-09-23 13:50:00,WTG-20,Yaw System,304,Yaw brake failure,17.8,TRIP
+1124,2025-09-22 22:12:00,2025-09-23 12:36:00,WTG-26,Sensors,803,Ice detection on blades,14.4,TRIP
+1125,2025-09-23 10:11:00,2025-09-24 03:11:00,WTG-22,Generator,504,Slip ring brush wear limit,17.0,TRIP
+1126,2025-09-23 11:44:00,2025-09-23 16:02:00,WTG-21,Electrical,603,Converter communication failure,4.3,TRIP
+1127,2025-09-24 05:24:00,2025-09-24 06:00:00,WTG-22,Yaw System,304,Yaw brake failure,0.6,TRIP
+1128,2025-09-24 06:57:00,2025-09-24 10:03:00,WTG-21,Electrical,601,Grid voltage out of limits,3.1,TRIP
+1129,2025-09-24 21:10:00,2025-09-25 21:40:00,WTG-05,PCM-CORR,002,manual stop_repair,24.5,Corrective
+1130,2025-09-25 11:57:00,2025-09-26 00:09:00,WTG-08,Yaw System,305,Yaw inverter fault,12.2,TRIP
+1131,2025-09-25 15:51:00,2025-09-26 02:33:00,WTG-06,Hydraulic System,402,High hydraulic pressure,10.7,TRIP
+1132,2025-09-25 20:02:00,2025-09-26 10:38:00,WTG-03,Pitch System,204,Pitch position sensor error,14.6,TRIP
+1133,2025-09-26 01:09:00,2025-09-26 23:39:00,WTG-22,Electrical,605,Grid frequency instability,22.5,TRIP
+1134,2025-09-26 08:00:00,2025-09-29 08:00:00,WTG-26,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1135,2025-09-26 09:21:00,2025-09-26 14:51:00,WTG-24,Electrical,602,IGBT overtemperature,5.5,TRIP
+1136,2025-09-26 15:46:00,2025-09-28 00:04:00,WTG-14,PCM-CORR,002,manual stop_repair,32.3,Corrective
+1137,2025-09-26 18:11:00,2025-09-27 15:11:00,WTG-09,Generator,502,Generator cooling failure,21.0,TRIP
+1138,2025-09-27 02:47:00,2025-09-27 07:47:00,WTG-05,Gearbox,704,Oil filter clogged,5.0,TRIP
+1139,2025-09-27 16:21:00,2025-09-27 18:57:00,WTG-14,Electrical,601,Grid voltage out of limits,2.6,TRIP
+1140,2025-09-28 08:29:00,2025-09-28 18:05:00,WTG-29,Hydraulic System,405,Valve switching failure,9.6,TRIP
+1141,2025-09-28 10:28:00,2025-09-28 19:58:00,WTG-03,Gearbox,704,Oil filter clogged,9.5,TRIP
+1142,2025-09-29 03:55:00,2025-09-29 17:13:00,WTG-10,Pitch System,202,Pitch battery fault,13.3,TRIP
+1143,2025-09-29 09:00:00,2025-10-02 09:00:00,WTG-08,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1144,2025-09-29 14:25:00,2025-09-30 23:01:00,WTG-08,PCM-CORR,002,manual stop_repair,32.6,Corrective
+1145,2025-09-29 17:44:00,2025-09-30 08:44:00,WTG-28,PCM-CORR,002,manual stop_repair,15.0,Corrective
+1146,2025-09-29 21:34:00,2025-09-30 20:22:00,WTG-19,Sensors,802,Wind vane error,22.8,TRIP
+1147,2025-09-29 23:20:00,2025-10-01 02:20:00,WTG-26,PCM-CORR,002,manual stop_repair,27.0,Corrective
+1148,2025-09-30 03:32:00,2025-10-01 01:56:00,WTG-27,Sensors,803,Ice detection on blades,22.4,TRIP
+1149,2025-09-30 05:07:00,2025-09-30 06:37:00,WTG-19,Sensors,802,Wind vane error,1.5,TRIP
+1150,2025-09-30 08:35:00,2025-09-30 14:23:00,WTG-13,Electrical,604,DC link overvoltage,5.8,TRIP
+1151,2025-09-30 12:18:00,2025-09-30 12:54:00,WTG-12,Sensors,803,Ice detection on blades,0.6,TRIP
+1152,2025-09-30 20:14:00,2025-10-01 16:56:00,WTG-14,Gearbox,703,Bearing vibration high,20.7,TRIP
+1153,2025-10-01 06:05:00,2025-10-01 20:05:00,WTG-10,Hydraulic System,405,Valve switching failure,14.0,TRIP
+1154,2025-10-01 07:36:00,2025-10-01 23:48:00,WTG-05,Hydraulic System,405,Valve switching failure,16.2,TRIP
+1155,2025-10-01 07:46:00,2025-10-01 18:16:00,WTG-08,Yaw System,305,Yaw inverter fault,10.5,TRIP
+1156,2025-10-01 10:31:00,2025-10-01 11:19:00,WTG-05,Sensors,804,Ambient temperature out of range,0.8,TRIP
+1157,2025-10-01 19:27:00,2025-10-02 06:27:00,WTG-19,Sensors,802,Wind vane error,11.0,TRIP
+1158,2025-10-01 20:11:00,2025-10-01 22:11:00,WTG-01,Hydraulic System,402,High hydraulic pressure,2.0,TRIP
+1159,2025-10-01 20:23:00,2025-10-02 13:47:00,WTG-12,Yaw System,301,Yaw error,17.4,TRIP
+1160,2025-10-01 21:00:00,2025-10-02 21:24:00,WTG-04,Hydraulic System,402,High hydraulic pressure,24.4,TRIP
+1161,2025-10-02 05:17:00,2025-10-02 18:11:00,WTG-01,Electrical,604,DC link overvoltage,12.9,TRIP
+1162,2025-10-02 16:28:00,2025-10-03 20:10:00,WTG-11,PCM-CORR,002,manual stop_repair,27.7,Corrective
+1163,2025-10-03 03:13:00,2025-10-03 17:55:00,WTG-12,Pitch System,204,Pitch position sensor error,14.7,TRIP
+1164,2025-10-03 09:00:00,2025-10-06 09:00:00,WTG-15,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1165,2025-10-03 09:49:00,2025-10-03 10:19:00,WTG-18,Gearbox,705,Gear mesh frequency vibration,0.5,TRIP
+1166,2025-10-03 19:41:00,2025-10-04 04:11:00,WTG-18,PCM-CORR,002,manual stop_repair,8.5,Corrective
+1167,2025-10-04 08:53:00,2025-10-04 09:53:00,WTG-29,Pitch System,204,Pitch position sensor error,1.0,TRIP
+1168,2025-10-04 22:45:00,2025-10-05 04:33:00,WTG-20,Yaw System,303,Cable twist limit exceeded,5.8,TRIP
+1169,2025-10-05 18:01:00,2025-10-05 22:01:00,WTG-09,Gearbox,701,Low oil pressure,4.0,TRIP
+1170,2025-10-05 18:31:00,2025-10-06 02:49:00,WTG-25,Hydraulic System,405,Valve switching failure,8.3,TRIP
+1171,2025-10-05 20:46:00,2025-10-08 05:10:00,WTG-29,Yaw System,301,Yaw error,56.4,TRIP
+1172,2025-10-06 01:34:00,2025-10-07 04:16:00,WTG-14,Hydraulic System,401,Low hydraulic pressure,26.7,TRIP
+1173,2025-10-06 03:53:00,2025-10-07 14:17:00,WTG-19,PCM-CORR,002,manual stop_repair,34.4,Corrective
+1174,2025-10-06 03:53:00,2025-10-06 11:11:00,WTG-17,Yaw System,302,Yaw motor overload,7.3,TRIP
+1175,2025-10-06 04:22:00,2025-10-06 13:16:00,WTG-25,PCM-CORR,002,manual stop_repair,8.9,Corrective
+1176,2025-10-06 05:49:00,2025-10-07 08:31:00,WTG-13,PCM-CORR,002,manual stop_repair,26.7,Corrective
+1177,2025-10-06 08:00:00,2025-10-09 08:00:00,WTG-28,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1178,2025-10-06 23:26:00,2025-10-07 00:38:00,WTG-07,Sensors,803,Ice detection on blades,1.2,TRIP
+1179,2025-10-07 01:47:00,2025-10-07 04:23:00,WTG-03,Electrical,605,Grid frequency instability,2.6,TRIP
+1180,2025-10-07 07:00:00,2025-10-10 07:00:00,WTG-17,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1181,2025-10-07 17:24:00,2025-10-08 06:36:00,WTG-28,Yaw System,301,Yaw error,13.2,TRIP
+1182,2025-10-07 21:48:00,2025-10-08 12:42:00,WTG-25,PCM-CORR,002,manual stop_repair,14.9,Corrective
+1183,2025-10-08 01:29:00,2025-10-08 11:35:00,WTG-29,Gearbox,705,Gear mesh frequency vibration,10.1,TRIP
+1184,2025-10-08 18:52:00,2025-10-09 16:28:00,WTG-04,PCM-CORR,002,manual stop_repair,21.6,Corrective
+1185,2025-10-09 04:50:00,2025-10-10 11:02:00,WTG-12,PCM-CORR,002,manual stop_repair,30.2,Corrective
+1186,2025-10-09 08:01:00,2025-10-09 19:31:00,WTG-04,PCM-CORR,002,manual stop_repair,11.5,Corrective
+1187,2025-10-09 11:36:00,2025-10-09 14:30:00,WTG-19,Electrical,604,DC link overvoltage,2.9,TRIP
+1188,2025-10-09 12:19:00,2025-10-10 13:55:00,WTG-11,Yaw System,302,Yaw motor overload,25.6,TRIP
+1189,2025-10-09 14:22:00,2025-10-10 05:28:00,WTG-20,PCM-CORR,002,manual stop_repair,15.1,Corrective
+1190,2025-10-09 15:33:00,2025-10-10 08:15:00,WTG-24,Hydraulic System,404,Hydraulic oil low level,16.7,TRIP
+1191,2025-10-09 15:42:00,2025-10-09 18:18:00,WTG-13,Hydraulic System,402,High hydraulic pressure,2.6,TRIP
+1192,2025-10-09 18:51:00,2025-10-10 03:51:00,WTG-16,Yaw System,302,Yaw motor overload,9.0,TRIP
+1193,2025-10-09 23:52:00,2025-10-10 00:28:00,WTG-21,Pitch System,205,Blade angle asymmetry limit reached,0.6,TRIP
+1194,2025-10-10 02:57:00,2025-10-10 06:51:00,WTG-11,Hydraulic System,403,Hydraulic pump motor overload,3.9,TRIP
+1195,2025-10-10 04:12:00,2025-10-10 08:30:00,WTG-28,Yaw System,304,Yaw brake failure,4.3,TRIP
+1196,2025-10-10 06:51:00,2025-10-10 18:09:00,WTG-28,Hydraulic System,403,Hydraulic pump motor overload,11.3,TRIP
+1197,2025-10-10 10:48:00,2025-10-10 12:00:00,WTG-15,Gearbox,701,Low oil pressure,1.2,TRIP
+1198,2025-10-10 17:47:00,2025-10-11 05:41:00,WTG-14,Sensors,803,Ice detection on blades,11.9,TRIP
+1199,2025-10-10 21:34:00,2025-10-11 04:40:00,WTG-12,Pitch System,203,Pitch motor overtemperature,7.1,TRIP
+1200,2025-10-11 02:11:00,2025-10-11 09:41:00,WTG-12,Yaw System,303,Cable twist limit exceeded,7.5,TRIP
+1201,2025-10-11 06:24:00,2025-10-11 17:06:00,WTG-22,Hydraulic System,403,Hydraulic pump motor overload,10.7,TRIP
+1202,2025-10-11 08:00:00,2025-10-14 08:00:00,WTG-05,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1203,2025-10-11 17:05:00,2025-10-11 22:29:00,WTG-13,Electrical,605,Grid frequency instability,5.4,TRIP
+1204,2025-10-11 19:02:00,2025-10-12 07:20:00,WTG-27,Yaw System,303,Cable twist limit exceeded,12.3,TRIP
+1205,2025-10-11 20:24:00,2025-10-13 03:18:00,WTG-20,PCM-CORR,002,manual stop_repair,30.9,Corrective
+1206,2025-10-12 00:22:00,2025-10-12 04:28:00,WTG-09,Sensors,802,Wind vane error,4.1,TRIP
+1207,2025-10-12 13:13:00,2025-10-14 00:43:00,WTG-28,PCM-CORR,002,manual stop_repair,35.5,Corrective
+1208,2025-10-12 14:10:00,2025-10-12 15:16:00,WTG-22,Yaw System,301,Yaw error,1.1,TRIP
+1209,2025-10-12 15:11:00,2025-10-14 00:53:00,WTG-14,PCM-CORR,002,manual stop_repair,33.7,Corrective
+1210,2025-10-12 23:39:00,2025-10-13 02:21:00,WTG-24,Yaw System,301,Yaw error,2.7,TRIP
+1211,2025-10-13 00:53:00,2025-10-13 04:59:00,WTG-29,Hydraulic System,401,Low hydraulic pressure,4.1,TRIP
+1212,2025-10-13 02:28:00,2025-10-13 05:58:00,WTG-04,Yaw System,302,Yaw motor overload,3.5,TRIP
+1213,2025-10-13 07:00:00,2025-10-16 07:00:00,WTG-19,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1214,2025-10-13 07:09:00,2025-10-14 10:45:00,WTG-02,Sensors,803,Ice detection on blades,27.6,TRIP
+1215,2025-10-13 15:57:00,2025-10-14 11:15:00,WTG-20,PCM-CORR,002,manual stop_repair,19.3,Corrective
+1216,2025-10-13 22:01:00,2025-10-14 13:19:00,WTG-11,Sensors,803,Ice detection on blades,15.3,TRIP
+1217,2025-10-14 13:13:00,2025-10-14 14:25:00,WTG-07,Yaw System,304,Yaw brake failure,1.2,TRIP
+1218,2025-10-15 09:02:00,2025-10-16 09:02:00,WTG-28,Electrical,605,Grid frequency instability,24.0,TRIP
+1219,2025-10-15 16:51:00,2025-10-16 16:09:00,WTG-23,PCM-CORR,002,manual stop_repair,23.3,Corrective
+1220,2025-10-15 18:20:00,2025-10-16 13:32:00,WTG-30,Yaw System,301,Yaw error,19.2,TRIP
+1221,2025-10-16 02:28:00,2025-10-16 11:58:00,WTG-22,Sensors,803,Ice detection on blades,9.5,TRIP
+1222,2025-10-16 07:43:00,2025-10-16 08:43:00,WTG-03,Electrical,603,Converter communication failure,1.0,TRIP
+1223,2025-10-16 13:34:00,2025-10-16 20:28:00,WTG-25,Pitch System,202,Pitch battery fault,6.9,TRIP
+1224,2025-10-16 20:29:00,2025-10-16 22:23:00,WTG-16,Hydraulic System,405,Valve switching failure,1.9,TRIP
+1225,2025-10-17 09:00:00,2025-10-20 09:00:00,WTG-03,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1226,2025-10-17 16:07:00,2025-10-18 00:25:00,WTG-09,Sensors,804,Ambient temperature out of range,8.3,TRIP
+1227,2025-10-17 20:41:00,2025-10-18 07:35:00,WTG-21,Pitch System,203,Pitch motor overtemperature,10.9,TRIP
+1228,2025-10-17 23:59:00,2025-10-18 02:53:00,WTG-05,Gearbox,704,Oil filter clogged,2.9,TRIP
+1229,2025-10-18 01:33:00,2025-10-18 02:57:00,WTG-22,Electrical,603,Converter communication failure,1.4,TRIP
+1230,2025-10-18 02:15:00,2025-10-18 11:39:00,WTG-05,Pitch System,204,Pitch position sensor error,9.4,TRIP
+1231,2025-10-18 09:12:00,2025-10-18 17:54:00,WTG-13,Pitch System,204,Pitch position sensor error,8.7,TRIP
+1232,2025-10-18 17:03:00,2025-10-19 02:33:00,WTG-23,Yaw System,304,Yaw brake failure,9.5,TRIP
+1233,2025-10-18 18:21:00,2025-10-19 00:33:00,WTG-07,Gearbox,701,Low oil pressure,6.2,TRIP
+1234,2025-10-18 19:15:00,2025-10-18 20:15:00,WTG-01,Sensors,803,Ice detection on blades,1.0,TRIP
+1235,2025-10-19 00:41:00,2025-10-19 05:41:00,WTG-29,Generator,503,Bearing temperature high,5.0,TRIP
+1236,2025-10-19 10:50:00,2025-10-19 16:50:00,WTG-28,Gearbox,701,Low oil pressure,6.0,TRIP
+1237,2025-10-19 14:22:00,2025-10-19 17:46:00,WTG-22,Electrical,604,DC link overvoltage,3.4,TRIP
+1238,2025-10-19 15:15:00,2025-10-19 18:27:00,WTG-30,Hydraulic System,401,Low hydraulic pressure,3.2,TRIP
+1239,2025-10-19 15:52:00,2025-10-19 21:22:00,WTG-02,Hydraulic System,405,Valve switching failure,5.5,TRIP
+1240,2025-10-20 00:31:00,2025-10-20 01:43:00,WTG-03,Pitch System,203,Pitch motor overtemperature,1.2,TRIP
+1241,2025-10-20 02:31:00,2025-10-20 08:07:00,WTG-21,Yaw System,303,Cable twist limit exceeded,5.6,TRIP
+1242,2025-10-21 08:55:00,2025-10-21 21:07:00,WTG-18,PCM-CORR,002,manual stop_repair,12.2,Corrective
+1243,2025-10-21 18:25:00,2025-10-22 01:25:00,WTG-21,Sensors,801,Anemometer mismatch,7.0,TRIP
+1244,2025-10-22 05:11:00,2025-10-22 05:47:00,WTG-08,Generator,503,Bearing temperature high,0.6,TRIP
+1245,2025-10-22 07:24:00,2025-10-22 22:42:00,WTG-28,PCM-CORR,002,manual stop_repair,15.3,Corrective
+1246,2025-10-22 10:54:00,2025-10-22 13:00:00,WTG-20,Hydraulic System,403,Hydraulic pump motor overload,2.1,TRIP
+1247,2025-10-22 11:54:00,2025-10-23 09:12:00,WTG-19,Pitch System,202,Pitch battery fault,21.3,TRIP
+1248,2025-10-22 16:51:00,2025-10-22 19:51:00,WTG-12,Gearbox,701,Low oil pressure,3.0,TRIP
+1249,2025-10-22 20:37:00,2025-10-23 05:25:00,WTG-03,Sensors,802,Wind vane error,8.8,TRIP
+1250,2025-10-23 00:49:00,2025-10-23 02:49:00,WTG-29,Yaw System,305,Yaw inverter fault,2.0,TRIP
+1251,2025-10-23 08:10:00,2025-10-23 09:10:00,WTG-03,Pitch System,204,Pitch position sensor error,1.0,TRIP
+1252,2025-10-24 09:14:00,2025-10-24 18:08:00,WTG-19,Hydraulic System,404,Hydraulic oil low level,8.9,TRIP
+1253,2025-10-24 09:45:00,2025-10-24 11:33:00,WTG-22,Sensors,802,Wind vane error,1.8,TRIP
+1254,2025-10-24 19:41:00,2025-10-25 00:05:00,WTG-26,Hydraulic System,402,High hydraulic pressure,4.4,TRIP
+1255,2025-10-24 23:13:00,2025-10-25 11:25:00,WTG-17,PCM-CORR,002,manual stop_repair,12.2,Corrective
+1256,2025-10-25 02:42:00,2025-10-25 21:24:00,WTG-04,Electrical,603,Converter communication failure,18.7,TRIP
+1257,2025-10-25 04:04:00,2025-10-25 12:52:00,WTG-14,Hydraulic System,401,Low hydraulic pressure,8.8,TRIP
+1258,2025-10-25 15:59:00,2025-10-26 04:17:00,WTG-26,Gearbox,705,Gear mesh frequency vibration,12.3,TRIP
+1259,2025-10-26 09:45:00,2025-10-26 15:27:00,WTG-27,Gearbox,705,Gear mesh frequency vibration,5.7,TRIP
+1260,2025-10-26 17:07:00,2025-10-26 22:13:00,WTG-17,Yaw System,301,Yaw error,5.1,TRIP
+1261,2025-10-27 00:14:00,2025-10-27 16:20:00,WTG-18,PCM-CORR,002,manual stop_repair,16.1,Corrective
+1262,2025-10-27 01:42:00,2025-10-27 02:18:00,WTG-21,Generator,505,Generator overspeed,0.6,TRIP
+1263,2025-10-27 07:18:00,2025-10-27 12:42:00,WTG-11,Hydraulic System,402,High hydraulic pressure,5.4,TRIP
+1264,2025-10-27 15:48:00,2025-10-27 23:00:00,WTG-12,Yaw System,305,Yaw inverter fault,7.2,TRIP
+1265,2025-10-28 08:45:00,2025-10-29 00:57:00,WTG-19,Yaw System,304,Yaw brake failure,16.2,TRIP
+1266,2025-10-28 11:26:00,2025-10-28 12:08:00,WTG-01,Hydraulic System,403,Hydraulic pump motor overload,0.7,TRIP
+1267,2025-10-28 13:03:00,2025-10-28 23:33:00,WTG-08,Electrical,601,Grid voltage out of limits,10.5,TRIP
+1268,2025-10-29 02:28:00,2025-10-30 08:58:00,WTG-01,PCM-CORR,002,manual stop_repair,30.5,Corrective
+1269,2025-10-29 15:38:00,2025-10-30 01:56:00,WTG-19,Hydraulic System,401,Low hydraulic pressure,10.3,TRIP
+1270,2025-10-29 16:28:00,2025-10-29 21:58:00,WTG-12,Electrical,602,IGBT overtemperature,5.5,TRIP
+1271,2025-10-29 19:35:00,2025-10-30 04:29:00,WTG-07,Gearbox,703,Bearing vibration high,8.9,TRIP
+1272,2025-10-29 21:41:00,2025-10-30 11:29:00,WTG-08,Gearbox,704,Oil filter clogged,13.8,TRIP
+1273,2025-10-30 08:21:00,2025-10-30 12:21:00,WTG-01,Gearbox,701,Low oil pressure,4.0,TRIP
+1274,2025-10-30 08:40:00,2025-10-30 18:22:00,WTG-06,Pitch System,202,Pitch battery fault,9.7,TRIP
+1275,2025-10-30 10:53:00,2025-10-30 14:35:00,WTG-17,Yaw System,304,Yaw brake failure,3.7,TRIP
+1276,2025-10-30 15:05:00,2025-10-30 22:53:00,WTG-06,Gearbox,702,High oil temperature,7.8,TRIP
+1277,2025-10-30 18:56:00,2025-10-30 19:38:00,WTG-24,Hydraulic System,401,Low hydraulic pressure,0.7,TRIP
+1278,2025-10-30 21:00:00,2025-10-31 11:36:00,WTG-25,Sensors,801,Anemometer mismatch,14.6,TRIP
+1279,2025-10-30 23:27:00,2025-10-31 04:03:00,WTG-07,Sensors,801,Anemometer mismatch,4.6,TRIP
+1280,2025-10-31 22:09:00,2025-11-01 13:21:00,WTG-30,Electrical,603,Converter communication failure,15.2,TRIP
+1281,2025-11-01 01:46:00,2025-11-01 21:58:00,WTG-20,PCM-CORR,002,manual stop_repair,20.2,Corrective
+1282,2025-11-01 04:43:00,2025-11-01 22:49:00,WTG-10,Hydraulic System,405,Valve switching failure,18.1,TRIP
+1283,2025-11-01 05:21:00,2025-11-01 12:21:00,WTG-12,Pitch System,201,Difference between Pitch angles,7.0,TRIP
+1284,2025-11-01 05:45:00,2025-11-02 08:03:00,WTG-18,Pitch System,201,Difference between Pitch angles,26.3,TRIP
+1285,2025-11-01 14:48:00,2025-11-01 18:24:00,WTG-07,PCM-CORR,002,manual stop_repair,3.6,Corrective
+1286,2025-11-02 01:07:00,2025-11-02 02:25:00,WTG-09,Gearbox,703,Bearing vibration high,1.3,TRIP
+1287,2025-11-02 10:10:00,2025-11-03 15:04:00,WTG-28,PCM-CORR,002,manual stop_repair,28.9,Corrective
+1288,2025-11-02 18:34:00,2025-11-02 20:10:00,WTG-03,Gearbox,702,High oil temperature,1.6,TRIP
+1289,2025-11-02 18:37:00,2025-11-03 06:49:00,WTG-28,Sensors,801,Anemometer mismatch,12.2,TRIP
+1290,2025-11-03 10:51:00,2025-11-04 10:33:00,WTG-04,Electrical,602,IGBT overtemperature,23.7,TRIP
+1291,2025-11-03 16:51:00,2025-11-04 03:45:00,WTG-12,Generator,502,Generator cooling failure,10.9,TRIP
+1292,2025-11-03 18:36:00,2025-11-04 01:18:00,WTG-20,Yaw System,304,Yaw brake failure,6.7,TRIP
+1293,2025-11-03 18:54:00,2025-11-03 20:00:00,WTG-12,Pitch System,201,Difference between Pitch angles,1.1,TRIP
+1294,2025-11-03 21:59:00,2025-11-04 01:23:00,WTG-01,PCM-CORR,002,manual stop_repair,3.4,Corrective
+1295,2025-11-04 02:42:00,2025-11-04 05:36:00,WTG-26,Gearbox,701,Low oil pressure,2.9,TRIP
+1296,2025-11-04 15:51:00,2025-11-04 16:51:00,WTG-10,Pitch System,205,Blade angle asymmetry limit reached,1.0,TRIP
+1297,2025-11-05 12:47:00,2025-11-06 07:23:00,WTG-14,PCM-CORR,002,manual stop_repair,18.6,Corrective
+1298,2025-11-05 17:50:00,2025-11-05 19:02:00,WTG-15,Yaw System,305,Yaw inverter fault,1.2,TRIP
+1299,2025-11-05 19:48:00,2025-11-05 22:48:00,WTG-12,Yaw System,301,Yaw error,3.0,TRIP
+1300,2025-11-06 03:03:00,2025-11-06 10:39:00,WTG-24,Yaw System,301,Yaw error,7.6,TRIP
+1301,2025-11-06 03:41:00,2025-11-06 05:53:00,WTG-01,Yaw System,303,Cable twist limit exceeded,2.2,TRIP
+1302,2025-11-06 07:00:00,2025-11-09 07:00:00,WTG-21,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1303,2025-11-06 13:40:00,2025-11-07 14:52:00,WTG-01,PCM-CORR,002,manual stop_repair,25.2,Corrective
+1304,2025-11-06 21:12:00,2025-11-08 08:48:00,WTG-16,Hydraulic System,402,High hydraulic pressure,35.6,TRIP
+1305,2025-11-07 00:02:00,2025-11-07 17:32:00,WTG-28,PCM-CORR,002,manual stop_repair,17.5,Corrective
+1306,2025-11-07 00:24:00,2025-11-07 11:30:00,WTG-28,Electrical,605,Grid frequency instability,11.1,TRIP
+1307,2025-11-07 03:31:00,2025-11-07 04:49:00,WTG-12,Yaw System,302,Yaw motor overload,1.3,TRIP
+1308,2025-11-07 05:43:00,2025-11-07 11:31:00,WTG-01,Yaw System,304,Yaw brake failure,5.8,TRIP
+1309,2025-11-07 08:00:00,2025-11-07 14:36:00,WTG-27,Yaw System,304,Yaw brake failure,6.6,TRIP
+1310,2025-11-07 12:09:00,2025-11-07 14:27:00,WTG-15,Gearbox,704,Oil filter clogged,2.3,TRIP
+1311,2025-11-07 19:20:00,2025-11-08 03:32:00,WTG-27,Hydraulic System,405,Valve switching failure,8.2,TRIP
+1312,2025-11-07 22:54:00,2025-11-08 02:18:00,WTG-18,Hydraulic System,404,Hydraulic oil low level,3.4,TRIP
+1313,2025-11-08 04:12:00,2025-11-08 07:42:00,WTG-25,Gearbox,704,Oil filter clogged,3.5,TRIP
+1314,2025-11-09 00:35:00,2025-11-09 14:05:00,WTG-23,Hydraulic System,401,Low hydraulic pressure,13.5,TRIP
+1315,2025-11-09 10:14:00,2025-11-09 10:50:00,WTG-08,Yaw System,301,Yaw error,0.6,TRIP
+1316,2025-11-10 00:10:00,2025-11-10 03:40:00,WTG-28,Yaw System,305,Yaw inverter fault,3.5,TRIP
+1317,2025-11-10 03:44:00,2025-11-12 05:26:00,WTG-20,Electrical,605,Grid frequency instability,49.7,TRIP
+1318,2025-11-10 04:07:00,2025-11-11 11:25:00,WTG-24,PCM-CORR,002,manual stop_repair,31.3,Corrective
+1319,2025-11-10 08:00:00,2025-11-13 08:00:00,WTG-27,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1320,2025-11-10 08:16:00,2025-11-10 11:52:00,WTG-18,Electrical,604,DC link overvoltage,3.6,TRIP
+1321,2025-11-10 12:12:00,2025-11-10 18:42:00,WTG-22,Hydraulic System,401,Low hydraulic pressure,6.5,TRIP
+1322,2025-11-10 17:12:00,2025-11-10 22:18:00,WTG-04,Pitch System,204,Pitch position sensor error,5.1,TRIP
+1323,2025-11-10 18:32:00,2025-11-10 19:08:00,WTG-01,Generator,501,High temperature winding,0.6,TRIP
+1324,2025-11-11 07:26:00,2025-11-12 11:02:00,WTG-12,Generator,503,Bearing temperature high,27.6,TRIP
+1325,2025-11-11 17:49:00,2025-11-12 17:13:00,WTG-07,Yaw System,302,Yaw motor overload,23.4,TRIP
+1326,2025-11-12 01:00:00,2025-11-12 02:24:00,WTG-01,Pitch System,202,Pitch battery fault,1.4,TRIP
+1327,2025-11-12 01:39:00,2025-11-12 07:57:00,WTG-25,Pitch System,205,Blade angle asymmetry limit reached,6.3,TRIP
+1328,2025-11-13 07:15:00,2025-11-13 09:57:00,WTG-27,Sensors,802,Wind vane error,2.7,TRIP
+1329,2025-11-13 09:06:00,2025-11-13 10:42:00,WTG-27,Generator,505,Generator overspeed,1.6,TRIP
+1330,2025-11-13 10:57:00,2025-11-14 05:21:00,WTG-04,Sensors,803,Ice detection on blades,18.4,TRIP
+1331,2025-11-13 15:54:00,2025-11-14 02:18:00,WTG-07,Sensors,803,Ice detection on blades,10.4,TRIP
+1332,2025-11-13 21:25:00,2025-11-14 08:07:00,WTG-16,PCM-CORR,002,manual stop_repair,10.7,Corrective
+1333,2025-11-14 05:55:00,2025-11-14 15:19:00,WTG-16,Generator,501,High temperature winding,9.4,TRIP
+1334,2025-11-14 06:31:00,2025-11-14 13:25:00,WTG-26,Pitch System,201,Difference between Pitch angles,6.9,TRIP
+1335,2025-11-14 07:00:00,2025-11-17 07:00:00,WTG-09,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1336,2025-11-14 07:00:00,2025-11-17 07:00:00,WTG-30,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1337,2025-11-14 11:53:00,2025-11-14 13:59:00,WTG-20,Hydraulic System,403,Hydraulic pump motor overload,2.1,TRIP
+1338,2025-11-14 21:37:00,2025-11-16 06:25:00,WTG-30,PCM-CORR,002,manual stop_repair,32.8,Corrective
+1339,2025-11-15 00:01:00,2025-11-15 05:55:00,WTG-14,Yaw System,304,Yaw brake failure,5.9,TRIP
+1340,2025-11-15 02:56:00,2025-11-15 04:14:00,WTG-09,Pitch System,204,Pitch position sensor error,1.3,TRIP
+1341,2025-11-15 04:28:00,2025-11-15 16:40:00,WTG-10,Electrical,604,DC link overvoltage,12.2,TRIP
+1342,2025-11-15 05:09:00,2025-11-15 20:09:00,WTG-28,PCM-CORR,002,manual stop_repair,15.0,Corrective
+1343,2025-11-15 08:00:00,2025-11-18 08:00:00,WTG-16,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1344,2025-11-15 12:28:00,2025-11-15 23:34:00,WTG-04,Hydraulic System,403,Hydraulic pump motor overload,11.1,TRIP
+1345,2025-11-15 12:36:00,2025-11-16 01:00:00,WTG-19,Hydraulic System,401,Low hydraulic pressure,12.4,TRIP
+1346,2025-11-15 21:24:00,2025-11-15 23:36:00,WTG-02,Generator,502,Generator cooling failure,2.2,TRIP
+1347,2025-11-16 04:44:00,2025-11-16 12:38:00,WTG-10,Generator,501,High temperature winding,7.9,TRIP
+1348,2025-11-16 13:09:00,2025-11-17 03:15:00,WTG-06,Pitch System,202,Pitch battery fault,14.1,TRIP
+1349,2025-11-16 14:43:00,2025-11-16 20:07:00,WTG-02,Gearbox,702,High oil temperature,5.4,TRIP
+1350,2025-11-16 16:29:00,2025-11-16 23:41:00,WTG-08,Gearbox,702,High oil temperature,7.2,TRIP
+1351,2025-11-17 08:39:00,2025-11-17 22:39:00,WTG-10,Sensors,802,Wind vane error,14.0,TRIP
+1352,2025-11-18 02:30:00,2025-11-18 22:42:00,WTG-09,Yaw System,301,Yaw error,20.2,TRIP
+1353,2025-11-18 14:38:00,2025-11-18 16:14:00,WTG-21,Sensors,803,Ice detection on blades,1.6,TRIP
+1354,2025-11-18 20:10:00,2025-11-19 07:40:00,WTG-08,PCM-CORR,002,manual stop_repair,11.5,Corrective
+1355,2025-11-18 21:55:00,2025-11-20 05:31:00,WTG-24,PCM-CORR,002,manual stop_repair,31.6,Corrective
+1356,2025-11-18 23:35:00,2025-11-19 01:47:00,WTG-15,PCM-CORR,002,manual stop_repair,2.2,Corrective
+1357,2025-11-19 04:34:00,2025-11-19 09:28:00,WTG-17,Pitch System,205,Blade angle asymmetry limit reached,4.9,TRIP
+1358,2025-11-19 06:21:00,2025-11-19 19:15:00,WTG-03,Sensors,801,Anemometer mismatch,12.9,TRIP
+1359,2025-11-19 08:00:00,2025-11-22 08:00:00,WTG-12,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1360,2025-11-19 10:06:00,2025-11-19 17:42:00,WTG-19,Yaw System,302,Yaw motor overload,7.6,TRIP
+1361,2025-11-19 13:48:00,2025-11-19 18:48:00,WTG-07,Electrical,605,Grid frequency instability,5.0,TRIP
+1362,2025-11-19 17:17:00,2025-11-20 15:35:00,WTG-08,PCM-CORR,002,manual stop_repair,22.3,Corrective
+1363,2025-11-19 18:32:00,2025-11-20 02:08:00,WTG-25,Generator,504,Slip ring brush wear limit,7.6,TRIP
+1364,2025-11-20 03:48:00,2025-11-20 04:30:00,WTG-19,Electrical,603,Converter communication failure,0.7,TRIP
+1365,2025-11-20 08:00:00,2025-11-23 08:00:00,WTG-23,PCM-PROG,001,manual stop_maintenance,72.0,Preventive
+1366,2025-11-21 04:06:00,2025-11-21 10:06:00,WTG-25,Sensors,801,Anemometer mismatch,6.0,TRIP
+1367,2025-11-21 08:32:00,2025-11-21 15:32:00,WTG-28,Electrical,601,Grid voltage out of limits,7.0,TRIP
+1368,2025-11-22 14:05:00,2025-11-22 17:59:00,WTG-18,Gearbox,701,Low oil pressure,3.9,TRIP
+1369,2025-11-22 18:53:00,2025-11-22 19:41:00,WTG-24,Sensors,804,Ambient temperature out of range,0.8,TRIP
+1370,2025-11-22 21:23:00,2025-11-23 00:35:00,WTG-12,Hydraulic System,403,Hydraulic pump motor overload,3.2,TRIP
+1371,2025-11-25 01:15:00,2025-11-25 01:51:00,WTG-09,Gearbox,703,Bearing vibration high,0.6,TRIP
+1372,2025-11-25 10:22:00,2025-11-26 00:58:00,WTG-25,Generator,505,Generator overspeed,14.6,TRIP
+1373,2025-11-25 11:17:00,2025-11-25 17:41:00,WTG-30,PCM-CORR,002,manual stop_repair,6.4,Corrective
+1374,2025-11-25 12:49:00,2025-11-26 00:55:00,WTG-18,Generator,505,Generator overspeed,12.1,TRIP
+1375,2025-11-25 18:49:00,2025-11-25 20:13:00,WTG-06,Gearbox,705,Gear mesh frequency vibration,1.4,TRIP
+1376,2025-11-26 06:22:00,2025-11-27 10:04:00,WTG-11,PCM-CORR,002,manual stop_repair,27.7,Corrective
+1377,2025-11-26 10:45:00,2025-11-26 21:27:00,WTG-17,Gearbox,703,Bearing vibration high,10.7,TRIP
+1378,2025-11-26 11:14:00,2025-11-26 14:14:00,WTG-27,Sensors,803,Ice detection on blades,3.0,TRIP
+1379,2025-11-26 15:23:00,2025-11-26 15:53:00,WTG-24,Generator,504,Slip ring brush wear limit,0.5,TRIP
+1380,2025-11-27 01:32:00,2025-11-27 03:08:00,WTG-01,Electrical,602,IGBT overtemperature,1.6,TRIP
+1381,2025-11-27 07:25:00,2025-11-27 20:43:00,WTG-18,Electrical,602,IGBT overtemperature,13.3,TRIP
+1382,2025-11-27 10:46:00,2025-11-27 16:22:00,WTG-30,PCM-CORR,002,manual stop_repair,5.6,Corrective
+1383,2025-11-28 14:54:00,2025-11-29 07:06:00,WTG-11,PCM-CORR,002,manual stop_repair,16.2,Corrective
+1384,2025-11-29 03:13:00,2025-11-29 17:07:00,WTG-15,PCM-CORR,002,manual stop_repair,13.9,Corrective
+1385,2025-11-29 15:10:00,2025-11-29 21:10:00,WTG-29,PCM-CORR,002,manual stop_repair,6.0,Corrective
+1386,2025-11-29 22:16:00,2025-11-30 04:34:00,WTG-29,Electrical,604,DC link overvoltage,6.3,TRIP
+1387,2025-11-30 02:10:00,2025-11-30 02:58:00,WTG-10,Sensors,802,Wind vane error,0.8,TRIP
+1388,2025-11-30 05:37:00,2025-12-01 14:49:00,WTG-11,PCM-CORR,002,manual stop_repair,33.2,Corrective
+1389,2025-11-30 09:31:00,2025-12-01 00:49:00,WTG-20,PCM-CORR,002,manual stop_repair,15.3,Corrective
+1390,2025-12-01 00:02:00,2025-12-01 04:26:00,WTG-18,Pitch System,202,Pitch battery fault,4.4,TRIP
+1391,2025-12-01 12:25:00,2025-12-02 06:55:00,WTG-26,Gearbox,702,High oil temperature,18.5,TRIP
+1392,2025-12-01 12:53:00,2025-12-01 17:47:00,WTG-19,Pitch System,205,Blade angle asymmetry limit reached,4.9,TRIP
+1393,2025-12-03 02:23:00,2025-12-03 06:53:00,WTG-23,Hydraulic System,404,Hydraulic oil low level,4.5,TRIP
+1394,2025-12-03 08:51:00,2025-12-04 19:45:00,WTG-26,PCM-CORR,002,manual stop_repair,34.9,Corrective
+1395,2025-12-03 09:06:00,2025-12-04 02:12:00,WTG-08,PCM-CORR,002,manual stop_repair,17.1,Corrective
+1396,2025-12-03 09:42:00,2025-12-03 11:48:00,WTG-15,Gearbox,704,Oil filter clogged,2.1,TRIP
+1397,2025-12-03 15:36:00,2025-12-03 20:06:00,WTG-20,Yaw System,305,Yaw inverter fault,4.5,TRIP
+1398,2025-12-03 19:54:00,2025-12-04 09:24:00,WTG-09,Electrical,605,Grid frequency instability,13.5,TRIP
+1399,2025-12-04 05:58:00,2025-12-05 12:22:00,WTG-03,PCM-CORR,002,manual stop_repair,30.4,Corrective
+1400,2025-12-04 09:07:00,2025-12-04 18:13:00,WTG-26,Generator,503,Bearing temperature high,9.1,TRIP
+1401,2025-12-04 09:39:00,2025-12-04 13:21:00,WTG-26,Electrical,601,Grid voltage out of limits,3.7,TRIP
+1402,2025-12-04 17:20:00,2025-12-05 05:20:00,WTG-21,Electrical,605,Grid frequency instability,12.0,TRIP
+1403,2025-12-04 23:48:00,2025-12-05 04:30:00,WTG-15,PCM-CORR,002,manual stop_repair,4.7,Corrective
+1404,2025-12-05 04:49:00,2025-12-06 02:43:00,WTG-16,Hydraulic System,404,Hydraulic oil low level,21.9,TRIP
+1405,2025-12-05 05:06:00,2025-12-05 08:06:00,WTG-26,Electrical,603,Converter communication failure,3.0,TRIP
+1406,2025-12-05 06:59:00,2025-12-05 09:35:00,WTG-26,Electrical,601,Grid voltage out of limits,2.6,TRIP
+1407,2025-12-05 18:10:00,2025-12-06 15:52:00,WTG-23,Gearbox,701,Low oil pressure,21.7,TRIP
+1408,2025-12-06 11:53:00,2025-12-07 04:23:00,WTG-28,Electrical,602,IGBT overtemperature,16.5,TRIP
+1409,2025-12-06 12:06:00,2025-12-06 13:24:00,WTG-07,Yaw System,302,Yaw motor overload,1.3,TRIP
+1410,2025-12-06 22:04:00,2025-12-07 20:28:00,WTG-30,Pitch System,205,Blade angle asymmetry limit reached,22.4,TRIP
+1411,2025-12-07 04:26:00,2025-12-07 16:32:00,WTG-16,Sensors,802,Wind vane error,12.1,TRIP
+1412,2025-12-07 18:33:00,2025-12-07 22:21:00,WTG-07,Yaw System,301,Yaw error,3.8,TRIP
+1413,2025-12-07 19:55:00,2025-12-08 01:01:00,WTG-14,Sensors,801,Anemometer mismatch,5.1,TRIP
+1414,2025-12-07 23:25:00,2025-12-08 16:25:00,WTG-18,PCM-CORR,002,manual stop_repair,17.0,Corrective
+1415,2025-12-08 22:14:00,2025-12-09 00:44:00,WTG-18,Generator,501,High temperature winding,2.5,TRIP
+1416,2025-12-09 08:59:00,2025-12-09 16:53:00,WTG-25,Pitch System,202,Pitch battery fault,7.9,TRIP
+1417,2025-12-09 11:17:00,2025-12-10 02:17:00,WTG-28,Electrical,604,DC link overvoltage,15.0,TRIP
+1418,2025-12-09 11:35:00,2025-12-10 02:23:00,WTG-19,PCM-CORR,002,manual stop_repair,14.8,Corrective
+1419,2025-12-09 11:58:00,2025-12-09 16:34:00,WTG-20,Generator,501,High temperature winding,4.6,TRIP
+1420,2025-12-09 16:10:00,2025-12-09 17:52:00,WTG-25,Electrical,605,Grid frequency instability,1.7,TRIP
+1421,2025-12-09 19:11:00,2025-12-09 22:35:00,WTG-22,Pitch System,204,Pitch position sensor error,3.4,TRIP
+1422,2025-12-11 06:05:00,2025-12-11 08:53:00,WTG-30,Gearbox,702,High oil temperature,2.8,TRIP
+1423,2025-12-11 07:26:00,2025-12-11 17:20:00,WTG-07,Gearbox,702,High oil temperature,9.9,TRIP
+1424,2025-12-11 09:12:00,2025-12-11 19:48:00,WTG-19,Pitch System,204,Pitch position sensor error,10.6,TRIP
+1425,2025-12-11 15:52:00,2025-12-12 00:40:00,WTG-09,Electrical,604,DC link overvoltage,8.8,TRIP
+1426,2025-12-12 00:07:00,2025-12-12 01:25:00,WTG-10,Gearbox,702,High oil temperature,1.3,TRIP
+1427,2025-12-12 23:34:00,2025-12-13 07:46:00,WTG-10,Yaw System,305,Yaw inverter fault,8.2,TRIP
+1428,2025-12-13 07:03:00,2025-12-13 17:45:00,WTG-17,PCM-CORR,002,manual stop_repair,10.7,Corrective
+1429,2025-12-13 10:05:00,2025-12-14 15:05:00,WTG-23,PCM-CORR,002,manual stop_repair,29.0,Corrective
+1430,2025-12-13 21:19:00,2025-12-14 15:31:00,WTG-15,Gearbox,702,High oil temperature,18.2,TRIP
+1431,2025-12-13 23:04:00,2025-12-14 05:22:00,WTG-20,Sensors,801,Anemometer mismatch,6.3,TRIP
+1432,2025-12-14 16:50:00,2025-12-15 22:32:00,WTG-09,PCM-CORR,002,manual stop_repair,29.7,Corrective
+1433,2025-12-14 17:19:00,2025-12-14 18:25:00,WTG-26,Sensors,804,Ambient temperature out of range,1.1,TRIP
+1434,2025-12-14 19:20:00,2025-12-15 04:38:00,WTG-14,PCM-CORR,002,manual stop_repair,9.3,Corrective
+1435,2025-12-15 04:15:00,2025-12-15 10:21:00,WTG-03,PCM-CORR,002,manual stop_repair,6.1,Corrective
+1436,2025-12-15 05:16:00,2025-12-16 04:58:00,WTG-22,PCM-CORR,002,manual stop_repair,23.7,Corrective
+1437,2025-12-15 14:17:00,2025-12-15 14:53:00,WTG-14,Gearbox,703,Bearing vibration high,0.6,TRIP
+1438,2025-12-16 03:32:00,2025-12-16 16:32:00,WTG-21,PCM-CORR,002,manual stop_repair,13.0,Corrective
+1439,2025-12-16 03:51:00,2025-12-16 08:15:00,WTG-25,Yaw System,305,Yaw inverter fault,4.4,TRIP
+1440,2025-12-16 07:49:00,2025-12-16 14:01:00,WTG-10,Yaw System,302,Yaw motor overload,6.2,TRIP
+1441,2025-12-16 12:44:00,2025-12-16 17:50:00,WTG-20,Generator,505,Generator overspeed,5.1,TRIP
+1442,2025-12-16 20:24:00,2025-12-16 21:30:00,WTG-12,Gearbox,704,Oil filter clogged,1.1,TRIP
+1443,2025-12-16 22:46:00,2025-12-17 11:22:00,WTG-07,Hydraulic System,402,High hydraulic pressure,12.6,TRIP
+1444,2025-12-17 04:13:00,2025-12-17 10:13:00,WTG-28,Gearbox,704,Oil filter clogged,6.0,TRIP
+1445,2025-12-17 09:18:00,2025-12-17 18:30:00,WTG-19,PCM-CORR,002,manual stop_repair,9.2,Corrective
+1446,2025-12-17 17:03:00,2025-12-17 23:09:00,WTG-13,Generator,505,Generator overspeed,6.1,TRIP
+1447,2025-12-18 10:49:00,2025-12-18 14:31:00,WTG-11,Generator,504,Slip ring brush wear limit,3.7,TRIP
+1448,2025-12-18 14:06:00,2025-12-18 22:12:00,WTG-20,Pitch System,205,Blade angle asymmetry limit reached,8.1,TRIP
+1449,2025-12-18 19:54:00,2025-12-19 00:54:00,WTG-07,Generator,504,Slip ring brush wear limit,5.0,TRIP
+1450,2025-12-18 20:53:00,2025-12-19 00:23:00,WTG-09,Sensors,804,Ambient temperature out of range,3.5,TRIP
+1451,2025-12-19 01:02:00,2025-12-19 09:38:00,WTG-19,Generator,503,Bearing temperature high,8.6,TRIP
+1452,2025-12-19 04:12:00,2025-12-19 22:36:00,WTG-17,Generator,501,High temperature winding,18.4,TRIP
+1453,2025-12-19 04:47:00,2025-12-19 05:47:00,WTG-16,Yaw System,304,Yaw brake failure,1.0,TRIP
+1454,2025-12-19 11:27:00,2025-12-19 13:33:00,WTG-20,Yaw System,301,Yaw error,2.1,TRIP
+1455,2025-12-19 12:47:00,2025-12-19 14:05:00,WTG-05,Electrical,601,Grid voltage out of limits,1.3,TRIP
+1456,2025-12-20 14:03:00,2025-12-20 16:57:00,WTG-03,Yaw System,302,Yaw motor overload,2.9,TRIP
+1457,2025-12-20 18:46:00,2025-12-21 21:40:00,WTG-28,Pitch System,202,Pitch battery fault,26.9,TRIP
+1458,2025-12-20 21:49:00,2025-12-22 05:43:00,WTG-12,PCM-CORR,002,manual stop_repair,31.9,Corrective
+1459,2025-12-20 22:09:00,2025-12-21 10:27:00,WTG-12,PCM-CORR,002,manual stop_repair,12.3,Corrective
+1460,2025-12-21 00:18:00,2025-12-21 06:18:00,WTG-25,PCM-CORR,002,manual stop_repair,6.0,Corrective
+1461,2025-12-21 00:45:00,2025-12-21 04:03:00,WTG-01,Pitch System,204,Pitch position sensor error,3.3,TRIP
+1462,2025-12-21 02:13:00,2025-12-22 11:19:00,WTG-01,Generator,505,Generator overspeed,33.1,TRIP
+1463,2025-12-21 02:16:00,2025-12-21 16:34:00,WTG-04,Electrical,602,IGBT overtemperature,14.3,TRIP
+1464,2025-12-21 05:52:00,2025-12-21 08:22:00,WTG-19,Generator,505,Generator overspeed,2.5,TRIP
+1465,2025-12-21 06:07:00,2025-12-21 14:13:00,WTG-27,Generator,504,Slip ring brush wear limit,8.1,TRIP
+1466,2025-12-21 06:48:00,2025-12-21 08:36:00,WTG-04,Hydraulic System,405,Valve switching failure,1.8,TRIP
+1467,2025-12-21 08:42:00,2025-12-21 11:00:00,WTG-30,Yaw System,302,Yaw motor overload,2.3,TRIP
+1468,2025-12-21 15:23:00,2025-12-21 15:53:00,WTG-21,Gearbox,704,Oil filter clogged,0.5,TRIP
+1469,2025-12-21 19:35:00,2025-12-21 23:11:00,WTG-09,Gearbox,701,Low oil pressure,3.6,TRIP
+1470,2025-12-21 20:04:00,2025-12-22 07:40:00,WTG-13,Yaw System,303,Cable twist limit exceeded,11.6,TRIP
+1471,2025-12-21 20:46:00,2025-12-22 00:16:00,WTG-06,Generator,501,High temperature winding,3.5,TRIP
+1472,2025-12-22 08:39:00,2025-12-22 16:57:00,WTG-19,Sensors,804,Ambient temperature out of range,8.3,TRIP
+1473,2025-12-22 19:53:00,2025-12-22 23:23:00,WTG-21,Pitch System,202,Pitch battery fault,3.5,TRIP
+1474,2025-12-22 20:38:00,2025-12-22 22:32:00,WTG-15,Pitch System,204,Pitch position sensor error,1.9,TRIP
+1475,2025-12-23 02:20:00,2025-12-23 07:50:00,WTG-23,PCM-CORR,002,manual stop_repair,5.5,Corrective
+1476,2025-12-23 05:42:00,2025-12-23 14:12:00,WTG-22,Sensors,802,Wind vane error,8.5,TRIP
+1477,2025-12-23 06:29:00,2025-12-24 04:17:00,WTG-13,Gearbox,702,High oil temperature,21.8,TRIP
+1478,2025-12-23 06:48:00,2025-12-23 14:18:00,WTG-18,Electrical,604,DC link overvoltage,7.5,TRIP
+1479,2025-12-23 23:19:00,2025-12-25 05:13:00,WTG-24,Hydraulic System,404,Hydraulic oil low level,29.9,TRIP
+1480,2025-12-24 18:54:00,2025-12-25 00:48:00,WTG-19,Pitch System,205,Blade angle asymmetry limit reached,5.9,TRIP
+1481,2025-12-24 21:12:00,2025-12-25 06:48:00,WTG-16,Sensors,804,Ambient temperature out of range,9.6,TRIP
+1482,2025-12-25 01:00:00,2025-12-25 03:00:00,WTG-27,Electrical,603,Converter communication failure,2.0,TRIP
+1483,2025-12-25 22:20:00,2025-12-26 05:26:00,WTG-09,Sensors,802,Wind vane error,7.1,TRIP
+1484,2025-12-26 04:17:00,2025-12-27 03:47:00,WTG-17,PCM-CORR,002,manual stop_repair,23.5,Corrective
+1485,2025-12-26 07:27:00,2025-12-26 08:27:00,WTG-05,Pitch System,202,Pitch battery fault,1.0,TRIP
+1486,2025-12-26 07:47:00,2025-12-26 10:59:00,WTG-25,PCM-CORR,002,manual stop_repair,3.2,Corrective
+1487,2025-12-26 19:46:00,2025-12-27 16:28:00,WTG-23,PCM-CORR,002,manual stop_repair,20.7,Corrective
+1488,2025-12-27 16:01:00,2025-12-27 20:49:00,WTG-11,PCM-CORR,002,manual stop_repair,4.8,Corrective
+1489,2025-12-27 20:13:00,2025-12-28 20:13:00,WTG-08,PCM-CORR,002,manual stop_repair,24.0,Corrective
+1490,2025-12-28 06:37:00,2025-12-28 07:13:00,WTG-26,Yaw System,301,Yaw error,0.6,TRIP
+1491,2025-12-28 12:57:00,2025-12-28 16:45:00,WTG-15,Yaw System,303,Cable twist limit exceeded,3.8,TRIP
+1492,2025-12-28 21:07:00,2025-12-29 11:01:00,WTG-21,Pitch System,203,Pitch motor overtemperature,13.9,TRIP
+1493,2025-12-29 00:33:00,2025-12-29 23:15:00,WTG-21,PCM-CORR,002,manual stop_repair,22.7,Corrective
+1494,2025-12-29 13:33:00,2025-12-29 21:57:00,WTG-14,Gearbox,702,High oil temperature,8.4,TRIP
+1495,2025-12-29 17:25:00,2025-12-29 21:19:00,WTG-02,Sensors,803,Ice detection on blades,3.9,TRIP
+1496,2025-12-30 10:50:00,2025-12-30 15:32:00,WTG-15,Gearbox,705,Gear mesh frequency vibration,4.7,TRIP
+1497,2025-12-30 17:20:00,2025-12-30 21:50:00,WTG-25,Sensors,804,Ambient temperature out of range,4.5,TRIP
+1498,2025-12-31 02:13:00,2025-12-31 06:07:00,WTG-09,Generator,505,Generator overspeed,3.9,TRIP
+1499,2025-12-31 02:46:00,2026-01-01 07:40:00,WTG-13,PCM-CORR,002,manual stop_repair,28.9,Corrective
+1500,2025-12-31 14:03:00,2025-12-31 15:57:00,WTG-29,Gearbox,702,High oil temperature,1.9,TRIP
