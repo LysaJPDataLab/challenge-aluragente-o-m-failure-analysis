@@ -1,0 +1,7 @@
+# Ambiente Virtual e Dependências
+venv/
+__pycache__/
+.env
+
+# Configurações de OS
+.DS_Store
