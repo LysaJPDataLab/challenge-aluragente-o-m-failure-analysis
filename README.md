@@ -2,7 +2,7 @@
 
 ## Estrutura do repositório
 
-seu-repositorio-challenge/
+challenge-aluragente-o-m-failure-analysis/
 │
 ├── .streamlit/               # (Opcional) Configurações visuais do Streamlit
 │   └── config.toml
