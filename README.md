@@ -17,8 +17,6 @@ A solução permite que analistas e engenheiros consultem informações, cruzem 
   </tr>
 </table>
 
-> *(Substitua os caminhos das imagens acima pelos prints reais do seu projeto na pasta `/assets`)*
-
 ---
 
 # 📌 Sobre o Projeto
