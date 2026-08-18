@@ -6,4 +6,3 @@ langchain-experimental
 langchain-google-genai
 python-dotenv
 matplotlib
-seaborn
