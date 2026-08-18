@@ -5,10 +5,17 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
-# -- AJUSTE CRUCIAL PARA GRÁFICOS NO STREAMLIT --
+# -- PARA GRÁFICOS NO STREAMLIT --
 import matplotlib
 matplotlib.use('Agg') # Força o modo de servidor para não travar
 import matplotlib.pyplot as plt
+
+# -- PARA o RAG NO STREAMLIT --
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_core.tools import create_retriever_tool
 
 # 1. Carregar variáveis de ambiente (Chave do Gemini)
 load_dotenv()
@@ -37,6 +44,53 @@ def carregar_dados():
 
 df_scada, df_os = carregar_dados()
 
+# 3.5 Configuração do RAG (Leitura do Manual em PDF)
+@st.cache_resource
+def configurar_rag():
+    try:
+        # 1. Carrega o PDF do diretório
+        loader = PyPDFLoader("docs/MANUAL DE DIRETRIZES DE CONFIABILIDADE E INDICADORES DE MANUTENÇÃO.pdf")
+        documentos = loader.load()
+        
+        # 2. Divide o documento em chunks
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000, 
+            chunk_overlap=200
+        )
+        textos_divididos = text_splitter.split_documents(documentos)
+        
+        # 3. Cria os embeddings com o modelo do Gemini
+        embeddings = GoogleGenerativeAIEmbeddings(
+            model="gemini-embedding-001",
+            google_api_key=google_api_key
+        )
+
+        # 4. Cria o banco vetorial FAISS
+        vector_store = FAISS.from_documents(
+            textos_divididos, 
+            embeddings
+        )
+        
+        # 5. Cria o retriever
+        retriever = vector_store.as_retriever(
+            search_kwargs={"k": 3}
+        )
+
+        # 6. Cria a ferramenta que será usada pelo agente
+        ferramenta_rag = create_retriever_tool(
+            retriever,
+            "buscar_diretrizes_manutencao",
+            "Busca e retorna informações teóricas, regras e conceitos do Manual de Diretrizes de Confiabilidade."
+        )
+
+        return ferramenta_rag
+    
+    except Exception as e:
+        st.warning(f"⚠️ Não foi possível carregar o PDF para o RAG: {e}")
+        return None
+
+ferramenta_rag = configurar_rag()
+
 # 4. Configuração do Agente Inteligente (LangChain + Gemini)
 def inicializar_agente(df_scada, df_os):
     # Inicializa o modelo Gemini
@@ -46,7 +100,7 @@ def inicializar_agente(df_scada, df_os):
         google_api_key=google_api_key
     )
     
-    # Instruções de base do agente (Resumo do PDF de Diretrizes)
+    # Instruções de base do agente (Prompt)
     instrucoes_engenharia = """
     Você é um Engenheiro de Confiabilidade Sênior analisando dados de um parque eólico.
     Você tem acesso a dois dataframes:
@@ -69,8 +123,10 @@ def inicializar_agente(df_scada, df_os):
     
     Sempre explique seu raciocínio brevemente antes de dar a resposta final.
     """
+    # Prepara a lista de ferramentas extras (insere o RAG se ele tiver sido carregado com sucesso)
+    tools = [ferramenta_rag] if ferramenta_rag else []
 
-    # Cria o agente que sabe programar em Pandas
+    # Cria o agente que sabe programar em Pandas e Ler PDFs
     agente = create_pandas_dataframe_agent(
         llm,
         [df_scada, df_os],
@@ -79,7 +135,8 @@ def inicializar_agente(df_scada, df_os):
         prefix=instrucoes_engenharia,
         handle_parsing_errors=True,
         agent_type="tool-calling",
-        max_iterations=20
+        max_iterations=20,
+        extra_tools=tools
     )
     return agente
 
