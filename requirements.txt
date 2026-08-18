@@ -2,7 +2,8 @@ streamlit
 pandas
 numpy
 langchain
-google-generativeai
+langchain-experimental
+langchain-google-genai
 python-dotenv
 matplotlib
 seaborn
