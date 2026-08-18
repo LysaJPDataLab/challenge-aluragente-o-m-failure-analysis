@@ -73,7 +73,7 @@ O projeto é orquestrado pelo LangChain, dividindo as tarefas em ferramentas dis
 | :--- | :--- | :--- |
 | **Interface Web** | Streamlit | Front-end interativo e renderização de dados/gráficos |
 | **Orquestração de IA** | LangChain Core / Experimental | Criação do agente híbrido (*tool-calling*) |
-| **Inteligência Artificial** | Google Gemini (gemini-3.5-flash-lite / Embeddings) | Cérebro analítico e vetorização de texto |
+| **Inteligência Artificial** | Google Gemini (gemini-3.5-flash-lite / gemini-embedding-001) | Cérebro analítico e vetorização de texto |
 | **Análise de Dados** | Pandas & Matplotlib | Cruzamento de tabelas CSV e plotagem de gráficos |
 | **Banco Vetorial (RAG)** | FAISS & PyPDF | Extração e armazenamento local do conhecimento teórico |
 
