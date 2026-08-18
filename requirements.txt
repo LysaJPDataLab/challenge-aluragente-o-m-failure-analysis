@@ -1,8 +1,11 @@
 streamlit
 pandas
-numpy
-langchain
-langchain-experimental
-langchain-google-genai
 python-dotenv
 matplotlib
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-google-genai
+pypdf
+faiss-cpu
