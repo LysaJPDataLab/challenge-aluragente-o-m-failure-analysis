@@ -77,7 +77,7 @@ O projeto é orquestrado pelo LangChain, dividindo as tarefas em ferramentas dis
 | **Análise de Dados** | Pandas & Matplotlib | Cruzamento de tabelas CSV e plotagem de gráficos |
 | **Banco Vetorial (RAG)** | FAISS & PyPDF | Extração e armazenamento local do conhecimento teórico |
 
-> **⚠️ Nota de Dados:** Os DataFrames e eventos de manutenção contidos neste repositório (`/data`) são dados sintéticos criados exclusivamente para a homologação da arquitetura lógica deste assistente. Eles não refletem o histórico operacional ou os custos reais de nenhum parque eólico.
+> **⚠️ Nota de Dados:** Os DataFrames e eventos de manutenção contidos neste repositório (`/data`) são dados sintéticos criados exclusivamente para a homologação da arquitetura lógica deste assistente. Eles não foram extraídos do histórico operacional ou os custos reais de nenhum parque eólico.
 
 ---
 
