@@ -1,6 +1,6 @@
 # ⚡ AlurAgente: Análise de Falhas (O&M)
 
-![Status](https://img.shields.io/badge/Status-Concluído_(MVP)-yellow)
+![Status](https://img.shields.io/badge/Status-Em_andamento-yellow)
 ![Interface](https://img.shields.io/badge/Interface-Streamlit-FF4B4B)
 ![LLM](https://img.shields.io/badge/LLM-Google_Gemini-8E75B2)
 ![Data](https://img.shields.io/badge/Data_Analysis-Pandas-150458)
