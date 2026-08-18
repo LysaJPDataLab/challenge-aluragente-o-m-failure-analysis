@@ -13,7 +13,7 @@ A solução permite que analistas e engenheiros consultem informações, cruzem 
 <table>
   <tr>
     <td><img src="assets/mapa de calor.png" alt="Demonstração de gráfico" width="100%"></td>
-    <td><img src="assets/teste_funcional_aluragente1.png" alt="Demonstração de conversa" width="100%"></td>
+    <td><img src="assets/teste_funcional_aluragente1.PNG" alt="Demonstração de conversa" width="100%"></td>
   </tr>
 </table>
 
