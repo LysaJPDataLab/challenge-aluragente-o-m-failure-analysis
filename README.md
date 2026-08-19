@@ -12,7 +12,7 @@ A solução permite que analistas e engenheiros consultem informações, cruzem 
 
 <table>
   <tr>
-    <td><img src="assets/interface.PNG" alt="Demonstração de conversa" width="100%"></td>
+    <td><img src="assets/teste_funcional_01.PNG" alt="Demonstração de conversa" width="100%"></td>
     <td><img src="assets/teste_funcional_02.PNG" alt="Demonstração de gráfico" width="100%"></td>
   </tr>
 </table>
