@@ -4,6 +4,7 @@ matplotlib
 
 # === Processamento de Dados Estruturados ===
 pandas
+tabulate
 
 # === Segurança e Configuração ===
 python-dotenv
