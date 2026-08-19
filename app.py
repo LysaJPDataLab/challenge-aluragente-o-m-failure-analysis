@@ -21,6 +21,13 @@ from langchain_core.tools import create_retriever_tool
 load_dotenv()
 google_api_key = os.getenv("GOOGLE_API_KEY")
 
+if not google_api_key:
+    try:
+        google_api_key = st.secrets["GOOGLE_API_KEY"]
+    except KeyError:
+        st.error("A GOOGLE_API_KEY não foi configurada.")
+        st.stop()
+
 # 2. Configuração da Página do Streamlit
 st.set_page_config(
     page_title="AlurAgente - Wind Farm Failure Analysis",
