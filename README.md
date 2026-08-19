@@ -1,14 +1,20 @@
 # ⚡ AlurAgente: Análise de Falhas (O&M)
 
-![Status](https://img.shields.io/badge/Status-Em_andamento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Interface](https://img.shields.io/badge/Interface-Streamlit-FF4B4B)
 ![LLM](https://img.shields.io/badge/LLM-Google_Gemini-8E75B2)
-![Data](https://img.shields.io/badge/Data_Analysis-Pandas-150458)
+![Orquestração](https://img.shields.io/badge/Orquestração-LangChain-150458)
 ![Vector](https://img.shields.io/badge/Vector_Store-FAISS-5D9C59)
 
-Assistente inteligente para engenharia de confiabilidade de parques eólicos desenvolvido com **Streamlit**, **LangChain**, **Google Gemini**, arquitetura **RAG (Retrieval-Augmented Generation)** e **Pandas**. O projeto foi projetado para centralizar o histórico de eventos (SCADA), os custos de manutenção (CMMS) e as diretrizes teóricas em uma única interface conversacional.
+**Assistente inteligente para análise de falhas e indicadores de manutenção em parques eólicos**, desenvolvido com **Streamlit**, **LangChain**, **Google Gemini**, arquitetura **RAG (Retrieval-Augmented Generation)** e **Pandas**.
 
-A solução permite que analistas e engenheiros consultem informações, cruzem bases de dados e gerem gráficos analíticos (como Pareto) em linguagem natural, automatizando a extração de métricas a partir dos apontamentos operacionais inseridos pela equipe de campo.
+O projeto foi desenvolvido para centralizar informações provenientes de histórico de eventos (SCADA), ordens de serviço (CMMS) e documentação técnica em uma única interface conversacional, permitindo que o usuário consulte dados, realize análises e obtenha visualizações utilizando linguagem natural.
+
+## 🚀 Aplicação online
+
+A aplicação está disponível para acesso através do **Streamlit Community Cloud**:
+
+👉 **[Acessar o AlurAgente](https://challenge-aluragente-o-m-failure-analysis.streamlit.app/)**
 
 <table>
   <tr>
@@ -21,49 +27,114 @@ A solução permite que analistas e engenheiros consultem informações, cruzem 
 
 # 📌 Sobre o Projeto
 
-Em complexos eólicos, dados cruciais para o cálculo de disponibilidade e custos costumam estar distribuídos em silos: o sistema SCADA registra a indisponibilidade física (TRIPs), os sistemas CMMS gerenciam o esforço humano (Homem-Hora) e os materiais aplicados, enquanto as regras de categorização ficam isoladas em manuais em PDF.
+Em complexos eólicos, informações utilizadas na análise de disponibilidade, confiabilidade e custos de manutenção podem estar distribuídas em diferentes fontes. O sistema SCADA registra eventos e paradas, os sistemas CMMS concentram informações relacionadas às ordens de serviço e custos, enquanto regras e conceitos de manutenção podem estar disponíveis em documentos técnicos.
 
-Este projeto foi desenvolvido para unificar essas fontes de informação em um agente autônomo híbrido. O assistente é capaz de ler as diretrizes de manutenção, aplicar essas regras matematicamente aos DataFrames do parque eólico e devolver respostas precisas e visuais.
+O **AlurAgente** foi desenvolvido como uma solução experimental para integrar essas fontes em um agente inteligente capaz de interpretar perguntas em linguagem natural, consultar documentação técnica, analisar dados estruturados e gerar visualizações.
 
-O sistema utiliza uma arquitetura híbrida que combina:
-* 📚 **Base de conhecimento documental (RAG):** Leitura vetorial do *Manual de Diretrizes de Confiabilidade*.
-* 🧠 **Inteligência Artificial Generativa:** LLM (Google Gemini) para raciocínio analítico estruturado (*tool-calling*).
-* 📊 **Execução de Código em Python (Pandas):** Agente capacitado para ler arquivos CSV e realizar cálculos de KPIs em tempo real.
-* 📈 **Geração de Gráficos:** Criação autônoma de visualizações via Matplotlib no backend.
-* 💻 **Interface Web:** Aplicação interativa e rápida construída com Streamlit.
+A solução combina:
+
+- 📚 **Base de conhecimento documental (RAG):** consulta ao *Manual de Diretrizes de Confiabilidade e Indicadores de Manutenção*.
+- 🧠 **Inteligência Artificial Generativa:** utilização do Google Gemini para interpretação das solicitações e raciocínio analítico.
+- 📊 **Análise de dados:** utilização de Pandas para leitura e processamento dos dados de SCADA e ordens de serviço.
+- 📈 **Geração de gráficos:** criação de visualizações analíticas utilizando Matplotlib.
+- 💻 **Interface conversacional:** aplicação web desenvolvida com Streamlit.
 
 ---
 
 # 🚀 Funcionalidades
 
-## Consulta à Documentação Técnica (RAG)
-Permite realizar perguntas sobre as regras de negócio:
-* Diferenciação oficial entre eventos TRIP (reativos) e preventivos;
-* Diretrizes para o cálculo correto dos indicadores de manutenção.
+## 📚 Consulta à Documentação Técnica — RAG
 
-> **Exemplo:** *"De acordo com o manual, como se diferencia uma manutenção preventiva de um TRIP para o cálculo do MTBF?"*
+O agente pode consultar o manual técnico utilizado como base de conhecimento para responder perguntas relacionadas a conceitos e diretrizes de confiabilidade e manutenção.
 
-## Análise de Dados Cruzados (SCADA x OS)
-Permite cruzar as tabelas para extrair insights financeiros e de disponibilidade:
-* Cálculo autônomo de MTBF e MTTR aplicando os filtros corretos de *downtime*.
-* Descoberta das causas-raiz que geraram os maiores custos de materiais (R$).
+**Exemplo:**
 
-> **Exemplo:** *"Quais foram as 3 Ordens de Serviço individuais que tiveram o maior custo de materiais? Liste o valor e o subsistema afetado."*
+> "De acordo com o manual, como se diferencia o MTBF do MTTR?"
 
-## Geração de Gráficos Analíticos
-O agente programa, desenha e renderiza análises visuais diretamente na tela do chat.
+---
 
-> **Exemplo:** *"Faça uma análise de Pareto dos subsistemas com maior tempo total de parada acumulado. Plote o gráfico."*
+## 📊 Análise de Dados — SCADA x Ordens de Serviço
+
+O agente pode trabalhar com os DataFrames utilizados pelo projeto para realizar análises relacionadas a eventos de parada, manutenção, custos e indicadores.
+
+Entre as análises possíveis estão:
+
+- cálculo de MTBF e MTTR conforme as regras definidas no projeto;
+- análise de tempo de parada;
+- cruzamento entre histórico de paradas e ordens de serviço;
+- análise de custos de materiais;
+- identificação de subsistemas associados aos eventos;
+- consultas e agregações sobre os dados disponíveis.
+
+**Exemplo:**
+
+> "Quais foram as 3 Ordens de Serviço individuais que tiveram o maior custo de materiais? Liste o valor e o subsistema afetado."
+
+---
+
+## 📈 Geração de Gráficos Analíticos
+
+O agente pode utilizar Python, Pandas e Matplotlib para gerar visualizações a partir das análises solicitadas pelo usuário.
+
+**Exemplo:**
+
+> "Faça uma análise de Pareto dos subsistemas com maior tempo total de parada acumulado. Plote o gráfico."
 
 ---
 
 # 🔄 Arquitetura
 
-O projeto é orquestrado pelo LangChain, dividindo as tarefas em ferramentas distintas para o agente do Gemini:
+O projeto utiliza uma arquitetura híbrida que combina análise de dados estruturados, Retrieval-Augmented Generation (RAG), execução de código Python e LLM com tool-calling.
 
-1. **Ingestão de Arquivos (DataFrames):** O código carrega os arquivos `historico_paradas_wtg.csv` e `ordens_servico_wtg.csv` usando Pandas.
-2. **Criação da Ferramenta de Leitura (RAG):** O `PyPDFLoader` quebra o manual em pedaços, vetoriza usando embeddings do Google e salva em um banco local do FAISS, criando uma "ferramenta de busca" (`Retriever Tool`).
-3. **Execução do Agente Híbrido:** O `create_pandas_dataframe_agent` une as tabelas de dados, o interpretador de código Python e a ferramenta de busca do PDF. Quando o usuário faz uma pergunta, o LLM decide se precisa pesquisar a teoria no manual, calcular a matemática nos CSVs, desenhar um gráfico, ou fazer os três simultaneamente.
+### Fluxo simplificado
+
+```text
+                           ┌──────────────────────────┐
+                           │          Usuário          │
+                           │   Pergunta em linguagem   │
+                           │          natural          │
+                           └────────────┬─────────────┘
+                                        │
+                                        ▼
+                           ┌──────────────────────────┐
+                           │      Google Gemini       │
+                           │       LLM / Agent        │
+                           │      Tool Calling        │
+                           └────────────┬─────────────┘
+                                        │
+                         ┌──────────────┼──────────────┐
+                         │              │              │
+                         ▼              ▼              ▼
+                  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+                  │   Pandas    │ │     RAG     │ │   Python /  │
+                  │ DataFrames  │ │ PDF + FAISS │ │  Matplotlib │
+                  └──────┬──────┘ └──────┬──────┘ └──────┬──────┘
+                         │               │               │
+                         │               ▼               │
+                         │        ┌─────────────┐        │
+                         │        │  Retriever  │        │
+                         │        │ Busca        │        │
+                         │        │ semântica   │        │
+                         │        └──────┬──────┘        │
+                         │               │               │
+                         └───────────────┼───────────────┘
+                                         │
+                                         ▼
+                              ┌─────────────────────┐
+                              │ Resposta analítica  │
+                              │ + dados + gráficos  │
+                              └─────────────────────┘
+```
+
+### Etapas principais
+
+1. **Ingestão dos dados:** os arquivos `historico_paradas_wtg.csv` e `ordens_servico_wtg.csv` são carregados com **Pandas** e disponibilizados como DataFrames para análise.
+2. **Ingestão documental:** o `PyPDFLoader` extrai o conteúdo textual do documento `MANUAL DE DIRETRIZES DE CONFIABILIDADE E INDICADORES DE MANUTENÇÃO.pdf` utilizado como base de conhecimento.
+3. **Chunking:** o `RecursiveCharacterTextSplitter` divide o conteúdo em **chunks** menores, utilizando `chunk_size=1000` e `chunk_overlap=200`, preparando o documento para a indexação semântica.
+4. **Embeddings:** cada chunk é convertido em uma representação vetorial utilizando o modelo `gemini-embedding-001`, permitindo a comparação semântica entre consultas e trechos do documento.
+5. **Indexação e recuperação:** os embeddings são indexados no **FAISS** e expostos por meio de um **retriever**, configurado para recuperar os 3 chunks mais relevantes (`k=3`) para cada consulta.
+6. **Agente híbrido:** o `create_pandas_dataframe_agent` integra os DataFrames, a execução de código Python e a ferramenta de recuperação do RAG, permitindo combinar análise quantitativa e consulta à documentação técnica.
+7. **Orquestração e resposta:** o **Google Gemini** interpreta a solicitação, determina quais recursos utilizar e gera a resposta com base nos dados analisados e/ou no contexto recuperado pelo RAG.
 
 ---
 
@@ -71,29 +142,100 @@ O projeto é orquestrado pelo LangChain, dividindo as tarefas em ferramentas dis
 
 | Categoria | Ferramenta / Biblioteca | Papel na Arquitetura |
 | :--- | :--- | :--- |
-| **Interface Web** | Streamlit | Front-end interativo e renderização de dados/gráficos |
-| **Orquestração de IA** | LangChain Core / Experimental | Criação do agente híbrido (*tool-calling*) |
-| **Inteligência Artificial** | Google Gemini (gemini-3.5-flash-lite / gemini-embedding-001) | Cérebro analítico e vetorização de texto |
-| **Análise de Dados** | Pandas & Matplotlib | Cruzamento de tabelas CSV e plotagem de gráficos |
-| **Banco Vetorial (RAG)** | FAISS & PyPDF | Extração e armazenamento local do conhecimento teórico |
+| **Interface Web** | Streamlit | Interface interativa e renderização de dados e gráficos |
+| **Orquestração de IA** | LangChain | Construção e integração do agente |
+| **Inteligência Artificial** | Google Gemini | Interpretação das solicitações e geração das respostas |
+| **Análise de Dados** | Pandas | Leitura, tratamento e análise dos arquivos CSV |
+| **Visualização** | Matplotlib | Geração dos gráficos analíticos |
+| **RAG** | LangChain + FAISS | Recuperação de informações do manual técnico |
+| **Documentos** | PyPDF | Extração do conteúdo do manual em PDF |
+| **Embeddings** | Google Generative AI Embeddings | Vetorização do conteúdo documental |
 
-> **⚠️ Nota de Dados:** Os DataFrames e eventos de manutenção contidos neste repositório (`/data`) são dados sintéticos criados exclusivamente para a homologação da arquitetura lógica deste assistente. Eles não foram extraídos do histórico operacional de nenhum parque eólico.
+> **⚠️ Nota sobre os dados:** Os DataFrames e eventos de manutenção contidos neste repositório (`/data`) são dados sintéticos criados exclusivamente para a homologação da arquitetura lógica deste assistente. Eles não foram extraídos do histórico operacional de nenhum parque eólico.
+---
+
+# 📂 Estrutura do Repositório
+
+```text
+challenge-aluragente-o-m-failure-analysis/
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── assets/
+│
+├── data/
+│   ├── historico_paradas_wtg.csv
+│   └── ordens_servico_wtg.csv
+│
+├── docs/
+│   └── MANUAL DE DIRETRIZES DE CONFIABILIDADE E INDICADORES DE MANUTENÇÃO.pdf
+│
+├── prompts/
+├── scripts/
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+---
+
+# ⚙️ Como executar localmente
+
+## 1. Pré-requisitos
+
+- Python 3.10 ou superior;
+- uma chave de API do Google Gemini;
+- Git instalado.
+
+## 2. Clonar o repositório
+
+```bash
+git clone https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis.git
+
+cd challenge-aluragente-o-m-failure-analysis
+```
+
+## 3. Instalar as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Configurar a API Key
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```env
+GOOGLE_API_KEY=sua_chave_aqui
+```
+
+## 5. Executar a aplicação
+
+```bash
+streamlit run app.py
+```
+
+Após a execução, o Streamlit disponibilizará a aplicação localmente no navegador.
 
 ---
 
-# ⚙️ Como executar este projeto
+# ☁️ Deploy
 
-Se você deseja rodar este assistente localmente, siga os passos abaixo:
+A aplicação foi publicada utilizando o **Streamlit Community Cloud**, conectado ao repositório GitHub.
 
-### 1. Pré-requisitos
-* Python 3.10 ou superior instalado.
-* Uma chave de API gratuita do [Google AI Studio](https://aistudio.google.com/).
+Para realizar um novo deploy ou reproduzir a publicação:
 
-### 2. Clonando o Repositório e Configurando o Ambiente
-```bash
-# Clone o repositório
-git clone [https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis.git](https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis.git)
-cd challenge-aluragente-o-m-failure-analysis
+1. Conecte o repositório ao Streamlit Community Cloud.
+2. Selecione a branch `main`.
+3. Defina `app.py` como arquivo principal.
+4. Configure `GOOGLE_API_KEY` em **Secrets**.
+5. O Streamlit instalará automaticamente as dependências presentes em `requirements.txt`.
 
-# Instale as dependências
-pip install -r requirements.txt
+---
+
+## 👩‍💻 Autora
+
+**Lysara J. Pinheiro**
+
+Projeto desenvolvido como parte do **Challenge AlurAgente** do programa **ONE - Oracle Next Education**, com foco na aplicação de Inteligência Artificial para desenvolvimento de soluções.
