@@ -34,7 +34,7 @@ AVATAR_ROSTO = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failur
 AVATAR_CORPO = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis/blob/main/assets/avatar_corpo.png?raw=true"
 
 # ==========================================
-# ÁREA PRINCIPAL
+# START - ÁREA PRINCIPAL
 # ==========================================
 st.title("Análise de Falhas e Indicadores do Parque Eólico AlurAgente")
 
@@ -54,6 +54,7 @@ df_scada, df_os = carregar_dados()
 # ==========================================
 # BARRA LATERAL (SIDEBAR)
 # ==========================================
+# Posicionamento necessário para que seja possível usar os dados das bases
 with st.sidebar:
     st.markdown("## AlurAgente")
     st.markdown("**Complexo Eólico AlurAgente**") 
@@ -110,7 +111,7 @@ with st.sidebar:
     st.image(AVATAR_CORPO, use_container_width=True)
 
 # ==========================================
-# 4. RESTANTE DO CÓDIGO (RAG, Agente, Abas do Chat)
+# 4. RAG, Agente, Abas do Chat
 # ==========================================
 
 @st.cache_resource
