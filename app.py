@@ -19,7 +19,7 @@ from langchain_core.tools import create_retriever_tool
 
 # 1. Carregar variáveis de ambiente (Chave do Gemini)
 load_dotenv()
-google_api_key = os.getenv("GOOGLE_API_KEY")
+google_api_key = st.secrets.get("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY")
 
 # 2. Configuração da Página do Streamlit
 st.set_page_config(
