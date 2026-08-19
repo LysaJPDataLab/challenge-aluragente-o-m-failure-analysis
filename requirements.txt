@@ -1,22 +1,23 @@
 # === Interface Visual e Gráficos ===
-streamlit               # Motor da interface web do assistente
-matplotlib              # Biblioteca para desenhar e salvar os gráficos matemáticos
+streamlit
+matplotlib
 
 # === Processamento de Dados Estruturados ===
-pandas                  # Manipulação e análise dos arquivos CSV (SCADA e CMMS)
+pandas
 
 # === Segurança e Configuração ===
-python-dotenv           # Gerenciador de variáveis de ambiente (protege a API Key)
+python-dotenv
 
-# === Ecossistema LangChain (Orquestração da IA) ===
-langchain               # Biblioteca principal de orquestração
-langchain-core          # Ferramentas base (create_retriever_tool)
-langchain-community     # Integração com carregadores de documentos e vetores
-langchain-experimental  # Necessário para rodar o agente autônomo do Pandas
+# === Ecossistema LangChain ===
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-text-splitters
 
 # === Conexão com os Modelos de IA ===
-langchain-google-genai  # Ponte oficial de comunicação com a API do Gemini
+langchain-google-genai
 
 # === Arquitetura RAG ===
-pypdf                   # Extrator de texto (lê o manual de O&M)
-faiss-cpu               # Banco de dados vetorial local (armazena o conhecimento do PDF)
+pypdf
+faiss-cpu
