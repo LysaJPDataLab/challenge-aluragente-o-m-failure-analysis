@@ -47,9 +47,12 @@ A solução combina:
 
 O agente pode consultar o manual técnico utilizado como base de conhecimento para responder perguntas relacionadas a conceitos e diretrizes de confiabilidade e manutenção.
 
-**Exemplo:**
+**Exemplo 1:**
 
 > "De acordo com o manual, como se diferencia o MTBF do MTTR?"
+
+**Resposta 1:**
+<td><img src="assets/resposta01.png" alt="Demonstração de conversa" width="100%"></td>
 
 ---
 
@@ -66,9 +69,12 @@ Entre as análises possíveis estão:
 - identificação de subsistemas associados aos eventos;
 - consultas e agregações sobre os dados disponíveis.
 
-**Exemplo:**
+**Exemplo 2:**
 
 > "Quais foram as 3 Ordens de Serviço individuais que tiveram o maior custo de materiais? Liste o valor e o subsistema afetado."
+
+**Resposta 2:**
+<td><img src="assets/resposta02.png" alt="Demonstração de conversa" width="100%"></td>
 
 ---
 
@@ -76,9 +82,12 @@ Entre as análises possíveis estão:
 
 O agente pode utilizar Python, Pandas e Matplotlib para gerar visualizações a partir das análises solicitadas pelo usuário.
 
-**Exemplo:**
+**Exemplo 3:**
 
 > "Faça uma análise de Pareto dos subsistemas com maior tempo total de parada acumulado. Plote o gráfico."
+
+**Resposta 3:**
+<td><img src="assets/resposta03.png" alt="Demonstração de conversa" width="100%"></td>
 
 ---
 
