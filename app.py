@@ -44,6 +44,15 @@ AVATAR_CORPO = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failur
 # START - ÁREA PRINCIPAL
 # ==========================================
 st.title("Histórico Operacional e Indicadores do Complexo Eólico AlurAgente")
+# Data Peek
+with st.expander("🔍 Visualizar Amostra dos Dados Brutos (SCADA & OS)"):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.caption("SCADA: Histórico de Paradas")
+        st.dataframe(df_scada.head(3), use_container_width=True)
+    with col2:
+        st.caption("CMMS: Ordens de Serviço")
+        st.dataframe(df_os.head(3), use_container_width=True)
 
 # 3. Funções de Carregamento
 @st.cache_data
