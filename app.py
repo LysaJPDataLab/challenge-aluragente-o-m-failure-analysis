@@ -100,15 +100,6 @@ with st.sidebar:
             periodo = "Erro de Coluna"
 
         # --- EXIBIÇÃO NA TELA ---
-        st.markdown("### Aerogeradores")
-        st.markdown(f"<h2 style='color: #2E8B57; margin-top: -15px;'>{total_turbinas}</h2>", unsafe_allow_html=True)
-        
-        st.markdown("### Eventos de TRIP")
-        st.markdown(f"<h2 style='color: #D32F2F; margin-top: -15px;'>{total_trips}</h2>", unsafe_allow_html=True)
-        
-        st.markdown("### 📆 Período Disponível")
-        st.markdown(f"<p style='font-size: 16px; font-weight: bold; color: #4A4A4A; margin-top: -5px;'>{periodo}</p>", unsafe_allow_html=True)
-        # --- EXIBIÇÃO NA TELA ---
         st.metric(label="Aerogeradores", value=total_turbinas)
         st.metric(label="Eventos de TRIP", value=total_trips)
         st.markdown(f"**📆 Período:** {periodo}")
