@@ -245,7 +245,7 @@ Para realizar um novo deploy ou reproduzir a publicação:
 
 # 🚧 Limitações e Escopo do MVP
 
-Sendo uma Prova de Conceito (PoC) focada em validar a integração entre RAG e análise de dados tabulares, esta versão inicial apresenta algumas limitações:
+Sendo uma Prova de Conceito (PoC) focada em validar a integração entre RAG e análise de dados estruturados, esta versão inicial apresenta algumas limitações:
 
 *   **Memória de Sessão Volátil:** O histórico de interações é mantido apenas durante a sessão ativa no navegador (via `st.session_state`). O projeto atual não implementa um banco de dados (como SQLite ou PostgreSQL) para persistência e recuperação de chats anteriores.
 *   **Renderização Única de Gráficos:** A interface plota e exibe um gráfico analítico por vez. O agente salva a visualização de forma otimizada em um arquivo temporário, sobrescrevendo-o a cada nova solicitação visual para economizar processamento.
