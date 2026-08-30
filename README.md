@@ -27,9 +27,9 @@ A aplicação está disponível para acesso através do **Streamlit Community Cl
 
 # 📌 Sobre o Projeto
 
-Em complexos eólicos, informações utilizadas na análise de disponibilidade, confiabilidade e custos de manutenção podem estar distribuídas em diferentes fontes. O sistema SCADA registra eventos e paradas, os sistemas CMMS concentram informações relacionadas às ordens de serviço e custos, enquanto regras e conceitos de manutenção podem estar disponíveis em documentos técnicos.
+Em complexos eólicos, informações utilizadas na análise de disponibilidade, confiabilidade e custos de manutenção podem estar distribuídas em diferentes fontes. O sistema SCADA registra eventos e paradas, os sistemas CMMS concentram informações relacionadas às ordens de serviço, enquanto regras de negócio, estratégia e documentação técnica do ativo podem estar disponíveis em outros formatos.
 
-O **AlurAgente** foi desenvolvido como uma solução experimental para integrar essas fontes em um agente inteligente capaz de interpretar perguntas em linguagem natural, consultar documentação técnica, analisar dados estruturados e gerar visualizações.
+O **AlurAgente** foi desenvolvido como uma solução experimental para integrar essas fontes em um agente inteligente capaz de interpretar perguntas em linguagem natural, consultar documentação técnica, analisar dados estruturados e não estruturados e gerar visualizações.
 
 A solução combina:
 
