@@ -179,7 +179,7 @@ def inicializar_agente(df_scada, df_os):
     agente = create_pandas_dataframe_agent(
         llm, [df_scada, df_os], verbose=True, allow_dangerous_code=True, 
         prefix=instrucoes_engenharia, handle_parsing_errors=True,
-        agent_type="tool-calling", max_iterations=20, extra_tools=tools
+        agent_type="tool-calling", max_iterations=40, extra_tools=tools
     )
     return agente
 
