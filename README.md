@@ -33,7 +33,7 @@ O **AlurAgente** foi desenvolvido como uma solução experimental para integrar 
 
 A solução combina:
 
-- 📚 **Base de conhecimento documental (RAG):** consulta ao *Manual de Diretrizes de Confiabilidade e Indicadores de Manutenção*.
+- 📚 **Retrieval-Augmented Generation (RAG):** consulta ao *Manual de Diretrizes de Confiabilidade e Indicadores de Manutenção*.
 - 🧠 **Inteligência Artificial Generativa:** utilização do Google Gemini para interpretação das solicitações e raciocínio analítico.
 - 📊 **Análise de dados:** utilização de Pandas para leitura e processamento dos dados de SCADA e ordens de serviço.
 - 📈 **Geração de gráficos:** criação de visualizações analíticas utilizando Matplotlib.
