@@ -250,6 +250,7 @@ Sendo uma Prova de Conceito (PoC) focada em validar a integração entre RAG e a
 *   **Memória de Sessão Volátil:** O histórico de interações é mantido apenas durante a sessão ativa no navegador (via `st.session_state`). O projeto atual não implementa um banco de dados (como SQLite ou PostgreSQL) para persistência e recuperação de chats anteriores.
 *   **Renderização Única de Gráficos:** A interface plota e exibe um gráfico analítico por vez. O agente salva a visualização de forma otimizada em um arquivo temporário, sobrescrevendo-o a cada nova solicitação visual para economizar processamento.
 *   **Dados Sintéticos:** As bases do SCADA e CMMS são *mockups* estruturais. Embora obedeçam à lógica operacional de parques eólicos, elas não refletem a latência, o volume massivo (Big Data) ou as anomalias de sensores de uma operação real em tempo real.
+*   **Ambiguidade e Limites de Execução (Max Iterations):** Agentes estruturados para executar código Python possuem um limite de ciclos de raciocínio para evitar loops infinitos de processamento. Prompts muito amplos ou que exigem abstrações gerenciais complexas (ex: "faça um sumário geral de todos os gaps") podem esgotar esse limite de execuções antes que o agente conclua a análise de todo o Dataframe. O assistente performa com máxima precisão através de investigações analíticas sequenciais e direcionadas.
 
 ---
 
