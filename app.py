@@ -108,6 +108,10 @@ with st.sidebar:
         
         st.markdown("### 📆 Período Disponível")
         st.markdown(f"<p style='font-size: 16px; font-weight: bold; color: #4A4A4A; margin-top: -5px;'>{periodo}</p>", unsafe_allow_html=True)
+        # --- EXIBIÇÃO NA TELA ---
+        st.metric(label="Aerogeradores", value=total_turbinas)
+        st.metric(label="Eventos de TRIP", value=total_trips)
+        st.markdown(f"**📆 Período:** {periodo}")
         
     else:
         st.info("Aguardando carregamento da base de dados...")
