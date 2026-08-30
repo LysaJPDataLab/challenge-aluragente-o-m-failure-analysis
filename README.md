@@ -93,48 +93,46 @@ O agente pode utilizar Python, Pandas e Matplotlib para gerar visualizações a 
 
 # 🔄 Arquitetura
 
-O projeto utiliza uma arquitetura híbrida que combina análise de dados estruturados, Retrieval-Augmented Generation (RAG), execução de código Python e LLM com tool-calling.
+O projeto utiliza uma arquitetura híbrida orquestrada pelo LangChain, combinando análise de dados estruturados (Pandas), base de conhecimento documental (Retrieval-Augmented Generation - RAG com FAISS), execução de código Python e um LLM com capacidade avançada de raciocínio por meio de *tool-calling*.
 
-### Fluxo simplificado
+Abaixo está o diagrama do fluxo de dados (*Data Flow Diagram*) da aplicação:
 
-```text
-                           ┌──────────────────────────┐
-                           │          Usuário          │
-                           │   Pergunta em linguagem   │
-                           │          natural          │
-                           └────────────┬─────────────┘
-                                        │
-                                        ▼
-                           ┌──────────────────────────┐
-                           │      Google Gemini       │
-                           │       LLM / Agent        │
-                           │      Tool Calling        │
-                           └────────────┬─────────────┘
-                                        │
-                         ┌──────────────┼──────────────┐
-                         │              │              │
-                         ▼              ▼              ▼
-                  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-                  │   Pandas    │ │     RAG     │ │   Python /  │
-                  │ DataFrames  │ │ PDF + FAISS │ │  Matplotlib │
-                  └──────┬──────┘ └──────┬──────┘ └──────┬──────┘
-                         │               │               │
-                         │               ▼               │
-                         │        ┌─────────────┐        │
-                         │        │  Retriever  │        │
-                         │        │ Busca        │        │
-                         │        │ semântica   │        │
-                         │        └──────┬──────┘        │
-                         │               │               │
-                         └───────────────┼───────────────┘
-                                         │
-                                         ▼
-                              ┌─────────────────────┐
-                              │ Resposta analítica  │
-                              │ + dados + gráficos  │
-                              └─────────────────────┘
+```mermaid
+graph TD
+    %% Definição de Nós
+    U[👤 Usuário<br>Pergunta em Linguagem Natural] -->|Input| UI(💻 Interface Streamlit)
+    UI -->|Prompt| A(🧠 Agente Híbrido LangChain<br>Google Gemini)
+
+    %% Ferramentas do Agente
+    A -->|Tool Calling| T1[📊 Pandas DataFrame<br>Manipulação de CSVs]
+    A -->|Tool Calling| T2[📚 RAG Retriever<br>Busca no Manual em PDF]
+    A -->|Tool Calling| T3[📈 Python / Matplotlib<br>Geração de Gráficos]
+
+    %% Bases de Dados
+    T1 -.->|Leitura / Cruzamento| D1[(🗄️ Dados SCADA & CMMS)]
+    T2 -.->|Busca Semântica| D2[(🗂️ FAISS Vector Store)]
+
+    %% Retorno
+    T1 --> A
+    T2 --> A
+    T3 --> A
+
+    A -->|Output Consolidado| UI
+    UI -->|Renderização| R[✨ Resposta Analítica<br>Texto + Gráfico]
+
+    %% Estilização (Classes)
+    classDef user fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef ui fill:#ffebee,stroke:#c62828,stroke-width:2px;
+    classDef agent fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+    classDef tool fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
+    classDef data fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+
+    class U,R user;
+    class UI ui;
+    class A agent;
+    class T1,T2,T3 tool;
+    class D1,D2 data;
 ```
-
 ### Etapas principais
 
 1. **Ingestão dos dados:** os arquivos `historico_paradas_wtg.csv` e `ordens_servico_wtg.csv` são carregados com **Pandas** e disponibilizados como DataFrames para análise.
