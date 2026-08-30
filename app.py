@@ -43,7 +43,7 @@ AVATAR_CORPO = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failur
 # ==========================================
 # START - ÁREA PRINCIPAL
 # ==========================================
-st.title("Análise de Falhas e Indicadores do Parque Eólico AlurAgente")
+st.title("Histórico Operacional e Indicadores do Complexo Eólico AlurAgente")
 
 # 3. Funções de Carregamento
 @st.cache_data
@@ -185,12 +185,10 @@ def inicializar_agente(df_scada, df_os):
 tab_chat, tab_mapa = st.tabs(["Chat", "Mapa"])
 
 with tab_chat:
-    #st.subheader("Chat Window")
-    
     # Histórico da Sessão
     if "mensagens" not in st.session_state:
         st.session_state.mensagens = [
-            {"role": "assistant", "content": "Olá! Eu sou a AlurAgente. Estive analisando os dados do Parque Eólico AlurAgente. Como posso te ajudar com as análises hoje?"}
+            {"role": "assistant", "content": "Olá! Eu sou a AlurAgente. Estive analisando os dados do Complexo Eólico AlurAgente. Como posso te ajudar com as análises hoje?"}
         ]
 
     # Exibir mensagens antigas
@@ -201,9 +199,52 @@ with tab_chat:
         with st.chat_message(msg["role"], avatar=icone):
             st.markdown(msg["content"])
 
-    # Caixa de Texto para o Usuário digitar
-    if prompt := st.chat_input("Faça uma pergunta sobre os indicadores do parque eólico..."):
-        
+with tab_mapa:
+    st.subheader("Visão Geral: Complexo Eólico AlurAgente")
+    
+    # Exibe a imagem do mapa usando o link diretamente
+    caminho_mapa = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis/blob/main/assets/mapa_parque.jpg?raw=true"
+    st.image(caminho_mapa, caption="Mapa Conceitual do Parque.", use_container_width=True)
+
+    st.divider()
+
+    # Layout em colunas para os dados técnicos
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("### Dados da Usina")
+        st.markdown("""
+        * **Capacidade Instalada:** 63.0 MW
+        * **Total de Aerogeradores:** 30
+        * **Tensão de Geração:** 690 V
+        * **Tensão de Exportação (Subestação):** 34,5/69 kV
+        * **Conexão:** Sistema Interligado Nacional (SIN)
+        """)
+
+    with col2:
+        st.markdown("### Especificações do Aerogerador")
+        st.markdown("""
+        * **Potência Nominal:** 2.100 kW (2.1 MW)
+        * **Altura da Torre:** 90 metros
+        * **Diâmetro do Rotor:** 114 metros
+        * **Velocidade Nominal do Vento:** 12 m/s
+        * **Cut-out:** 25 m/s
+        * **Cut-in:** 3 m/s
+        * **Tipo de Rotor:** Horizontal
+        * **Tipo de Gerador:** DFIG (Double Fed Induction Generator)
+        * **Tipo de Torre:** Tubular de aço
+        * **Sistema de Pitch:** Acionamento Eletromecânico Independente
+        * **Controle:** SCADA / PLC dedicado por máquina
+        """)
+
+# ==========================================
+# CAIXA DE TEXTO FIXA NO RODAPÉ
+# ==========================================
+# chat_input FORA das abas para o Streamlit fixar automaticamente na base da tela
+if prompt := st.chat_input("Faça uma pergunta sobre os indicadores do parque eólico..."):
+    
+    # Redirecionamos a exibição da pergunta e da resposta DE VOLTA para a aba de Chat
+    with tab_chat:
         # Mostrar pergunta do usuário
         with st.chat_message("user", avatar="🧑"):
             st.markdown(prompt)
@@ -234,12 +275,3 @@ with tab_chat:
                             
                     except Exception as e:
                         st.error(f"Ocorreu um erro ao processar a análise: {e}")
-
-with tab_mapa:
-    st.subheader("Mapa Geográfico do Parque Eólico AlurAgente")
-    st.markdown("Visão geral das unidades aerogeradoras e infraestrutura de O&M.")
-    
-    # Exibe a imagem do mapa usando o link diretamente
-    caminho_mapa = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis/blob/main/assets/mapa_parque.jpg?raw=true"
-    
-    st.image(caminho_mapa, caption="Mapa Conceitual do Complexo Eólico AlurAgente.", use_container_width=True)
