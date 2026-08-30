@@ -101,7 +101,7 @@ Abaixo está o diagrama do fluxo de dados (*Data Flow Diagram*) da aplicação:
 graph TD
     %% Definição de Nós
     U[👤 Usuário<br>Pergunta em Linguagem Natural] -->|Input| UI(💻 Interface Streamlit)
-    UI -->|Prompt| A(🧠 Agente Híbrido LangChain<br>Google Gemini)
+    UI -->|Prompt| A(🧠 Agente Híbrido LangChain<br>Google Gemini 3.5)
 
     %% Ferramentas do Agente
     A -->|Tool Calling| T1[📊 Pandas DataFrame<br>Manipulação de CSVs]
@@ -151,12 +151,12 @@ graph TD
 | :--- | :--- | :--- |
 | **Interface Web** | Streamlit | Interface interativa e renderização de dados e gráficos |
 | **Orquestração de IA** | LangChain | Construção e integração do agente |
-| **Inteligência Artificial** | Google Gemini | Interpretação das solicitações e geração das respostas |
+| **Inteligência Artificial** | Google Gemini (gemini-3.5-flash-lite) | Interpretação das solicitações e geração das respostas |
 | **Análise de Dados** | Pandas | Leitura, tratamento e análise dos arquivos CSV |
 | **Visualização** | Matplotlib | Geração dos gráficos analíticos |
 | **RAG** | LangChain + FAISS | Recuperação de informações do manual técnico |
 | **Documentos** | PyPDF | Extração do conteúdo do manual em PDF |
-| **Embeddings** | Google Generative AI Embeddings | Vetorização do conteúdo documental |
+| **Embeddings** | Google Generative AI Embeddings (gemini-embedding-001) | Vetorização do conteúdo documental |
 
 > **⚠️ Nota sobre os dados:** Os DataFrames e eventos de manutenção contidos neste repositório (`/data`) são dados sintéticos criados exclusivamente para a homologação da arquitetura lógica deste assistente. Eles não foram extraídos do histórico operacional de nenhum parque eólico.
 ---
