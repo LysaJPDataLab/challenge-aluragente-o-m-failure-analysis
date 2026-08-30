@@ -1,4 +1,4 @@
-# ⚡ AlurAgente: Análise de Falhas (O&M)
+# ⚡ AlurAgente: Análise de Indicadores (O&M)
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Interface](https://img.shields.io/badge/Interface-Streamlit-FF4B4B)
@@ -6,7 +6,7 @@
 ![Orquestração](https://img.shields.io/badge/Orquestração-LangChain-150458)
 ![Vector](https://img.shields.io/badge/Vector_Store-FAISS-5D9C59)
 
-**Assistente inteligente para análise de falhas e indicadores de manutenção em parques eólicos**, desenvolvido com **Streamlit**, **LangChain**, **Google Gemini**, arquitetura **RAG (Retrieval-Augmented Generation)** e **Pandas**.
+**Agente de IA para análise de dados e indicadores de manutenção em parques eólicos**, desenvolvido com **Streamlit**, **LangChain**, **Google Gemini**, arquitetura **RAG (Retrieval-Augmented Generation)** e **Pandas**.
 
 O projeto foi desenvolvido para centralizar informações provenientes de histórico de eventos (SCADA), ordens de serviço (CMMS) e documentação técnica em uma única interface conversacional, permitindo que o usuário consulte dados, realize análises e obtenha visualizações utilizando linguagem natural.
 
@@ -240,6 +240,16 @@ Para realizar um novo deploy ou reproduzir a publicação:
 3. Defina `app.py` como arquivo principal.
 4. Configure `GOOGLE_API_KEY` em **Secrets**.
 5. O Streamlit instalará automaticamente as dependências presentes em `requirements.txt`.
+
+---
+
+# 🚧 Limitações e Escopo do MVP
+
+Sendo uma Prova de Conceito (PoC) focada em validar a integração entre RAG e análise de dados tabulares, esta versão inicial apresenta algumas limitações:
+
+*   **Memória de Sessão Volátil:** O histórico de interações é mantido apenas durante a sessão ativa no navegador (via `st.session_state`). O projeto atual não implementa um banco de dados (como SQLite ou PostgreSQL) para persistência e recuperação de chats anteriores.
+*   **Renderização Única de Gráficos:** A interface plota e exibe um gráfico analítico por vez. O agente salva a visualização de forma otimizada em um arquivo temporário, sobrescrevendo-o a cada nova solicitação visual para economizar processamento.
+*   **Dados Sintéticos:** As bases do SCADA e CMMS são *mockups* estruturais. Embora obedeçam à lógica operacional de parques eólicos, elas não refletem a latência, o volume massivo (Big Data) ou as anomalias de sensores de uma operação real em tempo real.
 
 ---
 
