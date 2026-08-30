@@ -208,8 +208,8 @@ with tab_mapa:
     st.subheader("Visão Geral: Complexo Eólico AlurAgente")
     
     # Exibe a imagem do mapa usando o link diretamente
-    caminho_mapa = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis/blob/main/assets/mapa_parque.jpg?raw=true"
-    st.image(caminho_mapa, caption="Mapa Conceitual do Parque.", use_container_width=True)
+    caminho_mapa = "https://github.com/LysaJPDataLab/challenge-aluragente-o-m-failure-analysis/blob/main/assets/mapa_parque.png?raw=true"
+    st.image(caminho_mapa, caption="Layout do Parque Eólico.", use_container_width=True)
 
     st.divider()
 
